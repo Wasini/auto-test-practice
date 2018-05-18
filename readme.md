@@ -103,165 +103,139 @@ Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8
 
 # Ejercicio 3:
 
-	a)Dominio y particion del mismo  :
+#### A)
+**Dominio y particion del mismo:**  
+- 1<=d1<=31 
+- 1<=d2<=31 
+- 1<=m1<=m2<=12 
+- 1<=a<=10000
 
-			- 1<=d1<=31 
-			- 1<=d2<=31 
-			- 1<=m1<=m2<=12 
-			- 1<=a<=10000
+**Casos especiales a considerar:**
 
-			Casos especiales a considerar:
+Consideramos esta 4 caracteristicas ya que son las que no pueden ayudar a resaltar errores de la funcion  
+	- Meses con 30 dias
+	- Meses con 31 dias
+	- Mes 2 con 28 dias
+	- Anio bisiesto
+	
+**Particiones**
 
-				Consideramos esta 4 caracteristicas ya que son las que no pueden ayudar a resaltar errores de la funcion
+* Meses
+	1. M130: {4,6,9,11}  // meses con 30 dias
+	2. M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
+	3. M128: {2}  //febrero
+	4. M130: {4,6,9,11}  // meses con 30 dias
+	5. M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
+	6. M128: {2}  //febrero
+* Dias
+	1. D1A: {minInt,...,-1,0} 
+	2. D1B: {1..28}
+	3. D1C: {29}
+	4. D1D: {30}
+	5. D1E: {31}
 
-				-Meses con 30 dias
-				-Meses con 31 dias
-				-Mes 2 con 28 dias
-				-Anio bisiesto
+	6. D2A: {1..28}
+	7. D2B: {29}
+	8. D2C: {30}
+	9. D2D: {31}
+	10. D2E: {32,...,maxInt}
+	
+* Bisiesto
+	1. AB: {1,..,10000} && (a mod 4==0 || ((a mod 100==0 && a mod 400 != 0)) // anio bisiesto
+	2. ANB: {1,..,10000} && !(a mod 4!=0 || ((a mod 100==0 && a mod 400 != 0)) // anio no bisiesto
 
-			 M130: {4,6,9,11}  // meses con 30 dias
-			 M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
-			 M128: {2}  //febrero
+**Base:**
 
-			 M130: {4,6,9,11}  // meses con 30 dias
-			 M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
-			 M128: {2}  //febrero
+- M131 M231 D1B D2A ANB {3,8,12,26,2003}
+	
+**Tests**
 
-			 D1A: {minInt,...,-1,0} 
-			 D1B: {1..28}
-			 D1C: {29}
-			 D1D: {30}
-			 D1E: {31}
+1. M131 M231 D1B D2A AB {3,8,12,26,2020}
+2. M131 M231 D1B ANB D2B {3,8,12,2003,29}
+3. M131 M231 D1B ANB D2C {3,8,12,2003,30}
+4. M131 M231 D1B ANB D2D {3,8,12,2003,31}
+5. M131 M231 D1B ANB D2E {3,8,12,2003,57}
+6. M131 M231 D2A ANB D1A {3,8,26,2003,-299}
+7. M131 M231 D2A ANB D1C {3,8,26,2003,29}
+8. M131 M231 D2A ANB D1D {3,8,26,2003,30}
+9. M131 M231 D2A ANB D1E {3,8,26,2003,31}
+10. M231 D1B D2A ANB M130 {8,12,26,2003,4}
+11. M231 D1B D2A ANB M128 {8,12,26,2003,2}
+12. M131 D1B D2A ANB M230 {3,12,26,2003,4}
+13. M131 D1B D2A ANB M228 {1,12,26,2003,2}
 
-			 D2A: {1..28}
-			 D2B: {29}
-			 D2C: {30}
-			 D2D: {31}
-			 D2E: {32,...,maxInt}
+#### B)
+Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false.
 
-			 AB: {1,..,10000} && (a mod 4==0 || ((a mod 100==0 && a mod 400 != 0)) // anio bisiesto
-			 ANB: {1,..,10000} && !(a mod 4!=0 || ((a mod 100==0 && a mod 400 != 0)) // anio no bisiesto
+* Si miramos la funcion lo primero que encontramos es un if and else , en este sus clausula es:  
+	* (month1==month2) -> True || False  
+		<sup>*la cual puede tomar estos 2 valores ^*</sup>  
+	**Un ejemplo que de True seria month1 == 1 && month2 == 1**
 
-			 BASE : M131 M231 D1B D2A ANB {3,8,12,26,2003}
+* En el caso de que la primer clausula tome el valor False nos encontramos con otro if and else el cual tiene 3 clausulas:  
+	* ((m4 != 0 || (m100 == 0 && m400 != 0)))  
+		<sup>*Donde m4 m100 y m400 pueden tomar los valores True && false*</sup>  
+	
+	1. (m4!=0) -> True donde m4 == year%4  
+	2. (m4!=0) -> False donde m4 == year%4  
+	3. (m100==0) -> True donde m100 == year%100 
+	4. (m100==0) -> False donde m100 == year%100
+	5. (m400!=0) -> True donde m400 == year%400
+	6. (m400!=0) -> False donde m400 == year%400
+	
+	**Los test que podriamos realizar serian:**
 
-			 Test1: 
+	1. True -> (True)||(??&&??)  
+		> como la condicion es un || nos da igual el resultado de && por lo tanto hacemos un 						 solo test con **year == 1999** 
+	2. False-> (False) || (True&&false)  
+		> este ocurre cuando **year == 400**
 
-			 M131 M231 D1B D2A AB {3,8,12,26,2020}
+* Por ultimo tenemos un ciclo el cual tiene una clasula:
 
-			 Test2:
-
-			 M131 M231 D1B ANB D2B {3,8,12,2003,29}
-
-			 Test3:
-
-			 M131 M231 D1B ANB D2C {3,8,12,2003,30}
-
-			 Test4:
-
-			 M131 M231 D1B ANB D2D {3,8,12,2003,31}
-
-			 Test5:
-
-			 M131 M231 D1B ANB D2E {3,8,12,2003,57}
-
-			 Test6:
-
-			 M131 M231 D2A ANB D1A {3,8,26,2003,-299}
-
-			 Test7:
-
-			 M131 M231 D2A ANB D1C {3,8,26,2003,29}
-
-			 Test8:
-
-			 M131 M231 D2A ANB D1D {3,8,26,2003,30}
-
-			 Test9:
-
-			 M131 M231 D2A ANB D1E {3,8,26,2003,31}
-
-			 Test10:
-
-			 M231 D1B D2A ANB M130 {8,12,26,2003,4}
-
-			 Test11:
-
-			 M231 D1B D2A ANB M128 {8,12,26,2003,2}
-
-			 Test12:
-
-			 M131 D1B D2A ANB M230 {3,12,26,2003,4}
-
-			 Test13:
-
-			 M131 D1B D2A ANB M228 {1,12,26,2003,2}
-
-	b) Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false .
-
-		-Si miramos la funcion lo primero que encontramos es un if and else , en este sus clausula es :
-
-			(month1==month2) -> True || False // la cual puede tomar estos 2 valores
-
-				Un ejemplo que de True  seria 
-
-					month1 == 1 && month2 == 1
-
-		-En el caso de que la primer clausula tome el valor False  nos encontramos con otro if and else el cual tiene 3 clausulas:
-
-			((m4 != 0 || (m100 == 0 && m400 != 0))) // Donde m4 m100 y m400 pueden tomar los valores True && false
-
-			(m4!=0) -> True donde m4 == year%4  
-			(m4!=0) -> False donde m4 == year%4  
-			(m100==0) -> True donde m100 == year%100 
-			(m100==0) -> False donde m100 == year%100
-			(m400!=0) -> True donde m400 == year%400
-			(m400!=0) -> False donde m400 == year%400
-
-			Los test que podriamos realizar serian:
-
-				True->  (True)||(??&&??) como la condicion es un || nos da igual el resultado de && por lo tanto hacemos un 						 solo test con year == 1999 
+	Esta sera True si **month1<=month2**   
+	Y sera False si **month1>month2**
 
 
-				False-> (False) || (True&&false)  este ocurre cuando year == 400
+#### C)
+Para  Aplicar el criterio CACC debemos armar tablas verdad con todos los valores posibles de las clausulas de cada condicional , el primer if no tiene sentido analizarlo ya que al tener solo 1 clausula , tiene 2 valores posibles (true y false), el analisis del segundo if (dentro del else) se puede ver en la siguiente tabla:
 
-		-Por ultimo tenemos un ciclo el cual tiene una clasula:
+| (m4!=0) | (m100==0) | (m400!=0) | ((m100==0)&&(m400!=0)) | ((m4!=0)or((m100==0)&&(m400!=0))) | m4 | m100 | m400 |
+|:-------:|:---------:|:---------:|:----------------------:|:---------------------------------:|:--:|:----:|:----:|
+| T       | T         | T         | T                      | T                                 | 0  | 0    | 0    |
+| T       | T         | F         | F                      | T                                 | 1  | 0    | 0    |
+| T       | F         | T         | F                      | T                                 | 1  | 0    | 0    |
+| T       | F         | F         | F                      | T                                 | 1  | 0    | 0    |
+| F       | T         | T         | T                      | T                                 | 0  | 1    | 1    |
+| F       | T         | F         | F                      | F                                 | 1  | 0    | 1    |
+| F       | F         | T         | F                      | F                                 | 1  | 1    | 0    |
+| F       | F         | F         | F                      | F                                 | 1  | 0    | 0    |
 
-			Esta sera True si month1<=month2 
-			Y sera False si month1>month2   
+Por lo tanto los test que se pueden generar  en base al criterio serian  2,3,4,5(2 veces),6(2 veces),7(2 veces),8 pero podemos podar algunos de ellos.En primero lugar como el 5,6 y el 7  cumplen con 2 clasulas  podemos hacer 1 de cada uno.Luego debemos ver cuales de los los casos restantes son posibles, veamos:
 
+* Caso 2 : **( T || (T && F ))**
+> este caso no es posible ya que pide que el anio no sea divisible por 4 , sea divisible por 100 y sea divisible por 400 , pero como 400 es multiplo 4 , no hay numero que cumpla con esto.
 
-	c) Para  Aplicar el criterio CACC debemos armar tablas verdad con todos los valores posibles de las clausulas de cada condicional , el primer if no tiene sentido analizarlo ya que al tener solo 1 clausula , tiene 2 valores posibles (true y false), el analisis del segundo if (dentro del else) se puede ver en la siguiente tabla:
-        | (m4!=0) | (m100==0) | (m400!=0) | ((m100==0)&&(m400!=0)) | ((m4!=0)||((m100==0)&&(m400!=0))) | m4 | m100 | m400 |		|---------|-----------|-----------|------------------------|-----------------------------------|----|------|------|
-	| T       | T         | T         | T                      | T                                 | 0  | 0    | 0    |
- 	| T       | T         | F         | F                      | T                                 | 1  | 0    | 0    |
- 	| T       | F         | T         | F                      | T                                 | 1  | 0    | 0    |
- 	| T       | F         | F         | F                      | T                                 | 1  | 0    | 0    |
- 	| F       | T         | T         | T                      | T                                 | 0  | 1    | 1    |
- 	| F       | T         | F         | F                      | F                                 | 1  | 0    | 1    |
- 	| F       | F         | T         | F                      | F                                 | 1  | 1    | 0    |
- 	| F       | F         | F         | F                      | F                                 | 1  | 0    | 0    |
+* Caso 3 : **(T || (F && T))**
+> este caso pide que el anio no sea divisible por 4 , no sea divisible por 100 , no sea divisible por 400 , un ejemplo para esto seria year == 3.  
 
+* Caso 4 : **(T || (F && F))**
+> este caso  pide que el anio no sea divisible por 4, no sea divisible por 100 y sea divisible por 400 , este no puede ocurrir ya como antes dijimos 400 es multiplo de 4.
 
-	por lo tanto los test que se pueden generar  en base al criterio serian  2,3,4,5(2 veces),6(2 veces),7(2 veces),8 pero podemos podar algunos de ellos.En primero lugar como el 5,6 y el 7  cumplen con 2 clasulas  podemos hacer 1 de cada uno.Luego debemos ver cuales de los los casos restantes son posibles, veamos:
+* Caso 5 : **(F || (T && T)**
+> este caso pide que el anio sea divisible por 4 , sea divisible por 100 y  no sea divisible por 400 , un ejemplo de esto seria year == 100
 
-		Caso 2 : ( T || (T && F ))  este caso no es posible ya que pide que el anio no sea divisible por 4 , sea divisible por 100 y sea divisible por 400 , pero como 400 es multiplo 4 , no hay numero que cumpla con esto.
- 
-		caso 3 : (T || (F && T)) este caso pide que el anio no sea divisible por 4 , no sea divisible por 100 , no sea divisible por 400 , un ejemplo para esto seria year == 3.
+* Caso 6: **(F || (T && F))**
+> este caso pide que anio sea divisible por 4 ,  divisible por 100 y divisible por 400 , un ejemplo de esto seria year==400
 
-		caso 4 : (T || (F && F)) este caso  pide que el anio no sea divisible por 4, no sea divisible por 100 y sea divisible por 400 , este no puede ocurrir ya como antes dijimos 400 es multiplo de 4.
+* Caso 7: **(F || (F && T))**
+> este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y no sea divisible por 400, un ejemplo de esto seria year == 8.
 
-		caso 5 : (F || (T && T) este caso pide que el anio sea divisible por 4 , sea divisible por 100 y  no sea divisible por 400 , un ejemplo de esto seria year == 100
+* Caso 8: **(F || (F && F))**
+> este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y sea divisible por 400 , este caso es parecido al 4 ya que como 100 es multiplo de 400 , no hay un numero que cumpla con lo pedido.
 
-		caso 6: (F || (T && F)) este caso pide que anio sea divisible por 4 ,  divisible por 100 y divisible por 400 , un ejemplo de esto seria year==400
-
-		caso 7: (F || (F && T)) este caos pide que el anio sea divisible por 4 , no sea divisible por 100 y no sea divisible por 400, un ejemplo de esto seria year == 8.
-
-		caso 8: (F || (F && F)) este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y sea divisible por 400 , este caso es parecido al 4 ya que como 100 es multiplo de 400 , no hay un numero que cumpla con lo pedido.
-
-	En del caso del For , como esta dentro else , esto nos dice que los meses ya son distintos ,por lo tanto ,va a entrar si o si.
-
-	Para generar los test los dias que elijamos son indistintos , siempre respetando la pre condicion obvio.
-
+* En del caso del For, como esta dentro else, esto nos dice que los meses ya son distintos, por lo tanto, va a entrar si o si.
+	
+Para generar los test los dias que elijamos son indistintos , siempre respetando la pre condicion obvio.
 	Casos de test :
 
 		Casos meses iguales:
@@ -276,7 +250,7 @@ Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8
 	 		Test 5: {4,20,7,24,8,95}
 
 
-	d)Coverage de los Test :
+#### D)Coverage de los Test :
 		CalcTest1 : 33.1%
 		CalcTest2 : 13.4%
 		CalcTest3 : 17.0%
@@ -284,8 +258,8 @@ Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8
 		Total : 73%
 		
 		-Los mutantes nos quedaron pendientes , no pudimos hacerlo andar en eclipse.
-
-	e) Test para mejorar cobertura:
+		
+#### D) Test para mejorar cobertura:
 
 	  	/*Test1 */{3,6,12,25,555,2323}
         	/*Test2 */{3,3,12,25,235,0}
@@ -298,4 +272,5 @@ Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8
         	/*Test9 */{11,12,12,25,11,43}
         	/*Test10 */{2,5,10,29,1,266}
 	
-	f) Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
+#### F) 
+	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
