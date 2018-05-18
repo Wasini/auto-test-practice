@@ -1,7 +1,12 @@
 # Sobre el codigo 
-Las carpetas test y src contienen todo el codigo fuente
-Los test fueron realizados utilizando Junit y hamcrest-all
-Agregar la libreria de hamcrest-all(carpeta lib) a las dependecias
+Las carpetas test y src contienen todo el codigo fuente.
+
+Los test fueron realizados utilizando Junit y hamcrest-all.
+
+Agregar la libreria de hamcrest-all(carpeta lib) a las dependecias.
+
+# Actividades
+Los ejercicios se encuentran en el archivo TP1.pdf
 
 # Ejercicio 1
 #### B)
