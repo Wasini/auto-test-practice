@@ -1,0 +1,296 @@
+# Sobre el codigo 
+Las carpetas test y src contienen todo el codigo fuente
+Los test fueron realizados utilizando Junit y hamcrest-all
+Agregar la libreria de hamcrest-all(carpeta lib) a las dependecias
+
+# Ejercicio 1
+#### B)
+* El rango de tamaño de las listas generadas deben tener en cuenta la lista vacia, lista unitaria y con más de un elemento.
+* El rango de enteros debe tener en cuenta el cero, negativos y positivos
+* La cantidad de listas generadas no es necesario que sea muy grande
+* Los rangos no deben ser muy grandes
+#### C)
+El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
+
+# Ejercicio 2
+## Grafo
+![alt text](https://image.ibb.co/bVW9GJ/flowchart.png "Grafo de flujo de control")
+#### B)
+Si se inicializa el arreglo primes con una capacidad de 4 enteros, el t1(n=3) pasa mientras que para t2(n=5) produce una exepción por indice fuera de limites cuando intenta guardar el 5to numero primo en el arreglo.
+```java
+int curPrime; // Value currently considered for primeness  
+int numPrimes; // Number of primes found so far.  
+boolean isPrime; // Is curPrime prime?  
+int [] primes = new int [4]; // The list of prime numbers.
+```
+#### C)
+Sea t0: (n = 1) el camino de test correspondiente es [0,1,9,10,11,9,12], donde no se pasa por el cuerpo del while, la condicion del while no se cumple para n = 1 (1 < 1).
+
+#### D)
+## Requerimientos de test
+<sup> **NOTA**: *No se tienen en cuenta los nodos 10,11,12* </sup>
+
+#### Node Coverage
+* El conjunto de TP deben visitar los nodos RT={0,1,2,3,4,5,6,7,8,9}
+#### Edge Coverage
+* El conjunto de TP deben pasar por las aritas RT={(0,1), (1,2), (1,9), (2,3), (3,4), (3,7), (4,5), (4,6), (5,7), (6,3), (7,1), (7,8), (8,1)}
+### Prime Path Coverage
+* El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
+1. [0, 1, 9] 
+2. [3, 4, 6, 3] 
+3. [4, 6, 3, 4] 
+4. [6, 3, 4, 6] 
+5. [1, 2, 3, 7, 1] 
+6. [2, 3, 7, 1, 2] 
+7. [2, 3, 7, 1, 9] 
+8. [3, 7, 1, 2, 3] 
+9. [7, 1, 2, 3, 7] 
+10. [0, 1, 2, 3, 4, 6] 
+11. [0, 1, 2, 3, 7, 8] 
+12. [1, 2, 3, 7, 8, 1] 
+13. [2, 3, 7, 8, 1, 2] 
+14. [2, 3, 7, 8, 1, 9] 
+15. [3, 7, 8, 1, 2, 3] 
+16. [4, 6, 3, 7, 1, 2] 
+17. [4, 6, 3, 7, 1, 9] 
+18. [7, 8, 1, 2, 3, 7] 
+19. [8, 1, 2, 3, 7, 8]
+20. [1, 2, 3, 4, 5, 7, 1] 
+21. [2, 3, 4, 5, 7, 1, 2] 
+22. [2, 3, 4, 5, 7, 1, 9] 
+23. [3, 4, 5, 7, 1, 2, 3] 
+24. [4, 5, 7, 1, 2, 3, 4]
+25. [4, 6, 3, 7, 8, 1, 2] 
+26. [4, 6, 3, 7, 8, 1, 9]
+27. [5, 7, 1, 2, 3, 4, 5]
+28. [5, 7, 1, 2, 3, 4, 6]
+29. [6, 3, 4, 5, 7, 1, 2]
+30. [6, 3, 4, 5, 7, 1, 9]
+31. [7, 1, 2, 3, 4, 5, 7]
+32. [0, 1, 2, 3, 4, 5, 7, 8]
+33. [1, 2, 3, 4, 5, 7, 8, 1]
+34. [2, 3, 4, 5, 7, 8, 1, 2]
+35. [2, 3, 4, 5, 7, 8, 1, 9]
+36. [3, 4, 5, 7, 8, 1, 2, 3]
+37. [4, 5, 7, 8, 1, 2, 3, 4]
+38. [5, 7, 8, 1, 2, 3, 4, 5]
+39. [5, 7, 8, 1, 2, 3, 4, 6]
+40. [6, 3, 4, 5, 7, 8, 1, 2]
+41. [6, 3, 4, 5, 7, 8, 1, 9]
+42. [7, 8, 1, 2, 3, 4, 5, 7]
+43. [8, 1, 2, 3, 4, 5, 7, 8]
+
+* Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
+Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
+ 
+![alt text](https://image.ibb.co/j9WOAd/simplepaths.png "Ejemplo de como generar caminos simples")
+
+#### E)
+Camino de test que consigue cobertura de nodos pero no de arcos:
+>* [0,1,2,3,4,6,3,4,5,7,8,1,9]
+Los arcos (7,1) y (3,7) no estan cubiertos
+#### F)
+Camino de test que consigue cobertura de arcos pero no de caminos primos:
+> * [0,1,2,3,4,6,3,4,5,7,8,1,9]
+Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8, 1, 2, 3, 7, 8] (19) que no estan cubiertos por el TP
+
+
+
+# Ejercicio 3:
+
+	a)Dominio y particion del mismo  :
+
+			- 1<=d1<=31 
+			- 1<=d2<=31 
+			- 1<=m1<=m2<=12 
+			- 1<=a<=10000
+
+			Casos especiales a considerar:
+
+				Consideramos esta 4 caracteristicas ya que son las que no pueden ayudar a resaltar errores de la funcion
+
+				-Meses con 30 dias
+				-Meses con 31 dias
+				-Mes 2 con 28 dias
+				-Anio bisiesto
+
+			 M130: {4,6,9,11}  // meses con 30 dias
+			 M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
+			 M128: {2}  //febrero
+
+			 M130: {4,6,9,11}  // meses con 30 dias
+			 M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
+			 M128: {2}  //febrero
+
+			 D1A: {minInt,...,-1,0} 
+			 D1B: {1..28}
+			 D1C: {29}
+			 D1D: {30}
+			 D1E: {31}
+
+			 D2A: {1..28}
+			 D2B: {29}
+			 D2C: {30}
+			 D2D: {31}
+			 D2E: {32,...,maxInt}
+
+			 AB: {1,..,10000} && (a mod 4==0 || ((a mod 100==0 && a mod 400 != 0)) // anio bisiesto
+			 ANB: {1,..,10000} && !(a mod 4!=0 || ((a mod 100==0 && a mod 400 != 0)) // anio no bisiesto
+
+			 BASE : M131 M231 D1B D2A ANB {3,8,12,26,2003}
+
+			 Test1: 
+
+			 M131 M231 D1B D2A AB {3,8,12,26,2020}
+
+			 Test2:
+
+			 M131 M231 D1B ANB D2B {3,8,12,2003,29}
+
+			 Test3:
+
+			 M131 M231 D1B ANB D2C {3,8,12,2003,30}
+
+			 Test4:
+
+			 M131 M231 D1B ANB D2D {3,8,12,2003,31}
+
+			 Test5:
+
+			 M131 M231 D1B ANB D2E {3,8,12,2003,57}
+
+			 Test6:
+
+			 M131 M231 D2A ANB D1A {3,8,26,2003,-299}
+
+			 Test7:
+
+			 M131 M231 D2A ANB D1C {3,8,26,2003,29}
+
+			 Test8:
+
+			 M131 M231 D2A ANB D1D {3,8,26,2003,30}
+
+			 Test9:
+
+			 M131 M231 D2A ANB D1E {3,8,26,2003,31}
+
+			 Test10:
+
+			 M231 D1B D2A ANB M130 {8,12,26,2003,4}
+
+			 Test11:
+
+			 M231 D1B D2A ANB M128 {8,12,26,2003,2}
+
+			 Test12:
+
+			 M131 D1B D2A ANB M230 {3,12,26,2003,4}
+
+			 Test13:
+
+			 M131 D1B D2A ANB M228 {1,12,26,2003,2}
+
+	b) Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false .
+
+		-Si miramos la funcion lo primero que encontramos es un if and else , en este sus clausula es :
+
+			(month1==month2) -> True || False // la cual puede tomar estos 2 valores
+
+				Un ejemplo que de True  seria 
+
+					month1 == 1 && month2 == 1
+
+		-En el caso de que la primer clausula tome el valor False  nos encontramos con otro if and else el cual tiene 3 clausulas:
+
+			((m4 != 0 || (m100 == 0 && m400 != 0))) // Donde m4 m100 y m400 pueden tomar los valores True && false
+
+			(m4!=0) -> True donde m4 == year%4  
+			(m4!=0) -> False donde m4 == year%4  
+			(m100==0) -> True donde m100 == year%100 
+			(m100==0) -> False donde m100 == year%100
+			(m400!=0) -> True donde m400 == year%400
+			(m400!=0) -> False donde m400 == year%400
+
+			Los test que podriamos realizar serian:
+
+				True->  (True)||(??&&??) como la condicion es un || nos da igual el resultado de && por lo tanto hacemos un 						 solo test con year == 1999 
+
+
+				False-> (False) || (True&&false)  este ocurre cuando year == 400
+
+		-Por ultimo tenemos un ciclo el cual tiene una clasula:
+
+			Esta sera True si month1<=month2 
+			Y sera False si month1>month2   
+
+
+	c) Para  Aplicar el criterio CACC debemos armar tablas verdad con todos los valores posibles de las clausulas de cada condicional , el primer if no tiene sentido analizarlo ya que al tener solo 1 clausula , tiene 2 valores posibles (true y false), el analisis del segundo if (dentro del else) se puede ver en la siguiente tabla:
+        | (m4!=0) | (m100==0) | (m400!=0) | ((m100==0)&&(m400!=0)) | ((m4!=0)||((m100==0)&&(m400!=0))) | m4 | m100 | m400 |		|---------|-----------|-----------|------------------------|-----------------------------------|----|------|------|
+	| T       | T         | T         | T                      | T                                 | 0  | 0    | 0    |
+ 	| T       | T         | F         | F                      | T                                 | 1  | 0    | 0    |
+ 	| T       | F         | T         | F                      | T                                 | 1  | 0    | 0    |
+ 	| T       | F         | F         | F                      | T                                 | 1  | 0    | 0    |
+ 	| F       | T         | T         | T                      | T                                 | 0  | 1    | 1    |
+ 	| F       | T         | F         | F                      | F                                 | 1  | 0    | 1    |
+ 	| F       | F         | T         | F                      | F                                 | 1  | 1    | 0    |
+ 	| F       | F         | F         | F                      | F                                 | 1  | 0    | 0    |
+
+
+	por lo tanto los test que se pueden generar  en base al criterio serian  2,3,4,5(2 veces),6(2 veces),7(2 veces),8 pero podemos podar algunos de ellos.En primero lugar como el 5,6 y el 7  cumplen con 2 clasulas  podemos hacer 1 de cada uno.Luego debemos ver cuales de los los casos restantes son posibles, veamos:
+
+		Caso 2 : ( T || (T && F ))  este caso no es posible ya que pide que el anio no sea divisible por 4 , sea divisible por 100 y sea divisible por 400 , pero como 400 es multiplo 4 , no hay numero que cumpla con esto.
+ 
+		caso 3 : (T || (F && T)) este caso pide que el anio no sea divisible por 4 , no sea divisible por 100 , no sea divisible por 400 , un ejemplo para esto seria year == 3.
+
+		caso 4 : (T || (F && F)) este caso  pide que el anio no sea divisible por 4, no sea divisible por 100 y sea divisible por 400 , este no puede ocurrir ya como antes dijimos 400 es multiplo de 4.
+
+		caso 5 : (F || (T && T) este caso pide que el anio sea divisible por 4 , sea divisible por 100 y  no sea divisible por 400 , un ejemplo de esto seria year == 100
+
+		caso 6: (F || (T && F)) este caso pide que anio sea divisible por 4 ,  divisible por 100 y divisible por 400 , un ejemplo de esto seria year==400
+
+		caso 7: (F || (F && T)) este caos pide que el anio sea divisible por 4 , no sea divisible por 100 y no sea divisible por 400, un ejemplo de esto seria year == 8.
+
+		caso 8: (F || (F && F)) este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y sea divisible por 400 , este caso es parecido al 4 ya que como 100 es multiplo de 400 , no hay un numero que cumpla con lo pedido.
+
+	En del caso del For , como esta dentro else , esto nos dice que los meses ya son distintos ,por lo tanto ,va a entrar si o si.
+
+	Para generar los test los dias que elijamos son indistintos , siempre respetando la pre condicion obvio.
+
+	Casos de test :
+
+		Casos meses iguales:
+
+			Test 1: {1,20,1,24,2004,4}
+	 	
+	 	Casos meses distintos:
+	 		
+	 		Test 2: {4,20,7,24,3,95}
+	 		Test 3: {4,20,7,24,100,95}
+	 		Test 4: {4,20,7,24,400,95}
+	 		Test 5: {4,20,7,24,8,95}
+
+
+	d)Coverage de los Test :
+		CalcTest1 : 33.1%
+		CalcTest2 : 13.4%
+		CalcTest3 : 17.0%
+		CalcTest4 : 25.9%
+		Total : 73%
+		
+		-Los mutantes nos quedaron pendientes , no pudimos hacerlo andar en eclipse.
+
+	e) Test para mejorar cobertura:
+
+	  	/*Test1 */{3,6,12,25,555,2323}
+        	/*Test2 */{3,3,12,25,235,0}
+        	/*Test3 */{4,27,12,25,2665,57}
+       		/*Test4 */{3,16,12,25,823,284}
+       		/*Test5 */{6,23,12,20,1,186}
+        	/*Test6 */{8,23,12,20,666,125}
+        	/*Test7 */{3,1,12,25,9999,299}
+        	/*Test8 */ {10,3,12,25,10000,83}
+        	/*Test9 */{11,12,12,25,11,43}
+        	/*Test10 */{2,5,10,29,1,266}
+	
+	f) Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-core/src/main/java" />
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-core/src/test/java" />
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-demo/src/main/java" />
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-ext/src/main/java" />
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-ext/src/test/java" />
+      <root url="file://$USER_HOME$/Descargas/Libs/jgrapht-1.0.1/source/jgrapht-touchgraph/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
