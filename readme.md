@@ -41,7 +41,7 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
 Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados fueron Testeados y se sabe que funcionan como deberían.
 #### D)
 
-
+## Mutantes equivalentes
 
 <details>
 <summary>ensureCapacity(int minCapacity)</summary>  
@@ -323,8 +323,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3OD
-Y3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4Niwt
-MTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nz
-g3MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTU2MTE4NjMzNSwzNzkzMTk3MjgsLTg2NT
+A2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwt
+NDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4Mj
+EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
