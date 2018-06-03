@@ -61,6 +61,25 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 	}
 ```
 </details>
+<details>
+<summary>Conditional Boundary en ensureCapacity(int minCapacity)</summary>  
+
+```java
+	public void ensureCapacity(int minCapacity) {
+		int minExpand = (elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA)
+				// any size if not default element table
+				? 0
+				// larger than default for default empty table. It's already
+				// supposed to be at default size.
+				: DEFAULT_CAPACITY;
+
+		if (minCapacity > minExpand) {
+		//if (minCapacity >= minExpand) No afecta al cambio de capacidad del arreglo
+			ensureExplicitCapacity(minCapacity);
+		}
+	}
+```
+</details>
 
 https://image.ibb.co/f8TuyJ/imagen.png
 # Ejercicio 2
@@ -322,8 +341,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzEzNTMzMDMsMzc5MzE5NzI4LC04Nj
-UwNjY5NzQsNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEs
-LTQyMjc4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5OD
-IxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTExMjk4MTkxMSwzNzkzMTk3MjgsLTg2NT
+A2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwt
+NDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4Mj
+EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
