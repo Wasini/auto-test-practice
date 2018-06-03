@@ -225,8 +225,7 @@ Caminos de test que consiguen cobertura de nodos pero no de arcos:
 * TP1: [0,1,2,3,4,5,6,8,1,9],[0,1,2,3,4,5,7,4,8,1,9,10]
 	* No pasa por el arco (2,8)
 * TP2: [0,1,2,3,4,5,7,4,5,6,8,1,9,10]
-	* No pas
-Los arcos (7,1) y (3,7) no estan cubiertos
+	* No pasa por los arcos (2,8) y (4,8)
 #### F)
 Camino de test que consigue cobertura de arcos pero no de caminos primos:
 > * [0,1,2,3,4,5,6,3,4,5,7,8,1,9]
@@ -409,11 +408,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTcxNzE2MCwtMjA4NzExNjY0MSwtMT
-A4NjAxODEwOCwxNTQxOTc5MDc1LDU0NjQwNzI1OSwtNzkwMzU5
-MzQ1LC0yMTQ4OTc1MTksLTEwMTY1NDYyOTYsLTc3NzQ4OTM0NC
-wtMTIwMTk0MTM3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLTYy
-Mjc0Mzg5LC0xNTk4Njc0OTg5LC0xODMwNzI0MjkzLC00MTMwMD
-Q2MTksLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MDQxNDAwNzAs
-LTE1MzQ2NDY5NzJdfQ==
+eyJoaXN0b3J5IjpbMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMD
+g2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkz
+NDUsLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC
+0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2MjU3MSwtNjIy
+NzQzODksLTE1OTg2NzQ5ODksLTE4MzA3MjQyOTMsLTQxMzAwND
+YxOSwtMTg3MTU4OTgxMiwtODU3NzAzODQ0LDQwNDE0MDA3MCwt
+MTUzNDY0Njk3Ml19
 -->
