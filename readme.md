@@ -55,12 +55,11 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 				: DEFAULT_CAPACITY;
 
 		if (minCapacity > minExpand) {
-		//if (minCapacity >= minExpand) No afec
+		//if (minCapacity >= minExpand) No afecta al cambio de capacidad del arreglo
 			ensureExplicitCapacity(minCapacity);
 		}
 	}
 ```
-
 </details>
 
 https://image.ibb.co/f8TuyJ/imagen.png
@@ -323,7 +322,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODMwODE0MjIsMzc5MzE5NzI4LC04Nj
+eyJoaXN0b3J5IjpbLTE4NzEzNTMzMDMsMzc5MzE5NzI4LC04Nj
 UwNjY5NzQsNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEs
 LTQyMjc4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5OD
 IxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
