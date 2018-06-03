@@ -31,11 +31,13 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 Para el ejemplo dado esta el caso extremo en que la cantidad de elementos en una lista sea cercana a la cantidad maxima de elementos que puede almacenar un arreglo, el cual es mejor encararlo por separado para no sacarle eficiencia al generador.
 Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las caracteristicas mencionadas, por ejemplo 
 
-    {	minTamañoLista:0, 
+    {
+	    minTamañoLista:0, 
     	maxTamañoLista:5,
     	minInt: -5,
     	maxInt: 5,
-    	cantidadListas: 60 //aprox. 6 posibles tamaños de listas * 11 valores de enteros }
+    	cantidadListas: 60 //aprox. 6 posibles tamaños de listas * 11 valores de enteros
+    }
 
 #### C)
 Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados fueron Testeados y se sabe que funcionan como deberían.
@@ -397,7 +399,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzIyNDEyMyw0MDQxNDAwNzAsLTE1Mz
+eyJoaXN0b3J5IjpbMTU1MTg0NzUwMSw0MDQxNDAwNzAsLTE1Mz
 Q2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mjcx
 ODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mj
 c4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2
