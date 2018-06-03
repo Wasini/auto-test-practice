@@ -233,7 +233,10 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
  * TP2: [0,1,2,3,4,5,7,4,5,6,8,1,9,10] , [0,1,2,3,4,8,1,2,8,1,9,10]
 	 * No cubre el camino primo [5, 6, 8, 1, 2, 3, 4, 5]  entre otros pero cubre todos los arcos
 #### E)
+ Parametros de entrada
 
+
+* 
 
 
 
@@ -412,11 +415,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTQ4MDY3MywzODQ2OTIzMTAsLTIwOD
-cxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcy
-NTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC
-03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcsMTg5
-MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcyND
-I5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4NDQs
-NDA0MTQwMDcwXX0=
+eyJoaXN0b3J5IjpbLTE0NzE1MDYwNTcsMTE3OTQ4MDY3MywzOD
+Q2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3
+OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC
+0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIw
+MDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3ND
+k4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEy
+LC04NTc3MDM4NDRdfQ==
 -->
