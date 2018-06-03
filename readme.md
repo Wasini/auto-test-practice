@@ -33,7 +33,9 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
 
     {	minTamañoLista:0, 
     	maxTamañoLista:5,
-    	minInt 
+    	minInt: -5,
+    	maxInt: 5,
+    	cantidadListas: 60 /6 * 11
 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
@@ -297,7 +299,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzYwNDAzNywtMTQ1MzQyMzI2NiwxMz
+eyJoaXN0b3J5IjpbLTQ5Njk2MDg1NCwtMTQ1MzQyMzI2NiwxMz
 c1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgx
 NTJdfQ==
 -->
