@@ -1,9 +1,7 @@
 # Sobre el codigo 
 Las carpetas test y src contienen todo el codigo fuente.
 
-Los test fueron realizados utilizando Junit y hamcrest-all.
-
-Agregar la libreria de hamcrest-all(carpeta lib) a las dependecias.
+Los test fueron realizados utilizando Junit+hamcrest-all.
 
 # Actividades
 Los ejercicios se encuentran en el archivo TP1.pdf
@@ -275,5 +273,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMTk0NzM0MzgxNiwxNzY3ODcxNzc2LDc0MT
+k1ODE1Ml19
 -->
