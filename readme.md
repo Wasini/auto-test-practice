@@ -109,6 +109,37 @@ private void fastRemove(int index) {
 ```
 </details>
 
+## Mutantes ignorados
+
+<details>
+<summary>hugeCapacity</summary>  
+
+```java
+	public E remove(int index) {
+		rangeCheck(index);
+
+		E oldValue = elementData(index);
+
+		int numMoved = size - index - 1;
+		if (numMoved > 0)
+		// (numMoved >= 0) No cambia en nada al copiar 0 elementos
+			System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+		elementData[--size] = null; // clear to let GC do its work
+
+		return oldValue;
+	}
+```
+```java
+private void fastRemove(int index) {
+		int numMoved = size - index - 1;
+		if (numMoved > 0)
+		// (numMoved >= 0) No cambia en nada al copiar 0 elementos
+			System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+		elementData[--size] = null; // clear to let GC do its work
+	}
+```
+</details>
+
 https://image.ibb.co/f8TuyJ/imagen.png
 # Ejercicio 2
 ## Grafo
@@ -369,9 +400,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ2NDY5NzIsMTg0MTQzNDkxMiw5Nj
-UwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNzkzMTk3
-MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMT
-gwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2
-MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
+eyJoaXN0b3J5IjpbMTU2MjI3NTUwMywtMTUzNDY0Njk3MiwxOD
+QxNDM0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5
+NjgwLDM3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMz
+IxNTM4NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMy
+NjYsMTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNz
+QxOTU4MTUyXX0=
 -->
