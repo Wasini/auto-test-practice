@@ -46,7 +46,12 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 <details>
 <summary>Heading</summary>  
 
-jav    enter code here
+ 
+```java
+s = "Python syntax highlighting"
+print s
+```
+```
 
 ´´´
 	public void ensureCapacity(int minCapacity) {
@@ -324,8 +329,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzg1MDc0Myw2Mjc4Njc3NiwxMjMyMT
-UzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2
-LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MT
-k1ODE1Ml19
+eyJoaXN0b3J5IjpbLTE4NTQ5Njk0NDgsNjI3ODY3NzYsMTIzMj
+E1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2
+NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3ND
+E5NTgxNTJdfQ==
 -->
