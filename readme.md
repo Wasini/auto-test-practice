@@ -28,7 +28,7 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 		* Valores menores a 0
 		* Valores igual a 0
 
-Para el ejemplo dado, los valores de enteros no afectan a las funcionalidades 
+Para el ejemplo dado esta el caso extremo en que la cantidad de elementos en un 
 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
@@ -291,7 +291,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjAzMDM3LC0xNDUzNDIzMjY2LDEzNz
-UxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1
-Ml19
+eyJoaXN0b3J5IjpbLTEzMjcxNTU0MDcsLTE0NTM0MjMyNjYsMT
+M3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNzQxOTU4
+MTUyXX0=
 -->
