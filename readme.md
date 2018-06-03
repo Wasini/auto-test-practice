@@ -55,7 +55,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 				// supposed to be at default size.
 				: DEFAULT_CAPACITY;
 
-		if (minCapacity > minExpand) { .-
+		if (minCapacity > minExpand) { // <- CHANGED CONDITIONAL BOUNDARY
 			ensureExplicitCapacity(minCapacity);
 		}
 	}
@@ -322,7 +322,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDMwOTY2Niw2Mjc4Njc3NiwxMjMyMT
+eyJoaXN0b3J5IjpbLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMT
 UzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2
 LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MT
 k1ODE1Ml19
