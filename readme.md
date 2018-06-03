@@ -272,10 +272,11 @@ Cantidad de tests con el criterio: 6
 Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y **C1.T C2.Minor C3.F C4.T** no son factibles, cambiamos algun valor base a otro no base hasta encontrar una combinacion factible.
 Los test elegidos para cubrir BCC quedan:
 1. C1.T C2.Minor C3.F C4.F
-2. C1.T C2.Minor C3.F C4.T
+2. C1.T C2.Equal C3.T C4.T
 3. C1.T C2.Minor C3.T C4.F
 4. C1.T C2.Equal C3.F C4.F
 5. C1.F C2.Greater C3.F C4.F
+6. C1.F C2.Minor C3.F C4.F
 
 # Ejercicio 3:
 
@@ -452,11 +453,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDEyMzA5NjksNzI3MTEzMTQ5LC0xND
-EwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUzOCw4MjQwNDQy
-MTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5OCwtMz
-gyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLTE4MjA0
-NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2ND
-EsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5
-MDM1OTM0NV19
+eyJoaXN0b3J5IjpbNDg3ODAwMTg3LDcyNzExMzE0OSwtMTQxMD
+AyNzk0LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEz
+LDE4ODU1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4Mj
+ExMjAxNSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUw
+NTA1LDExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC
+0xMDg2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAz
+NTkzNDVdfQ==
 -->
