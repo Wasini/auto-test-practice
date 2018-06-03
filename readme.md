@@ -242,10 +242,10 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * Sub: pattern es subcadena de subject
 	* T: True
 	* F: False
-* Size: Tamaño de la cadena pattern respecto a la cadena subject
-	* M: pattern < subject
-	* E: pattern = subject
-	* G: pattern > subject
+* PCmpS: Tamaño de la cadena pattern respecto a la cadena subject
+	* Minor: pattern < subject
+	* Equal: pattern = subject
+	* Greater: pattern > subject
 * EmptyPat: pattern es cadena vacia
 	* T: true
 	* F: false
@@ -253,7 +253,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	* T: true
 	* F: false 
 #### Algunas restricciones
-* pattern > subject (C2.B3) **=>** C1.B2 && C3.B2
+* PCmpS = Greater **=>** C1.B2 && C3.B2
 
 
 
@@ -433,7 +433,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNjU5ODMwLC0zODIxMTIwMTUsMTI2Nj
+eyJoaXN0b3J5IjpbLTc4MzY2NjA5LC0zODIxMTIwMTUsMTI2Nj
 k4OTA5MywtMjA3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgw
 NjczLDM4NDY5MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOC
 wxNTQxOTc5MDc1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4
