@@ -22,7 +22,12 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 	* Alguna lista con un elemento y:
 		* Valores mayores a 0
 		* Valores menores a 0
-		* 
+		* Valores igual a 0
+	* Alguna lista con mas de un elemento y:
+		* Valores mayores a 0
+		* Valores menores a 0
+		* Valores igual a 0
+P
 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
@@ -285,7 +290,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODI5NDk1NywtMTQ1MzQyMzI2NiwxMz
+eyJoaXN0b3J5IjpbLTkxMzgyODg3MCwtMTQ1MzQyMzI2NiwxMz
 c1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgx
 NTJdfQ==
 -->
