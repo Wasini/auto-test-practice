@@ -35,7 +35,7 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
     	maxTamañoLista:5,
     	minInt: -5,
     	maxInt: 5,
-    	cantidadListas: 60 //aprox. 6 posibles tamaños de listas * 11 valores de enteros 
+    	cantidadListas: 60 //aprox. 6 posibles tamaños de listas * 11 valores de enteros }
 
 #### C)
 Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados fueron Testeados y se sabe que funcionan como deberían.
@@ -397,10 +397,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4ND
-E0MzQ5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2
-ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIzMj
-E1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2
-NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3ND
-E5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMTExNzIyNDEyMyw0MDQxNDAwNzAsLTE1Mz
+Q2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mjcx
+ODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mj
+c4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2
+LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNz
+Y3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
