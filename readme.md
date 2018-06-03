@@ -154,8 +154,8 @@ private String outOfBoundsMsg(int index) {
 	* RT={0,1,2,3,4,5,6,7,8,9,10}
 #### Edge Coverage
 * El conjunto de TP deben pasar por todas las aritas 
-	* RT={(0,1), (1,2), (1,9), (2,3), (2,8), (3,7),
-	 (4,5), (4,6), (5,7), (6,3), (7,1), (7,8), (8,1)}
+	* RT={(0,1), (1,2), (1,9), (2,3), (2,8), (3,4),
+	 (4,5), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
 ### Prime Path Coverage
 * El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
 1. [0, 1, 9] 
@@ -393,7 +393,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjI2ODc0OSwtMTIwMTk0MTM3MywtMj
+eyJoaXN0b3J5IjpbLTc3NzQ4OTM0NCwtMTIwMTk0MTM3MywtMj
 AwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0xNTk4Njc0
 OTg5LC0xODMwNzI0MjkzLC00MTMwMDQ2MTksLTE4NzE1ODk4MT
 IsLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0
