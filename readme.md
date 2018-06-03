@@ -13,7 +13,10 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 	* Lista vacia
 	* Lista unitaria
 	* Lista con mas de un elemento
-
+* Para el rango de enteros considerar:
+	* Mayores a 0
+	* Menores a 0
+	* 0
 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
@@ -276,6 +279,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTYwNDc0MTYsMTk4MjEzNDQwMCwxNz
+eyJoaXN0b3J5IjpbLTE0NzU5MDU0MTYsMTk4MjEzNDQwMCwxNz
 Y3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
