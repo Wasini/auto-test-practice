@@ -146,7 +146,7 @@ private String outOfBoundsMsg(int index) {
 ## Grafo
 
 #### A)
-![alt text](https://image.ibb.co/jrFU0y/Captura_de_pantalla_de_2018_06_03_14_56_12.png "Grafo de flujo de control")
+![alt text](https://image.ibb.co/etiitJ/Captura_de_pantalla_de_2018_06_03_16_56_39.png "Grafo de flujo de control")
 #### B)
 ## Requerimientos de test
 #### Node Coverage
@@ -406,11 +406,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1ND
-Y0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2
-Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OT
-csMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgz
-MDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MD
-M4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIs
-OTY1MDA4OTc1XX0=
+eyJoaXN0b3J5IjpbNzc5MjkyMjU4LC0xMDg2MDE4MTA4LDE1ND
+E5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUx
+OSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC
+0yMDA2MzE4Nzk3LDE4OTA2MjU3MSwtNjIyNzQzODksLTE1OTg2
+NzQ5ODksLTE4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3MTU4OT
+gxMiwtODU3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3Miwx
+ODQxNDM0OTEyXX0=
 -->
