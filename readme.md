@@ -266,7 +266,7 @@ Cantidad de tests con el criterio: 6
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
 | C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
-Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F ** y 
+Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F ** y **C1.T C2.Minor C3.F C4.T**
 
 # Ejercicio 3:
 
@@ -443,11 +443,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTAwMjc5NCwtNjcyMjIyOTQxLC0xNj
-E1Nzc2NTM4LDgyNDA0NDIxMywxODg1NTIyMTA2LDg0MzUyMTAy
-OCwxNDA2MTY1Mzk4LC0zODIxMTIwMTUsMTI2Njk4OTA5MywtMj
-A3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5
-MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5MD
-c1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLTEw
-MTY1NDYyOTZdfQ==
+eyJoaXN0b3J5IjpbMTI3MjY3MDMzNywtMTQxMDAyNzk0LC02Nz
+IyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIx
+MDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMj
+Y2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0
+ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MT
+A4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIx
+NDg5NzUxOV19
 -->
