@@ -154,8 +154,8 @@ private String outOfBoundsMsg(int index) {
 	* RT={0,1,2,3,4,5,6,7,8,9,10}
 #### Edge Coverage
 * El conjunto de TP deben pasar por todas las aritas 
-	* RT={(0,1), (1,2), (1,9), (2,3), (2,8), (3,4),
-	 (4,5), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
+	* RT={(0,1), (1,2), (1,9), (2,3), (2,8), (3,4), (4,5), 
+		 (4,8), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
 ### Prime Path Coverage
 * El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
 [0, 1, 2, 8]
@@ -406,11 +406,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc5MjkyMjU4LC0xMDg2MDE4MTA4LDE1ND
-E5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUx
-OSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC
-0yMDA2MzE4Nzk3LDE4OTA2MjU3MSwtNjIyNzQzODksLTE1OTg2
-NzQ5ODksLTE4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3MTU4OT
-gxMiwtODU3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3Miwx
-ODQxNDM0OTEyXX0=
+eyJoaXN0b3J5IjpbLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMT
+U0MTk3OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3
+NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNz
+MsLTIwMDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5
+ODY3NDk4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNT
+g5ODEyLC04NTc3MDM4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcy
+LDE4NDE0MzQ5MTJdfQ==
 -->
