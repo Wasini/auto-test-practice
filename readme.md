@@ -185,7 +185,7 @@ private String outOfBoundsMsg(int index) {
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
  
-![alt text](https://image.ibb.co/j9WOAd/simplepaths.png "Ejemplo de como generar caminos simples")
+
 
 #### E)
 Camino de test que consigue cobertura de nodos pero no de arcos:
@@ -373,11 +373,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMT
-IwMTk0MTM3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0
-Mzg5LC0xNTk4Njc0OTg5LC0xODMwNzI0MjkzLC00MTMwMDQ2MT
-ksLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1
-MzQ2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mj
-cxODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2
-Mjc4Njc3Nl19
+eyJoaXN0b3J5IjpbMTU1NzE4Mzk1NCwtMTAxNjU0NjI5NiwtNz
+c3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2
+MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5ODksLTE4MzA3MjQyOT
+MsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtODU3NzAzODQ0LDQw
+NDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxNDM0OTEyLDk2NTAwOD
+k3NSwtMTc3NDUyNzE4OCwtMTQyMzg5NjgwLDM3OTMxOTcyOCwt
+ODY1MDY2OTc0XX0=
 -->
