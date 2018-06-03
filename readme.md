@@ -185,7 +185,31 @@ private String outOfBoundsMsg(int index) {
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
  
-
+```markdown
+|  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
+|:---:|-------|---------|-----------|-------------|---------------|-----------------|-------------------|---------------------|
+|  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | 2-3-4-5-6-8-1-9-10! |
+|  1  | 1-2   | 0-1-9   | 0-1-2-8!  | 1-2-3-4-5   | 1-2-3-4-5-6   | 0-1-2-3-4-5-7!  | 1-2-3-4-5-6-8-1*  |                     |
+|  2  | 1-9   | 1-2-3   | 0-1-9-10! | 2-3-4-5-6   | 1-2-3-4-5-7!  | 1-2-3-4-5-6-8   | 2-3-4-5-6-8-1-2*  |                     |
+|  3  | 2-3   | 1-2-8   | 1-2-3-4   | 2-3-4-5-7!  | 2-3-4-5-6-8   | 2-3-4-5-6-8-1   | 2-3-4-5-6-8-1-9   |                     |
+|  4  | 2-8   | 1-9-10! | 1-2-8-1*  | 2-8-1-9-10! | 3-4-5-6-8-1   | 3-4-5-6-8-1-2   | 3-4-5-6-8-1-2-3*  |                     |
+|  5  | 3-4   | 2-3-4   | 2-3-4-5   | 3-4-5-6-8   | 4-5-6-8-1-2   | 3-4-5-6-8-1-9   | 3-4-5-6-8-1-9-10! |                     |
+|  6  | 4-5   | 2-8-1   | 2-8-1-2*  | 4-5-6-8-1   | 4-5-6-8-1-9   | 4-5-6-8-1-2-3   | 4-5-6-8-1-2-3-4*  |                     |
+|  7  | 5-6   | 3-4-5   | 2-8-1-9   | 5-6-8-1-2   | 5-6-8-1-2-3   | 4-5-6-8-1-9-10! | 5-6-8-1-2-3-4-5*  |                     |
+|  8  | 5-7   | 4-5-6   | 3-4-5-6   | 5-6-8-1-9   | 5-6-8-1-9-10! | 5-6-8-1-2-3-4   | 6-8-1-2-3-4-5-6*  |                     |
+|  9  | 6-8   | 4-5-7   | 3-4-5-7!  | 6-8-1-2-3   | 6-8-1-2-3-4   | 6-8-1-2-3-4-5   | 6-8-1-2-3-4-5-7!  |                     |
+| 10! | 7-4   | 5-6-8   | 4-5-6-8   | 6-8-1-9-10! | 7-4-5-6-8-1   | 7-4-5-6-8-1-2   | 7-4-5-6-8-1-2-3!  |                     |
+|     | 8-1   | 5-7-4   | 4-5-7-4*  | 7-4-5-6-8   | 8-1-2-3-4-5   | 7-4-5-6-8-1-9   | 7-4-5-6-8-1-9-10! |                     |
+|     | 9-10! | 6-8-1   | 5-6-8-1   | 8-1-2-3-4   |               | 8-1-2-3-4-5-7!  | 8-1-2-3-4-5-6-8*  |                     |
+|     |       | 7-4-5   | 5-7-4-5*  |             |               | 8-1-2-3-4-5-6   |                   |                     |
+|     |       | 8-1-2   | 6-8-1-2   |             |               |                 |                   |                     |
+|     |       | 8-1-9   | 6-8-1-9   |             |               |                 |                   |                     |
+|     |       |         | 7-4-5-6   |             |               |                 |                   |                     |
+|     |       |         | 7-4-5-7*  |             |               |                 |                   |                     |
+|     |       |         | 8-1-2-8*  |             |               |                 |                   |                     |
+|     |       |         | 8-1-2-3   |             |               |                 |                   |                     |
+|     |       |         | 8-1-9-10! |             |               |                 |                   |                     |
+```
 
 #### E)
 Camino de test que consigue cobertura de nodos pero no de arcos:
@@ -373,7 +397,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzE4Mzk1NCwtMTAxNjU0NjI5NiwtNz
+eyJoaXN0b3J5IjpbLTM2NTAyOTI2MiwtMTAxNjU0NjI5NiwtNz
 c3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2
 MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5ODksLTE4MzA3MjQyOT
 MsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtODU3NzAzODQ0LDQw
