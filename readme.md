@@ -40,6 +40,18 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
 #### C)
 Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados fueron Testeados y se sabe que funcionan como deberían.
 #### D)
+
+
+<details>
+<summary>Heading</summary>
+
++ markdown list 1
+    + nested list 1
+    + nested list 2
++ markdown list 2
+
+</details>
+
 https://image.ibb.co/f8TuyJ/imagen.png
 # Ejercicio 2
 ## Grafo
@@ -300,7 +312,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMj
-c4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0
-MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4MD
+UxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMy
+LDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
 -->
