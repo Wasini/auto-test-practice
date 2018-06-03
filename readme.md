@@ -160,25 +160,25 @@ private String outOfBoundsMsg(int index) {
 ### Prime Path Coverage
 * El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
 1. [0, 1, 2, 8]
-[0, 1, 9, 10]
-[1, 2, 8, 1]
-[2, 8, 1, 2]
-[4, 5, 7, 4]
-[5, 7, 4, 5]
-[7, 4, 5, 7]
-[8, 1, 2, 8]
-[2, 8, 1, 9, 10]
-[0, 1, 2, 3, 4, 8]
-[1, 2, 3, 4, 8, 1]
-[2, 3, 4, 8, 1, 2]
-[3, 4, 8, 1, 2, 3]
-[4, 8, 1, 2, 3, 4]
-[8, 1, 2, 3, 4, 8]
-[0, 1, 2, 3, 4, 5, 7]
-[2, 3, 4, 8, 1, 9, 10]
-[5, 7, 4, 8, 1, 2, 3]
-[5, 7, 4, 8, 1, 9, 10]
-[0, 1, 2, 3, 4, 5, 6, 8]
+2. [0, 1, 9, 10]
+3. [1, 2, 8, 1]
+4. [2, 8, 1, 2]
+5. [4, 5, 7, 4]
+6. [5, 7, 4, 5]
+7. [7, 4, 5, 7]
+8. [8, 1, 2, 8]
+9. [2, 8, 1, 9, 10]
+10. [0, 1, 2, 3, 4, 8]
+11. [1, 2, 3, 4, 8, 1]
+12. [2, 3, 4, 8, 1, 2]
+13. [3, 4, 8, 1, 2, 3]
+14. [4, 8, 1, 2, 3, 4]
+15. [8, 1, 2, 3, 4, 8]
+16. [0, 1, 2, 3, 4, 5, 7]
+17. [2, 3, 4, 8, 1, 9, 10]
+18. [5, 7, 4, 8, 1, 2, 3]
+19. [5, 7, 4, 8, 1, 9, 10]
+20-[0, 1, 2, 3, 4, 5, 6, 8]
 [1, 2, 3, 4, 5, 6, 8, 1]
 [2, 3, 4, 5, 6, 8, 1, 2]
 [3, 4, 5, 6, 8, 1, 2, 3]
@@ -456,7 +456,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYyNzM0NCw0MjY1NjI2MzcsNzI3MT
+eyJoaXN0b3J5IjpbMTY1NDk3OTI0OCw0MjY1NjI2MzcsNzI3MT
 EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
 OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
 E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
