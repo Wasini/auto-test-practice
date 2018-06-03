@@ -259,7 +259,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 
 * Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
 	* C1.T, C2.Minor, C3.F, C4.F
-
+1+2-1
 
 # Ejercicio 3:
 
@@ -436,7 +436,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5NDEzNTM5LDE4ODU1MjIxMDYsODQzNT
+eyJoaXN0b3J5IjpbNzM2NjAxMzg1LDE4ODU1MjIxMDYsODQzNT
 IxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5MDkz
 LC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0ODA2NzMsMz
 g0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5
