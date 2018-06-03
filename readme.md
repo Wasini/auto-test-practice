@@ -249,8 +249,10 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * C3: pattern es cadena vacia
 	* B1: true
 	* B2: false
-* C4: subje
-
+* C4: subject es cadena vacia
+	* B1: true
+	* B2: false 
+#### Alg
 
 
 # Ejercicio 3:
@@ -428,11 +430,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTY4MTUzOTcsMTI2Njk4OTA5MywtMj
-A3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5
-MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5MD
-c1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLTEw
-MTY1NDYyOTYsLTc3NzQ4OTM0NCwtMTIwMTk0MTM3MywtMjAwNj
-MxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0xNTk4Njc0OTg5
-LC0xODMwNzI0MjkzXX0=
+eyJoaXN0b3J5IjpbMjc3MDAyNjYwLDEyNjY5ODkwOTMsLTIwNz
+M3OTA2MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIz
+MTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NS
+w1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2
+NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYzMT
+g3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwt
+MTgzMDcyNDI5M119
 -->
