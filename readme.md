@@ -266,7 +266,8 @@ Cantidad de tests con el criterio: 6
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
 | C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
-Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F ** y **C1.T C2.Minor C3.F C4.T**
+Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F ** y **C1.T C2.Minor C3.F C4.T** no son factibles, cambiamos algun valor base a otro no base para encontrar una combinacion factible.
+Los test necesarios para cu
 
 # Ejercicio 3:
 
@@ -443,7 +444,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjY3MDMzNywtMTQxMDAyNzk0LC02Nz
+eyJoaXN0b3J5IjpbLTIxNzQ2MDU0NiwtMTQxMDAyNzk0LC02Nz
 IyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIx
 MDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMj
 Y2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0
