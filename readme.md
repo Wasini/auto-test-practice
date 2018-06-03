@@ -115,27 +115,10 @@ private void fastRemove(int index) {
 <summary>hugeCapacity</summary>  
 
 ```java
-	public E remove(int index) {
-		rangeCheck(index);
-
-		E oldValue = elementData(index);
-
-		int numMoved = size - index - 1;
-		if (numMoved > 0)
-		// (numMoved >= 0) No cambia en nada al copiar 0 elementos
-			System.arraycopy(elementData, index + 1, elementData, index, numMoved);
-		elementData[--size] = null; // clear to let GC do its work
-
-		return oldValue;
-	}
-```
-```java
-private void fastRemove(int index) {
-		int numMoved = size - index - 1;
-		if (numMoved > 0)
-		// (numMoved >= 0) No cambia en nada al copiar 0 elementos
-			System.arraycopy(elementData, index + 1, elementData, index, numMoved);
-		elementData[--size] = null; // clear to let GC do its work
+		private static int hugeCapacity(int minCapacity) {
+		if (minCapacity < 0) // overflow 
+			throw new OutOfMemoryError();
+		return (minCapacity > MAX_ARRAY_SIZE) ? Integer.MAX_VALUE : MAX_ARRAY_SIZE;
 	}
 ```
 </details>
@@ -400,10 +383,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjI3NTUwMywtMTUzNDY0Njk3MiwxOD
-QxNDM0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5
-NjgwLDM3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMz
-IxNTM4NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMy
-NjYsMTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNz
-QxOTU4MTUyXX0=
+eyJoaXN0b3J5IjpbNDYwODY3MDA0LC0xNTM0NjQ2OTcyLDE4ND
+E0MzQ5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2
+ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIzMj
+E1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2
+NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3ND
+E5NTgxNTJdfQ==
 -->
