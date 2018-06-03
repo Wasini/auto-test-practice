@@ -31,12 +31,12 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 Para el ejemplo dado esta el caso extremo en que la cantidad de elementos en una lista sea cercana a la cantidad maxima de elementos que puede almacenar un arreglo, el cual es mejor encararlo por separado para no sacarle eficiencia al generador.
 Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las caracteristicas mencionadas, por ejemplo 
 ```
- {  
-	 minTamañoLista : 0, 
-	 maxTamañoLista : 5,
-	 minInt : -5,
-	 maxInt : 5,
-	 cantidadListas: 70 //aprox. 6 posibles tamaños de listas * 11 valores de enteros
+{  
+minTamañoLista : 0, 
+maxTamañoLista : 5,
+minInt : -5,
+maxInt : 5,
+cantidadListas: 70 //aprox. 6 posibles tamaños de listas * 11 valores de enteros
 }
 ```
 #### C)
@@ -401,11 +401,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNTEzODIzLC0xNTk4Njc0OTg5LC0xOD
-MwNzI0MjkzLC00MTMwMDQ2MTksLTE4NzE1ODk4MTIsLTg1Nzcw
-Mzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQzNDkxMi
-w5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNzkz
-MTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLD
-UyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUx
-NzI2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE4MzQwNzU3MDksLTE1OTg2NzQ5ODksLT
+E4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtODU3
+NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxNDM0OT
+EyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5NjgwLDM3
+OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4Nj
+AsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMyNjYsMTM3
+NTE3MjYzMl19
 -->
