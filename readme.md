@@ -62,24 +62,24 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 ```
 </details>
 <details>
-<summary>Llamado a rangeCheck y rangeCheckForAdd</summary>  
+<summary>Remover llamado a rangeCheck y rangeCheckForAdd</summary>  
 
 ```java
-	public void ensureCapacity(int minCapacity) {
-		int minExpand = (elementData != DEFAULTCAPACITY_EMPTY_ELEMENTDATA)
-				// any size if not default element table
-				? 0
-				// larger than default for default empty table. It's already
-				// supposed to be at default size.
-				: DEFAULT_CAPACITY;
-
-		if (minCapacity > minExpand) {
-		//if (minCapacity >= minExpand) No afecta al cambio de capacidad del arreglo
-			ensureExplicitCapacity(minCapacity);
-		}
+	public E get(int index) {
+		rangeCheck(index);
+		// //rangeCheck(index);
+		
+		return elementData(index);
 	}
 ```
-
+```java
+	public E get(int index) {
+		rangeCheck(index);
+		// //rangeCheck(index);
+		
+		return elementData(index);
+	}
+```
 
 </details>
 
@@ -343,7 +343,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDQ3MjI0LDM3OTMxOTcyOCwtODY1MD
+eyJoaXN0b3J5IjpbMTI0NTI5NzI1LDM3OTMxOTcyOCwtODY1MD
 Y2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4NjAsNTIxODA1MTkxLC00
 MjI3ODg0ODYsLTE0NTM0MjMyNjYsMTM3NTE3MjYzMiwxOTgyMT
 M0NDAwLDE3Njc4NzE3NzYsNzQxOTU4MTUyXX0=
