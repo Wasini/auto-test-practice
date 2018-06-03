@@ -239,8 +239,6 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
  * pattern: char[]
 	 > Cadena a verificar si es subcadena de subject
 #### Caracteristicas
-
-
 * C1: pattern es subcadena de subject
 	* T: True
 	* F: False
@@ -259,10 +257,10 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * C1.T && C3.F => C4.F
 ## Criterio de PEE Base Choice Coverage
 
-* Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
+* Elegimos como base el caso ideal en que pattern es una subcadacadena no vacia mas chica que subject:
 	* C1.T, C2.Minor, C3.F, C4.F
 
-Cantidad de tests: 6 
+Cantidad de tests con el criterio: 6 
 
 | Base                    | C4                      | C3                      | C2                        | C1                      |
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
@@ -445,7 +443,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTMwODc4MSwtNjcyMjIyOTQxLC0xNj
+eyJoaXN0b3J5IjpbLTg0MDkzNDQxMCwtNjcyMjIyOTQxLC0xNj
 E1Nzc2NTM4LDgyNDA0NDIxMywxODg1NTIyMTA2LDg0MzUyMTAy
 OCwxNDA2MTY1Mzk4LC0zODIxMTIwMTUsMTI2Njk4OTA5MywtMj
 A3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5
