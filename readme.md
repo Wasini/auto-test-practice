@@ -158,7 +158,7 @@ private String outOfBoundsMsg(int index) {
 	* RT={(0,1), (1,2), (1,9), (2,3), (2,8), (3,4), (4,5), 
 		 (4,8), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
 ### Prime Path Coverage
-* El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
+* El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:  
 1. [0, 1, 2, 8]
 2. [0, 1, 9, 10]
 3. [1, 2, 8, 1]
@@ -178,18 +178,18 @@ private String outOfBoundsMsg(int index) {
 17. [2, 3, 4, 8, 1, 9, 10]
 18. [5, 7, 4, 8, 1, 2, 3]
 19. [5, 7, 4, 8, 1, 9, 10]
-20-[0, 1, 2, 3, 4, 5, 6, 8]
-[1, 2, 3, 4, 5, 6, 8, 1]
-[2, 3, 4, 5, 6, 8, 1, 2]
-[3, 4, 5, 6, 8, 1, 2, 3]
-[4, 5, 6, 8, 1, 2, 3, 4]
-[5, 6, 8, 1, 2, 3, 4, 5]
-[6, 8, 1, 2, 3, 4, 5, 6]
-[6, 8, 1, 2, 3, 4, 5, 7]
-[7, 4, 5, 6, 8, 1, 2, 3]
-[7, 4, 5, 6, 8, 1, 9, 10]
-[8, 1, 2, 3, 4, 5, 6, 8]
-[2, 3, 4, 5, 6, 8, 1, 9, 10]
+20. [0, 1, 2, 3, 4, 5, 6, 8]
+21. [1, 2, 3, 4, 5, 6, 8, 1]
+22. [2, 3, 4, 5, 6, 8, 1, 2]
+23. [3, 4, 5, 6, 8, 1, 2, 3]
+24. [4, 5, 6, 8, 1, 2, 3, 4]
+25. [5, 6, 8, 1, 2, 3, 4, 5]
+26. [6, 8, 1, 2, 3, 4, 5, 6]
+27. [6, 8, 1, 2, 3, 4, 5, 7]
+28. [7, 4, 5, 6, 8, 1, 2, 3]
+29. [7, 4, 5, 6, 8, 1, 9, 10]
+30. [8, 1, 2, 3, 4, 5, 6, 8]
+31. [2, 3, 4, 5, 6, 8, 1, 9, 10]
 
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
@@ -456,7 +456,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDk3OTI0OCw0MjY1NjI2MzcsNzI3MT
+eyJoaXN0b3J5IjpbMTEwNDMzNTIyOSw0MjY1NjI2MzcsNzI3MT
 EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
 OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
 E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
