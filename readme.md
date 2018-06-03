@@ -235,9 +235,9 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 #### E)
  #### Parametros de entrada
  * subject: char[] 
-	 > Una cadena 
+	 > Una cadena de caracteres a observar
  * pattern: char[]
-	 > Cadena a observar sobre subject 
+	 > Una
 
 
 
@@ -416,7 +416,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0NDI1MDc5LDExNzk0ODA2NzMsMzg0Nj
+eyJoaXN0b3J5IjpbNjI3MTk2MzAwLDExNzk0ODA2NzMsMzg0Nj
 kyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5Nzkw
 NzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUxOSwtMT
 AxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2
