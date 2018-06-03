@@ -140,7 +140,7 @@ private String outOfBoundsMsg(int index) {
 ```
 </details>
 
-* Quitar los test equivalentes
+* Quitar los test equivalentes 
 
 # Ejercicio 2
 ## Grafo
@@ -401,10 +401,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MD
-QxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5
-NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLT
-g2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5
-MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMT
-k4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
+eyJoaXN0b3J5IjpbLTU1ODczMjk3NCwtMTg3MTU4OTgxMiwtOD
+U3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxNDM0
+OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5NjgwLD
+M3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4
+NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMyNjYsMT
+M3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNzQxOTU4
+MTUyXX0=
 -->
