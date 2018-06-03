@@ -184,9 +184,8 @@ private String outOfBoundsMsg(int index) {
 
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
- 
-```markdown
-|  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
+
+ |  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
 |:---:|-------|---------|-----------|-------------|---------------|-----------------|-------------------|---------------------|
 |  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | 2-3-4-5-6-8-1-9-10! |
 |  1  | 1-2   | 0-1-9   | 0-1-2-8!  | 1-2-3-4-5   | 1-2-3-4-5-6   | 0-1-2-3-4-5-7!  | 1-2-3-4-5-6-8-1*  |                     |
@@ -209,7 +208,7 @@ Una vez generados todos los caminos simples, se eligen como primos aquellos que 
 |     |       |         | 8-1-2-8*  |             |               |                 |                   |                     |
 |     |       |         | 8-1-2-3   |             |               |                 |                   |                     |
 |     |       |         | 8-1-9-10! |             |               |                 |                   |                     |
-```
+
 
 #### E)
 Camino de test que consigue cobertura de nodos pero no de arcos:
@@ -397,7 +396,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTAyOTI2MiwtMTAxNjU0NjI5NiwtNz
+eyJoaXN0b3J5IjpbLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNz
 c3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2
 MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5ODksLTE4MzA3MjQyOT
 MsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtODU3NzAzODQ0LDQw
