@@ -158,49 +158,29 @@ private String outOfBoundsMsg(int index) {
 	 (4,5), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
 ### Prime Path Coverage
 * El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
-1. [0, 1, 9] 
-2. [3, 4, 6, 3] 
-3. [4, 6, 3, 4] 
-4. [6, 3, 4, 6] 
-5. [1, 2, 3, 7, 1] 
-6. [2, 3, 7, 1, 2] 
-7. [2, 3, 7, 1, 9] 
-8. [3, 7, 1, 2, 3] 
-9. [7, 1, 2, 3, 7] 
-10. [0, 1, 2, 3, 4, 6] 
-11. [0, 1, 2, 3, 7, 8] 
-12. [1, 2, 3, 7, 8, 1] 
-13. [2, 3, 7, 8, 1, 2] 
-14. [2, 3, 7, 8, 1, 9] 
-15. [3, 7, 8, 1, 2, 3] 
-16. [4, 6, 3, 7, 1, 2] 
-17. [4, 6, 3, 7, 1, 9] 
-18. [7, 8, 1, 2, 3, 7] 
-19. [8, 1, 2, 3, 7, 8]
-20. [1, 2, 3, 4, 5, 7, 1] 
-21. [2, 3, 4, 5, 7, 1, 2] 
-22. [2, 3, 4, 5, 7, 1, 9] 
-23. [3, 4, 5, 7, 1, 2, 3] 
-24. [4, 5, 7, 1, 2, 3, 4]
-25. [4, 6, 3, 7, 8, 1, 2] 
-26. [4, 6, 3, 7, 8, 1, 9]
-27. [5, 7, 1, 2, 3, 4, 5]
-28. [5, 7, 1, 2, 3, 4, 6]
-29. [6, 3, 4, 5, 7, 1, 2]
-30. [6, 3, 4, 5, 7, 1, 9]
-31. [7, 1, 2, 3, 4, 5, 7]
-32. [0, 1, 2, 3, 4, 5, 7, 8]
-33. [1, 2, 3, 4, 5, 7, 8, 1]
-34. [2, 3, 4, 5, 7, 8, 1, 2]
-35. [2, 3, 4, 5, 7, 8, 1, 9]
-36. [3, 4, 5, 7, 8, 1, 2, 3]
-37. [4, 5, 7, 8, 1, 2, 3, 4]
-38. [5, 7, 8, 1, 2, 3, 4, 5]
-39. [5, 7, 8, 1, 2, 3, 4, 6]
-40. [6, 3, 4, 5, 7, 8, 1, 2]
-41. [6, 3, 4, 5, 7, 8, 1, 9]
-42. [7, 8, 1, 2, 3, 4, 5, 7]
-43. [8, 1, 2, 3, 4, 5, 7, 8]
+[0, 1, 2, 8]
+[0, 1, 9, 10]
+[1, 2, 8, 1]
+[2, 8, 1, 2]
+[4, 5, 7, 4]
+[5, 7, 4, 5]
+[7, 4, 5, 7]
+[8, 1, 2, 8]
+[2, 8, 1, 9, 10]
+[0, 1, 2, 3, 4, 5, 7]
+[0, 1, 2, 3, 4, 5, 6, 8]
+[1, 2, 3, 4, 5, 6, 8, 1]
+[2, 3, 4, 5, 6, 8, 1, 2]
+[3, 4, 5, 6, 8, 1, 2, 3]
+[4, 5, 6, 8, 1, 2, 3, 4]
+[5, 6, 8, 1, 2, 3, 4, 5]
+[6, 8, 1, 2, 3, 4, 5, 6]
+[6, 8, 1, 2, 3, 4, 5, 7]
+[7, 4, 5, 6, 8, 1, 2, 3]
+[7, 4, 5, 6, 8, 1, 9, 10]
+[8, 1, 2, 3, 4, 5, 6, 8]
+[2, 3, 4, 5, 6, 8, 1, 9, 10]
+
 
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
@@ -393,11 +373,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzQ4OTM0NCwtMTIwMTk0MTM3MywtMj
-AwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0xNTk4Njc0
-OTg5LC0xODMwNzI0MjkzLC00MTMwMDQ2MTksLTE4NzE1ODk4MT
-IsLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0
-MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OT
-Y4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMy
-MTUzODYwXX0=
+eyJoaXN0b3J5IjpbLTEwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMT
+IwMTk0MTM3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0
+Mzg5LC0xNTk4Njc0OTg5LC0xODMwNzI0MjkzLC00MTMwMDQ2MT
+ksLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1
+MzQ2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mj
+cxODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2
+Mjc4Njc3Nl19
 -->
