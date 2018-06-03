@@ -147,7 +147,7 @@ private String outOfBoundsMsg(int index) {
 
 #### B)
 ![alt text](https://image.ibb.co/jrFU0y/Captura_de_pantalla_de_2018_06_03_14_56_12.png "Grafo de flujo de control")
-Si se inicializa el arreglo primes con una capacidad de 4 enteros, el t1(n=3) pasa mientras que para t2(n=5) produce una exepción por indice fuera de limites cuando intenta guardar el 5to numero primo en el arreglo.
+Si se inicializa el arreglo prime con una capacidad de 4 enteros, el t1(n=3) pasa mientras que para t2(n=5) produce una exepción por indice fuera de limites cuando intenta guardar el 5to numero primo en el arreglo.
 ```java
 int curPrime; // Value currently considered for primeness  
 int numPrimes; // Number of primes found so far.  
@@ -402,7 +402,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE2MjE0MjgsLTIwMDYzMTg3OTcsMT
+eyJoaXN0b3J5IjpbLTE0NTI2NzA1MjEsLTIwMDYzMTg3OTcsMT
 g5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcy
 NDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4ND
 QsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIsOTY1
