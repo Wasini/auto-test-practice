@@ -38,7 +38,7 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
     	cantidadListas: 60 //aprox. 6 posibles tamaños de listas * 11 valores de enteros 
 
 #### C)
-Para el generador se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados funcionan correctamente(
+Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayList, por lo que este sera correcto si los metodos usados fueron Testeados 
 
 # Ejercicio 2
 ## Grafo
@@ -299,7 +299,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTc3ODczNzQsLTQyMjc4ODQ4NiwtMT
-Q1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3
-MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMTg1Njc2NDkzMiwtNDIyNzg4NDg2LC0xND
+UzNDIzMjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcx
+Nzc2LDc0MTk1ODE1Ml19
 -->
