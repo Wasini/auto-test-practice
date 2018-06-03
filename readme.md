@@ -256,7 +256,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * PCmpS = Greater **=>** Sub = F && EmptySub = F
 ## Criterio de PEE Base Choice Coverage
 
-
+Elegimos como base el caso en que patter es una cadena mas chica que subject
 
 
 # Ejercicio 3:
@@ -434,11 +434,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4Mj
-ExMjAxNSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUw
-NTA1LDExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC
-0xMDg2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAz
-NTkzNDUsLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5Mz
-Q0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2MjU3MSwt
-NjIyNzQzODldfQ==
+eyJoaXN0b3J5IjpbLTg1MjAwMTM0NSw4NDM1MjEwMjgsMTQwNj
+E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
+MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLT
+IwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0
+MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mj
+k2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcs
+MTg5MDYyNTcxXX0=
 -->
