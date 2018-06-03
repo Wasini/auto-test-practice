@@ -259,10 +259,12 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 
 * Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
 	* C1.T, C2.Minor, C3.F, C4.F
-1+2-1+3-1+2-1+2-1
 
-| C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
+Cantidad de tests: 6
+
+| Base                    | C4                      | C3                      | C2                        | C1                      |
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
+| C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
 
 
@@ -441,11 +443,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4OD
-U1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAx
-NSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LD
-ExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2
-MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzND
-UsLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0x
-MjAxOTQxMzczXX0=
+eyJoaXN0b3J5IjpbLTY3MjIyMjk0MSwtMTYxNTc3NjUzOCw4Mj
+QwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5
+OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLT
+E4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcx
+MTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcyNT
+ksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03
+Nzc0ODkzNDRdfQ==
 -->
