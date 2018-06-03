@@ -60,6 +60,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 		}
 	}
 ```
+
 </details>
 
 https://image.ibb.co/f8TuyJ/imagen.png
@@ -322,7 +323,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxODY5OTE4LC04NjUwNjY5NzQsNjI3OD
+eyJoaXN0b3J5IjpbMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3OD
 Y3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4Niwt
 MTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nz
 g3MTc3Niw3NDE5NTgxNTJdfQ==
