@@ -62,7 +62,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 ```
 </details>
 <details>
-<summary>Conditional Boundary en ensureCapacity(int minCapacity)</summary>  
+<summary>Cambio de Lim en ensureCapacity(int minCapacity)</summary>  
 
 ```java
 	public void ensureCapacity(int minCapacity) {
@@ -341,7 +341,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk4MTkxMSwzNzkzMTk3MjgsLTg2NT
+eyJoaXN0b3J5IjpbMTc4ODMzNjMzNSwzNzkzMTk3MjgsLTg2NT
 A2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwt
 NDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4Mj
 EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
