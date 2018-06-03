@@ -45,14 +45,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 
 <details>
 <summary>Heading</summary>
-<ul>
-<li> markdown list 1</li>
-<ul>
-<li> nested list 1</li>
-<li> nested list 2</li>
-</ul>
-<li> markdown list 2</li>
-</ul>
+
 </details>
 
 https://image.ibb.co/f8TuyJ/imagen.png
@@ -315,8 +308,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjM4NDI2LDYyNzg2Nzc2LDEyMzIxNT
-M4NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMyNjYs
-MTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNzQxOT
-U4MTUyXX0=
+eyJoaXN0b3J5IjpbLTE0ODc0ODc2NjAsNjI3ODY3NzYsMTIzMj
+E1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2
+NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3ND
+E5NTgxNTJdfQ==
 -->
