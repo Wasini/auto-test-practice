@@ -265,6 +265,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
 
+
 # Ejercicio 3:
 
 #### A)
@@ -440,11 +441,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODE4NzE5Miw4MjQwNDQyMTMsMTg4NT
-UyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5OCwtMzgyMTEyMDE1
-LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMT
-E3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYw
-MTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NS
-wtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEy
-MDE5NDEzNzNdfQ==
+eyJoaXN0b3J5IjpbLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4OD
+U1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAx
+NSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LD
+ExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2
+MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzND
+UsLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0x
+MjAxOTQxMzczXX0=
 -->
