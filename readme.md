@@ -44,7 +44,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 ## Mutantes equivalentes
 En la carpeta **out** se encuentra la salida de la cobertura de mutantes.
 <details>
-<summary>Límite de condicional en ensureCapacity(int minCapacity)</summary>  
+<summary> 1. Límite de condicional en ensureCapacity(int minCapacity)</summary>  
 
 ```java
 	public void ensureCapacity(int minCapacity) {
@@ -63,7 +63,7 @@ En la carpeta **out** se encuentra la salida de la cobertura de mutantes.
 ```
 </details>
 <details>
-<summary>Remover llamado a rangeCheckForAdd</summary>  
+<summary> 2. Remover llamado a rangeCheckForAdd</summary>  
 
 Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
 
@@ -82,7 +82,7 @@ Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por
 </details>
 
 <details>
-<summary>Condicion de limite en remove y fastRemove</summary>  
+<summary> 3. Condicion de limite en remove y fastRemove</summary>  
 
 ```java
 	public E remove(int index) {
@@ -113,7 +113,7 @@ private void fastRemove(int index) {
 ## Mutantes ignorados
 
 <details>
-<summary>Limites de condicion y condiciones negadas en hugeCapacity</summary>  
+<summary> 1. Limites de condicion y condiciones negadas en hugeCapacity</summary>  
 
 Los ignoro por el hecho que puede tirrar error de memoria dependiendo si la VM permite reservar arreglos de tamaño Integer.MAX_VALUE.
 
@@ -127,7 +127,7 @@ Los ignoro por el hecho que puede tirrar error de memoria dependiendo si la VM p
 </details>
 
 <details>
-<summary>Cambio de retorno del objeto en outOfBoundMsg</summary>  
+<summary> 2. Cambio de retorno del objeto en outOfBoundMsg</summary>  
 
 Ignorado porque me parecio redundante para el caso
 
@@ -138,8 +138,6 @@ private String outOfBoundsMsg(int index) {
 ```
 </details>
 
-
-https://image.ibb.co/f8TuyJ/imagen.png
 # Ejercicio 2
 ## Grafo
 ![alt text](https://image.ibb.co/bVW9GJ/flowchart.png "Grafo de flujo de control")
@@ -399,10 +397,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEyNDI5MzIsLTE1MzQ2NDY5NzIsMT
-g0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4
-OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMj
-MyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIz
-MjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LD
-c0MTk1ODE1Ml19
+eyJoaXN0b3J5IjpbNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4ND
+E0MzQ5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2
+ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIzMj
+E1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2
+NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3ND
+E5NTgxNTJdfQ==
 -->
