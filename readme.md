@@ -78,7 +78,25 @@ Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por
 		size++;
 	}
 ```
+</details>
 
+<details>
+<summary>Remover llamado a rangeCheckForAdd</summary>  
+
+Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
+
+```java
+	public void add(int index, E element) {
+		rangeCheckForAdd(index);
+		// //rangeCheckForAdd(index);
+		// Cuando copia los elementos de todas formas tira la excepcion
+		
+		ensureCapacityInternal(size + 1); // Increments modCount!!
+		System.arraycopy(elementData, index, elementData, index + 1, size - index);
+		elementData[index] = element;
+		size++;
+	}
+```
 </details>
 
 https://image.ibb.co/f8TuyJ/imagen.png
@@ -341,9 +359,9 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNz
-kzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYw
-LDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNz
-UxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1
-Ml19
+eyJoaXN0b3J5IjpbOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xND
+IzODk2ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYs
+MTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1Mz
+QyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3
+Niw3NDE5NTgxNTJdfQ==
 -->
