@@ -17,8 +17,7 @@ Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutac
 	* Mayores a 0
 	* Menores a 0
 	* 0
-* Para la cantidad de listas generadas considerar:
-	* Si el rango de listas es grande,
+* Para la cantidad de listas generadas consideramos la cantidad de combinaciones 
 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
@@ -281,6 +280,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Nj
-c4NzE3NzYsNzQxOTU4MTUyXX0=
+eyJoaXN0b3J5IjpbOTA0MjMwMzY5LDEzNzUxNzI2MzIsMTk4Mj
+EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
