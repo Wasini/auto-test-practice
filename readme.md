@@ -266,7 +266,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 Cantidad de tests con el criterio: 6 
 
 | Base                    | C4                      | C3                      | C2                        | C1                      |
-|-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
+|---------------------|-------------------------|-------------------------|---------------------------|-------------------------|
 | C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
 Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y **C1.T C2.Minor C3.F C4.T** no son factibles, cambiamos algun valor base a otro no base hasta encontrar una combinacion factible.
@@ -454,11 +454,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI2NTYyNjM3LDcyNzExMzE0OSwtMTQxMD
-AyNzk0LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEz
-LDE4ODU1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4Mj
-ExMjAxNSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUw
-NTA1LDExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC
-0xMDg2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAz
-NTkzNDVdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQ0Mzc2Myw0MjY1NjI2MzcsNzI3MT
+EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
+OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
+E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
+MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLT
+IwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0
+MDcyNTldfQ==
 -->
