@@ -114,7 +114,7 @@ private void fastRemove(int index) {
 <details>
 <summary>Limites de condicion y condiciones negadas en hugeCapacity</summary>  
 
-Los ignoro por el hecho May throw error if VM does not allow exceding the array size
+Los ignoro por el hecho que puede tirrar error de memoria dependiendo si la VM permite reservar arreglos de tamaño Integer.MAX_VALUE.
 
 ```java
 		private static int hugeCapacity(int minCapacity) {
@@ -385,10 +385,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM2ODMyNTQsLTE1MzQ2NDY5NzIsMT
-g0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4
-OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMj
-MyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIz
-MjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LD
-c0MTk1ODE1Ml19
+eyJoaXN0b3J5IjpbLTI0MjA1MTcyMSwtMTUzNDY0Njk3MiwxOD
+QxNDM0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5
+NjgwLDM3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMz
+IxNTM4NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMy
+NjYsMTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNz
+QxOTU4MTUyXX0=
 -->
