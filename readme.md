@@ -73,11 +73,14 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 	}
 ```
 ```java
-	public E get(int index) {
-		rangeCheck(index);
-		// //rangeCheck(index);
+	public void add(int index, E element) {
+		rangeCheckForAdd(index);
+		// //rangeCheckForAdd(index);
 		
-		return elementData(index);
+		ensureCapacityInternal(size + 1); // Increments modCount!!
+		System.arraycopy(elementData, index, elementData, index + 1, size - index);
+		elementData[index] = element;
+		size++;
 	}
 ```
 
@@ -343,8 +346,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTI5NzI1LDM3OTMxOTcyOCwtODY1MD
-Y2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4NjAsNTIxODA1MTkxLC00
-MjI3ODg0ODYsLTE0NTM0MjMyNjYsMTM3NTE3MjYzMiwxOTgyMT
-M0NDAwLDE3Njc4NzE3NzYsNzQxOTU4MTUyXX0=
+eyJoaXN0b3J5IjpbLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NT
+A2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwt
+NDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4Mj
+EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
