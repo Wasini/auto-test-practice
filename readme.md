@@ -191,8 +191,8 @@ Una vez generados todos los caminos simples, se eligen como primos aquellos que 
 
 
  |  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
-|:---:|-------|---------|-----------|-------------|---------------|-----------------|-----------------------------------------|--------------------------------|
-|  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | ![#f03c15](https://placehold.it/15/8ff440/000000?text=+)2-3-4-5-6-8-1-9-10! |
+|:---:|-------|---------|-----------|-------------|---------------|-----------------|-----------------------------------|----------------------------|
+|  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | 2-3-4-5-6-8-1-9-10! |
 |  1  | 1-2   | 0-1-9   | 0-1-2-8!  | 1-2-3-4-5   | 1-2-3-4-5-6   | 0-1-2-3-4-5-7!  | 1-2-3-4-5-6-8-1*  |                     |
 |  2  | 1-9   | 1-2-3   | 0-1-9-10! | 2-3-4-5-6   | 1-2-3-4-5-7!  | 1-2-3-4-5-6-8   | 2-3-4-5-6-8-1-2*  |                     |
 |  3  | 2-3   | 1-2-8   | 1-2-3-4   | 2-3-4-5-7!  | 2-3-4-5-6-8   | 2-3-4-5-6-8-1   | 2-3-4-5-6-8-1-9   |                     |
@@ -401,11 +401,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ1NDcyNTksLTIxNDg5NzUxOSwtMT
-AxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2
-MzE4Nzk3LDE4OTA2MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5OD
-ksLTE4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwt
-ODU3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxND
-M0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5Njgw
-LDM3OTMxOTcyOF19
+eyJoaXN0b3J5IjpbLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMD
+E2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYz
+MTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OS
+wtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04
+NTc3MDM4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0Mz
+Q5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2ODAs
+Mzc5MzE5NzI4XX0=
 -->
