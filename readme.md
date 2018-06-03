@@ -145,22 +145,10 @@ private String outOfBoundsMsg(int index) {
 # Ejercicio 2
 ## Grafo
 
-#### B)
+#### A)
 ![alt text](https://image.ibb.co/jrFU0y/Captura_de_pantalla_de_2018_06_03_14_56_12.png "Grafo de flujo de control")
-Si se inicializa el arreglo prime con una capacidad de 4 enteros, el t1(n=3) pasa mientras que para t2(n=5) produce una exepción por indice fuera de limites cuando intenta guardar el 5to numero primo en el arreglo.
-```java
-int curPrime; // Value currently considered for primeness  
-int numPrimes; // Number of primes found so far.  
-boolean isPrime; // Is curPrime prime?  
-int [] primes = new int [4]; // The list of prime numbers.
-```
-#### C)
-Sea t0: (n = 1) el camino de test correspondiente es [0,1,9,10,11,9,12], donde no se pasa por el cuerpo del while, la condicion del while no se cumple para n = 1 (1 < 1).
-
-#### D)
+#### B)
 ## Requerimientos de test
-<sup> **NOTA**: *No se tienen en cuenta los nodos 10,11,12* </sup>
-
 #### Node Coverage
 * El conjunto de TP deben visitar los nodos RT={0,1,2,3,4,5,6,7,8,9}
 #### Edge Coverage
@@ -402,7 +390,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI2NzA1MjEsLTIwMDYzMTg3OTcsMT
+eyJoaXN0b3J5IjpbLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcsMT
 g5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcy
 NDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4ND
 QsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIsOTY1
