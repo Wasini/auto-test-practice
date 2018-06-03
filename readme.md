@@ -140,7 +140,7 @@ private String outOfBoundsMsg(int index) {
 ```
 </details>
 
-* Quitar los test equivalentes aumenta el puntaje de cobertura de mutación, por el hecho que se decrementa la cantidad total de mutantes generados de los cuales, aquesllos ignorados, si son equivalentes siempre van a sobrevivir al producir la misma salida
+* Quitar los test equivalentes aumenta el puntaje de cobertura de mutación, por el hecho que se decrementa la cantidad total de mutantes generados de los cuales, los equivalentes removidos, siempre sobrevivian al producir la misma salida que la esperada.
 
 # Ejercicio 2
 ## Grafo
@@ -401,7 +401,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc2NDE5ODUsLTE4NzE1ODk4MTIsLT
+eyJoaXN0b3J5IjpbLTIwNTIwMTkxNzIsLTE4NzE1ODk4MTIsLT
 g1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQz
 NDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MC
 wzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUz
