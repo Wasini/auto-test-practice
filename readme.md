@@ -231,6 +231,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
  * TP1: [0,1,2,3,4,5,7,4,8,1,9,10],[0,1,2,8,1,9,10],[01,2,3,4,5,6,8,1,9,10]
 	 * No cubre el camino primo [7,4,5,7]
  * TP2: [0,1,2,3,4,5,7,4,5,6,8,1,9,10] , [0,1,2,3,4,8,1,2,8,1,9,10]
+	 * No cubre el camino primo [
 Cubre todos los arcos pero hay caminos primos como [7, 8, 1, 2, 3, 7] (18) o  [8, 1, 2, 3, 7, 8] (19) que no estan cubiertos por el TP
 
 
@@ -410,7 +411,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg4NjAyNTQsMzg0NjkyMzEwLC0yMD
+eyJoaXN0b3J5IjpbLTE1ODYyMTI3NTAsMzg0NjkyMzEwLC0yMD
 g3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3
 MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUxOSwtMTAxNjU0NjI5Ni
 wtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4
