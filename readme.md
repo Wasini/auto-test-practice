@@ -81,7 +81,7 @@ Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por
 </details>
 
 <details>
-<summary>Condicion de limite en remo</summary>  
+<summary>Condicion de limite en remove y</summary>  
 
 Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
 
@@ -361,9 +361,9 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTgyNTY2NjQsOTY1MDA4OTc1LC0xNz
-c0NTI3MTg4LC0xNDIzODk2ODAsMzc5MzE5NzI4LC04NjUwNjY5
-NzQsNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMj
-c4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0
-MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3Nz
+Q1MjcxODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3
+NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwtNDIyNz
+g4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQw
+MCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
