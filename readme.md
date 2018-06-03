@@ -185,6 +185,7 @@ private String outOfBoundsMsg(int index) {
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
 
+
  |  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
 |:---:|-------|---------|-----------|-------------|---------------|-----------------|-------------------|---------------------|
 |  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | 2-3-4-5-6-8-1-9-10! |
@@ -396,11 +397,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNz
-c3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2MzE4Nzk3LDE4OTA2
-MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5ODksLTE4MzA3MjQyOT
-MsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtODU3NzAzODQ0LDQw
-NDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxNDM0OTEyLDk2NTAwOD
-k3NSwtMTc3NDUyNzE4OCwtMTQyMzg5NjgwLDM3OTMxOTcyOCwt
-ODY1MDY2OTc0XX0=
+eyJoaXN0b3J5IjpbLTM3NDY4OTUzNywtMjE0ODk3NTE5LC0xMD
+E2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYz
+MTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OS
+wtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04
+NTc3MDM4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0Mz
+Q5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2ODAs
+Mzc5MzE5NzI4XX0=
 -->
