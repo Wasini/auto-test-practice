@@ -253,8 +253,8 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	* T: true
 	* F: false 
 #### Algunas restricciones
-* C.Greater **=>** Sub.F && EmptySubj.F
-* Sub.T && EmptyPat.F => EmptySubj,F
+* C2.Greater **=>** C1.F && C4.F
+* C1.T && C.F => EmptySubj,F
 ## Criterio de PEE Base Choice Coverage
 
 * Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
@@ -436,7 +436,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU1NjcwMjgsMTg4NTUyMjEwNiw4ND
+eyJoaXN0b3J5IjpbLTExMzIyODE4MDcsMTg4NTUyMjEwNiw4ND
 M1MjEwMjgsMTQwNjE2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkw
 OTMsLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3My
 wzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0
