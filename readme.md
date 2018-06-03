@@ -253,7 +253,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	* T: true
 	* F: false 
 #### Algunas restricciones
-* PCmpS = Greater **=>** C1.B2 && C3.B2
+* PCmpS = Greater **=>** Sub = F && EmptySub = F
 
 
 
@@ -433,11 +433,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzY2NjA5LC0zODIxMTIwMTUsMTI2Nj
-k4OTA5MywtMjA3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgw
-NjczLDM4NDY5MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOC
-wxNTQxOTc5MDc1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4
-OTc1MTksLTEwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMTIwMTk0MT
-M3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0x
-NTk4Njc0OTg5XX0=
+eyJoaXN0b3J5IjpbMTQwNjE2NTM5OCwtMzgyMTEyMDE1LDEyNj
+Y5ODkwOTMsLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMTE3OTQ4
+MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMD
+gsMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0
+ODk3NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5ND
+EzNzMsLTIwMDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwt
+MTU5ODY3NDk4OV19
 -->
