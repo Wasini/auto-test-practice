@@ -8,7 +8,7 @@ Los ejercicios se encuentran en el archivo TP1.pdf
 
 # Ejercicio 1
 #### B)
-Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutación los 
+Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutación los datos de entrada generados 
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
 
@@ -270,6 +270,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM3MTI2Mjc2LDE3Njc4NzE3NzYsNzQxOT
-U4MTUyXX0=
+eyJoaXN0b3J5IjpbLTIwODc4NTU5NTcsMTc2Nzg3MTc3Niw3ND
+E5NTgxNTJdfQ==
 -->
