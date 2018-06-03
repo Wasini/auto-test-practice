@@ -159,7 +159,7 @@ private String outOfBoundsMsg(int index) {
 		 (4,8), (5,6), (5,7), (6,8), (7,4), (8,1), (9,10)}
 ### Prime Path Coverage
 * El conjunto de TP deben pasar, con o sin desvios/sidepaths, por los siguientes subcaminos:
-[0, 1, 2, 8]
+1. [0, 1, 2, 8]
 [0, 1, 9, 10]
 [1, 2, 8, 1]
 [2, 8, 1, 2]
@@ -456,11 +456,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNDc0MzUzLDQyNjU2MjYzNyw3MjcxMT
-MxNDksLTE0MTAwMjc5NCwtNjcyMjIyOTQxLC0xNjE1Nzc2NTM4
-LDgyNDA0NDIxMywxODg1NTIyMTA2LDg0MzUyMTAyOCwxNDA2MT
-Y1Mzk4LC0zODIxMTIwMTUsMTI2Njk4OTA5MywtMjA3Mzc5MDYw
-NiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5MjMxMCwtMj
-A4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5MDc1LDU0NjQw
-NzI1OV19
+eyJoaXN0b3J5IjpbLTE0OTYyNzM0NCw0MjY1NjI2MzcsNzI3MT
+EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
+OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
+E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
+MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLT
+IwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0
+MDcyNTldfQ==
 -->
