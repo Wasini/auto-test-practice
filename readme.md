@@ -235,9 +235,9 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 #### E)
  #### Parametros de entrada
  * subject: char[] 
-	 > Cadena a observar
+	 > Cadena a observar 
  * pattern: char[]
-	 > Cadena que 
+	 > Cadena a observar sobre subject 
 
 
 
@@ -416,11 +416,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTMwODQzOSwxMTc5NDgwNjczLDM4ND
-Y5MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5
-MDc1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLT
-EwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMTIwMTk0MTM3MywtMjAw
-NjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0xNTk4Njc0OT
-g5LC0xODMwNzI0MjkzLC00MTMwMDQ2MTksLTE4NzE1ODk4MTIs
-LTg1NzcwMzg0NF19
+eyJoaXN0b3J5IjpbLTE4NjI1NjMwNTIsMTE3OTQ4MDY3MywzOD
+Q2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3
+OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC
+0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIw
+MDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3ND
+k4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEy
+LC04NTc3MDM4NDRdfQ==
 -->
