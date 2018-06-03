@@ -8,7 +8,7 @@ Los ejercicios se encuentran en el archivo TP1.pdf
 
 # Ejercicio 1
 #### B)
-Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutación los parametros de los datos de entrada generados deben tener en cuenta los casos especiales, para el ejemplo
+Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutación los parametros de los datos de entrada generados deben tener en cuenta los casos especiales, para el generador dado tenemos como carecteristicas **cantidad de elementos de la list
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
 
@@ -270,6 +270,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgzNDM0NDksMTc2Nzg3MTc3Niw3ND
-E5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbMzE5MjQ1MDg1LDE3Njc4NzE3NzYsNzQxOT
+U4MTUyXX0=
 -->
