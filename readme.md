@@ -253,7 +253,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	* B1: true
 	* B2: false 
 #### Algunas restricciones
-* C2.B3 => C1
+* pattern > subject **=>** C1.B2
 
 
 # Ejercicio 3:
@@ -431,7 +431,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM2ODk1NjcsMTI2Njk4OTA5MywtMj
+eyJoaXN0b3J5IjpbLTE2MDgzNDcwMjUsMTI2Njk4OTA5MywtMj
 A3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5
 MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5MD
 c1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLTEw
