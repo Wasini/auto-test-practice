@@ -238,6 +238,8 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	 > Una cadena a observar
  * pattern: char[]
 	 > Cadena a verificar si es subcadena de subject
+#### Caracteristicas
+* 
 
 
 
@@ -416,11 +418,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzOD
-Q2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3
-OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC
-0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIw
-MDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3ND
-k4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEy
-LC04NTc3MDM4NDRdfQ==
+eyJoaXN0b3J5IjpbLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMT
+E3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYw
+MTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5MDM1OTM0NS
+wtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkzNDQsLTEy
+MDE5NDEzNzMsLTIwMDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3ND
+M4OSwtMTU5ODY3NDk4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5
+LC0xODcxNTg5ODEyXX0=
 -->
