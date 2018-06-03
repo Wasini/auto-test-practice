@@ -42,7 +42,6 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 #### D)
 
 ## Mutantes equivalentes
-
 <details>
 <summary>ensureCapacity(int minCapacity)</summary>  
 
@@ -55,7 +54,8 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 				// supposed to be at default size.
 				: DEFAULT_CAPACITY;
 
-		if (minCapacity > minExpand) { // <- CHANGED CONDITIONAL BOUNDARY
+		if (minCapacity > minExpand) {
+		//if (minCapacity >= minExpand) {
 			ensureExplicitCapacity(minCapacity);
 		}
 	}
@@ -323,7 +323,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTE4NjMzNSwzNzkzMTk3MjgsLTg2NT
+eyJoaXN0b3J5IjpbLTc2NzM4ODkwOCwzNzkzMTk3MjgsLTg2NT
 A2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwt
 NDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4Mj
 EzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
