@@ -167,7 +167,16 @@ private String outOfBoundsMsg(int index) {
 [7, 4, 5, 7]
 [8, 1, 2, 8]
 [2, 8, 1, 9, 10]
+[0, 1, 2, 3, 4, 8]
+[1, 2, 3, 4, 8, 1]
+[2, 3, 4, 8, 1, 2]
+[3, 4, 8, 1, 2, 3]
+[4, 8, 1, 2, 3, 4]
+[8, 1, 2, 3, 4, 8]
 [0, 1, 2, 3, 4, 5, 7]
+[2, 3, 4, 8, 1, 9, 10]
+[5, 7, 4, 8, 1, 2, 3]
+[5, 7, 4, 8, 1, 9, 10]
 [0, 1, 2, 3, 4, 5, 6, 8]
 [1, 2, 3, 4, 5, 6, 8, 1]
 [2, 3, 4, 5, 6, 8, 1, 2]
@@ -180,7 +189,6 @@ private String outOfBoundsMsg(int index) {
 [7, 4, 5, 6, 8, 1, 9, 10]
 [8, 1, 2, 3, 4, 5, 6, 8]
 [2, 3, 4, 5, 6, 8, 1, 9, 10]
-
 
 * Para obtener los caminos primos se generan todos los caminos simples empezando por los de longitud 0 (nodos individuales), se agregan nuevos caminos extendiendo su longitud, aquellos caminos que alcanzen un nodo final son marcados(!) al igual que aquellos caminos que comienzan y terminan con el mismo nodo(ciclos *), los caminos marcados no se siguen extendiendo, el procedimiento termina cuando ya no se puedan generar caminos simples.
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
@@ -398,11 +406,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5MD
-M1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkz
-NDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcsMTg5MDYyNTcxLC
-02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcyNDI5MywtNDEz
-MDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4NDQsNDA0MTQwMD
-cwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIsOTY1MDA4OTc1LC0x
-Nzc0NTI3MTg4XX0=
+eyJoaXN0b3J5IjpbLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1ND
+Y0MDcyNTksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2
+Mjk2LC03Nzc0ODkzNDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OT
+csMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgz
+MDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MD
+M4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIs
+OTY1MDA4OTc1XX0=
 -->
