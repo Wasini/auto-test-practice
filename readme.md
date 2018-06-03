@@ -265,7 +265,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 
 Cantidad de tests con el criterio: 6 
 
-| Base                    | C4                      | C3                      | C2                        | C1                      |
+| Base              | C4                      | C3                      | C2                        | C1                      |
 |---------------------|-------------------------|-------------------------|---------------------------|-------------------------|
 | C1.T C2.Minor C3.F C4.F | C1.T C2.Minor C3.F C4.T | C1.T C2.Minor C3.T C4.F | C1.T C2.Equal C3.F C4.F   | C1.F C2.Minor C3.F C4.F |
 |                         |                         |                         | C1.T C2.Greater C3.F C4.F |                         |
@@ -454,7 +454,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ0Mzc2Myw0MjY1NjI2MzcsNzI3MT
+eyJoaXN0b3J5IjpbLTIzODcyMzk1NSw0MjY1NjI2MzcsNzI3MT
 EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
 OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
 E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
