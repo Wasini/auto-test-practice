@@ -254,7 +254,8 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 	* F: false 
 #### Algunas restricciones
 * PCmpS = Greater **=>** Sub = F && EmptySub = F
-## Cr
+## Criterio de PEE Base Choice Coverage
+
 
 
 
@@ -433,7 +434,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjU3MzcxLDE0MDYxNjUzOTgsLTM4Mj
+eyJoaXN0b3J5IjpbODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4Mj
 ExMjAxNSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUw
 NTA1LDExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC
 0xMDg2MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAz
