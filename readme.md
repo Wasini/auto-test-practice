@@ -214,7 +214,7 @@ Una vez generados todos los caminos simples, se eligen como primos aquellos que 
 
 #### E)
 Caminos de test que consiguen cobertura de nodos pero no de arcos:
-* TP1:[0,1,2,3,4,6,3,4,5,7,8,1,9]
+* TP1: [0,1,2,3,4,6,3,4,5,7,8,1,9]
 Los arcos (7,1) y (3,7) no estan cubiertos
 #### F)
 Camino de test que consigue cobertura de arcos pero no de caminos primos:
@@ -398,11 +398,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2Nzc4Mjk3LDU0NjQwNzI1OSwtNzkwMz
-U5MzQ1LC0yMTQ4OTc1MTksLTEwMTY1NDYyOTYsLTc3NzQ4OTM0
-NCwtMTIwMTk0MTM3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLT
-YyMjc0Mzg5LC0xNTk4Njc0OTg5LC0xODMwNzI0MjkzLC00MTMw
-MDQ2MTksLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MDQxNDAwNz
-AsLTE1MzQ2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3
-NzQ1MjcxODhdfQ==
+eyJoaXN0b3J5IjpbMTU0MTk3OTA3NSw1NDY0MDcyNTksLTc5MD
+M1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03Nzc0ODkz
+NDQsLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcsMTg5MDYyNTcxLC
+02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcyNDI5MywtNDEz
+MDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4NDQsNDA0MTQwMD
+cwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIsOTY1MDA4OTc1LC0x
+Nzc0NTI3MTg4XX0=
 -->
