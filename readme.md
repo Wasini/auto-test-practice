@@ -64,7 +64,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 <details>
 <summary>Remover llamado a rangeCheckForAdd</summary>  
 
-En este caso siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo ya que
+Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
 
 ```java
 	public void add(int index, E element) {
@@ -341,9 +341,9 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjAxNjI0NCwtMTQyMzg5NjgwLDM3OT
-MxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4NjAs
-NTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMyNjYsMTM3NT
-E3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNzQxOTU4MTUy
-XX0=
+eyJoaXN0b3J5IjpbLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNz
+kzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYw
+LDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNz
+UxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1
+Ml19
 -->
