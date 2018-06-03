@@ -36,7 +36,7 @@ Para hacer los test eficientes elegimos rangos pequeños tomen en cuenta las car
     	maxTamañoLista:5,
     	minInt: -5,
     	maxInt: 5,
-    	cantidadListas: 100 //aprox. 6 posibles tamaños de listas * 11 valores de enteros
+    	cantidadListas: 70 //aprox. 6 posibles tamaños de listas * 11 valores de enteros
     }
 ```
 #### C)
@@ -399,7 +399,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NzYxNTE2NCw0MDQxNDAwNzAsLTE1Mz
+eyJoaXN0b3J5IjpbLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1Mz
 Q2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mjcx
 ODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mj
 c4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2
