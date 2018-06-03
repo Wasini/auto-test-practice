@@ -235,6 +235,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 #### E)
  #### Parametros de entrada
  * subject: char[] 
+	 > Cadena de caracteres objetivo a observ
  * pattern: char[]
 
 
@@ -414,11 +415,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTg0MjQyNywxMTc5NDgwNjczLDM4ND
-Y5MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5
-MDc1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLT
-EwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMTIwMTk0MTM3MywtMjAw
-NjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC0xNTk4Njc0OT
-g5LC0xODMwNzI0MjkzLC00MTMwMDQ2MTksLTE4NzE1ODk4MTIs
-LTg1NzcwMzg0NF19
+eyJoaXN0b3J5IjpbMzk4NTI5ODkxLDExNzk0ODA2NzMsMzg0Nj
+kyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5Nzkw
+NzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUxOSwtMT
+AxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC0yMDA2
+MzE4Nzk3LDE4OTA2MjU3MSwtNjIyNzQzODksLTE1OTg2NzQ5OD
+ksLTE4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwt
+ODU3NzAzODQ0XX0=
 -->
