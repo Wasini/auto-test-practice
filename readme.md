@@ -150,7 +150,9 @@ private String outOfBoundsMsg(int index) {
 #### B)
 ## Requerimientos de test
 #### Node Coverage
-* El conjunto de TP deben visitar los nodos RT={0,1,2,3,4,5,6,7,8,9}
+* El conjunto de TP deben visitar todos los nodos
+	* RT={0,1,2,3,4,5,6,7,8,9,10}
+	* 
 #### Edge Coverage
 * El conjunto de TP deben pasar por las aritas RT={(0,1), (1,2), (1,9), (2,3), (3,4), (3,7), (4,5), (4,6), (5,7), (6,3), (7,1), (7,8), (8,1)}
 ### Prime Path Coverage
@@ -390,11 +392,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE5NDEzNzMsLTIwMDYzMTg3OTcsMT
-g5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3NDk4OSwtMTgzMDcy
-NDI5MywtNDEzMDA0NjE5LC0xODcxNTg5ODEyLC04NTc3MDM4ND
-QsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5MTIsOTY1
-MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2ODAsMzc5MzE5Nz
-I4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4
-MDUxOTFdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAxMjY1MDMsLTEyMDE5NDEzNzMsLT
+IwMDYzMTg3OTcsMTg5MDYyNTcxLC02MjI3NDM4OSwtMTU5ODY3
+NDk4OSwtMTgzMDcyNDI5MywtNDEzMDA0NjE5LC0xODcxNTg5OD
+EyLC04NTc3MDM4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4
+NDE0MzQ5MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzOD
+k2ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIz
+MjE1Mzg2MF19
 -->
