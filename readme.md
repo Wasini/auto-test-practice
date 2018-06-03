@@ -42,6 +42,7 @@ Para el generador de ArrayList se utilizaron metodos propios de la clase ArrayLi
 #### D)
 
 ## Mutantes equivalentes
+En la carpeta **out** se encuentra la salida de la cobertura de mutantes.
 <details>
 <summary>Límite de condicional en ensureCapacity(int minCapacity)</summary>  
 
@@ -398,10 +399,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTg5MTE4NSwtMTUzNDY0Njk3MiwxOD
-QxNDM0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5
-NjgwLDM3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMz
-IxNTM4NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMy
-NjYsMTM3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNz
-QxOTU4MTUyXX0=
+eyJoaXN0b3J5IjpbLTExMTEyNDI5MzIsLTE1MzQ2NDY5NzIsMT
+g0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4
+OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMj
+MyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIz
+MjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LD
+c0MTk1ODE1Ml19
 -->
