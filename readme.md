@@ -140,6 +140,8 @@ private String outOfBoundsMsg(int index) {
 ```
 </details>
 
+* Quitar los test equivalentes
+
 # Ejercicio 2
 ## Grafo
 ![alt text](https://image.ibb.co/bVW9GJ/flowchart.png "Grafo de flujo de control")
@@ -399,10 +401,10 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1Mz
-Q2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1Mjcx
-ODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mj
-c4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2
-LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNz
-Y3ODcxNzc2LDc0MTk1ODE1Ml19
+eyJoaXN0b3J5IjpbLTE4NzE1ODk4MTIsLTg1NzcwMzg0NCw0MD
+QxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQzNDkxMiw5NjUwMDg5
+NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MCwzNzkzMTk3MjgsLT
+g2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUzODYwLDUyMTgwNTE5
+MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LDEzNzUxNzI2MzIsMT
+k4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1ODE1Ml19
 -->
