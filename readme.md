@@ -140,7 +140,7 @@ private String outOfBoundsMsg(int index) {
 ```
 </details>
 
-* Quitar los test equivalentes aumenta el puntaje de cobertura de mutación, por el hecho que se decrementa la cantidad total de mutantes generados de los cuales si son equivalentes siempre van a sobrevivir
+* Quitar los test equivalentes aumenta el puntaje de cobertura de mutación, por el hecho que se decrementa la cantidad total de mutantes generados de los cuales, aquesllos ignorados, si son equivalentes siempre van a sobrevivir al producir la misma salida
 
 # Ejercicio 2
 ## Grafo
@@ -401,11 +401,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyMTM0MjQzLC0xODcxNTg5ODEyLC04NT
-c3MDM4NDQsNDA0MTQwMDcwLC0xNTM0NjQ2OTcyLDE4NDE0MzQ5
-MTIsOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xNDIzODk2ODAsMz
-c5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYsMTIzMjE1Mzg2
-MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1MzQyMzI2NiwxMz
-c1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3Niw3NDE5NTgx
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTExMzc2NDE5ODUsLTE4NzE1ODk4MTIsLT
+g1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQz
+NDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MC
+wzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUz
+ODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LD
+EzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1
+ODE1Ml19
 -->
