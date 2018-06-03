@@ -186,8 +186,6 @@ private String outOfBoundsMsg(int index) {
 Una vez generados todos los caminos simples, se eligen como primos aquellos que **no sean un subcamino** de otro, empezando primero por los de mayor longitud.
 
 
-- ![#f03c15](https://placehold.it/15/8ff440/000000?text=+) `#f03fff`
-
 | 0       | 1         | 2           | 3             | 4               | 5                 | 6                   | 7                     | 8                       |
 |---------|-----------|-------------|---------------|-----------------|-------------------|---------------------|-----------------------|-------------------------|
 | 0       | 0-1       | 0-1-2       | 0-1-2-3       | 0-1-2-3-4       | 0-1-2-3-4-5       | 0-1-2-3-4-5-6       | **0-1-2-3-4-5-6-8!**  | **2-3-4-5-6-8-1-9-10!** |
@@ -212,29 +210,6 @@ Una vez generados todos los caminos simples, se eligen como primos aquellos que 
 |         |           |             | 8-1-2-3       |                 |                   |                     |                       |                         |
 |         |           |             | ~~8-1-9-10!~~ |                 |                   |                     |                       |                         |
 
- |  0  | 1     | 2       | 3         | 4           | 5             | 6               | 7                 | 8                   |
-|:---:|-------|---------|-----------|-------------|---------------|-----------------|-----------------------------------|----------------------------|
-|  0  | 0-1   | 0-1-2   | 0-1-2-3   | 0-1-2-3-4   | 0-1-2-3-4-5   | 0-1-2-3-4-5-6   | 0-1-2-3-4-5-6-8!  | 2-3-4-5-6-8-1-9-10! |
-|  1  | 1-2   | 0-1-9   | 0-1-2-8!  | 1-2-3-4-5   | 1-2-3-4-5-6   | 0-1-2-3-4-5-7!  | 1-2-3-4-5-6-8-1*  |                     |
-|  2  | 1-9   | 1-2-3   | 0-1-9-10! | 2-3-4-5-6   | 1-2-3-4-5-7!  | 1-2-3-4-5-6-8   | 2-3-4-5-6-8-1-2*  |                     |
-|  3  | 2-3   | 1-2-8   | 1-2-3-4   | 2-3-4-5-7!  | 2-3-4-5-6-8   | 2-3-4-5-6-8-1   | 2-3-4-5-6-8-1-9   |                     |
-|  4  | 2-8   | 1-9-10! | 1-2-8-1*  | 2-8-1-9-10! | 3-4-5-6-8-1   | 3-4-5-6-8-1-2   | 3-4-5-6-8-1-2-3*  |                     |
-|  5  | 3-4   | 2-3-4   | 2-3-4-5   | 3-4-5-6-8   | 4-5-6-8-1-2   | 3-4-5-6-8-1-9   | 3-4-5-6-8-1-9-10! |                     |
-|  6  | 4-5   | 2-8-1   | 2-8-1-2*  | 4-5-6-8-1   | 4-5-6-8-1-9   | 4-5-6-8-1-2-3   | 4-5-6-8-1-2-3-4*  |                     |
-|  7  | 5-6   | 3-4-5   | 2-8-1-9   | 5-6-8-1-2   | 5-6-8-1-2-3   | 4-5-6-8-1-9-10! | 5-6-8-1-2-3-4-5*  |                     |
-|  8  | 5-7   | 4-5-6   | 3-4-5-6   | 5-6-8-1-9   | 5-6-8-1-9-10! | 5-6-8-1-2-3-4   | 6-8-1-2-3-4-5-6*  |                     |
-|  9  | 6-8   | 4-5-7   | 3-4-5-7!  | 6-8-1-2-3   | 6-8-1-2-3-4   | 6-8-1-2-3-4-5   | 6-8-1-2-3-4-5-7!  |                     |
-| 10! | 7-4   | 5-6-8   | 4-5-6-8   | 6-8-1-9-10! | 7-4-5-6-8-1   | 7-4-5-6-8-1-2   | 7-4-5-6-8-1-2-3!  |                     |
-|     | 8-1   | 5-7-4   | 4-5-7-4*  | 7-4-5-6-8   | 8-1-2-3-4-5   | 7-4-5-6-8-1-9   | 7-4-5-6-8-1-9-10! |                     |
-|     | 9-10! | 6-8-1   | 5-6-8-1   | 8-1-2-3-4   |               | 8-1-2-3-4-5-7!  | 8-1-2-3-4-5-6-8*  |                     |
-|     |       | 7-4-5   | 5-7-4-5*  |             |               | 8-1-2-3-4-5-6   |                   |                     |
-|     |       | 8-1-2   | 6-8-1-2   |             |               |                 |                   |                     |
-|     |       | 8-1-9   | 6-8-1-9   |             |               |                 |                   |                     |
-|     |       |         | 7-4-5-6   |             |               |                 |                   |                     |
-|     |       |         | 7-4-5-7*  |             |               |                 |                   |                     |
-|     |       |         | 8-1-2-8*  |             |               |                 |                   |                     |
-|     |       |         | 8-1-2-3   |             |               |                 |                   |                     |
-|     |       |         | 8-1-9-10! |             |               |                 |                   |                     |
 
 
 #### E)
@@ -423,11 +398,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjAyNjYzNiwtNzkwMzU5MzQ1LC0yMT
-Q4OTc1MTksLTEwMTY1NDYyOTYsLTc3NzQ4OTM0NCwtMTIwMTk0
-MTM3MywtMjAwNjMxODc5NywxODkwNjI1NzEsLTYyMjc0Mzg5LC
-0xNTk4Njc0OTg5LC0xODMwNzI0MjkzLC00MTMwMDQ2MTksLTE4
-NzE1ODk4MTIsLTg1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2ND
-Y5NzIsMTg0MTQzNDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgs
-LTE0MjM4OTY4MF19
+eyJoaXN0b3J5IjpbNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxND
+g5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQx
+MzczLC0yMDA2MzE4Nzk3LDE4OTA2MjU3MSwtNjIyNzQzODksLT
+E1OTg2NzQ5ODksLTE4MzA3MjQyOTMsLTQxMzAwNDYxOSwtMTg3
+MTU4OTgxMiwtODU3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Nj
+k3MiwxODQxNDM0OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwt
+MTQyMzg5NjgwXX0=
 -->
