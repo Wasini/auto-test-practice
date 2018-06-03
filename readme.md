@@ -8,10 +8,7 @@ Los ejercicios se encuentran en el archivo TP1.pdf
 
 # Ejercicio 1
 #### B)
-* El rango de tamaño de las listas generadas deben tener en cuenta la lista vacia, lista unitaria y con más de un elemento.
-* El rango de enteros debe tener en cuenta el cero, negativos y positivos
-* La cantidad de listas generadas no es necesario que sea muy grande
-* Los rangos no deben ser muy grandes
+Para lograr tests eficientes y con un alto puntaje de cobertura de ramas y mutación co
 #### C)
 El generador dado es correcto suponiendo que los metodos usados para crear las listas fueron testeados y funcionan correctamente
 
@@ -273,6 +270,6 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzM0MzgxNiwxNzY3ODcxNzc2LDc0MT
+eyJoaXN0b3J5IjpbMTA1MDgzMjgwOCwxNzY3ODcxNzc2LDc0MT
 k1ODE1Ml19
 -->
