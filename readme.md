@@ -239,6 +239,8 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
  * pattern: char[]
 	 > Cadena a verificar si es subcadena de subject
 #### Caracteristicas
+
+
 * C1: pattern es subcadena de subject
 	* T: True
 	* F: False
@@ -260,7 +262,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
 	* C1.T, C2.Minor, C3.F, C4.F
 
-Cantidad de tests: 6
+Cantidad de tests: 6 
 
 | Base                    | C4                      | C3                      | C2                        | C1                      |
 |-------------------------|-------------------------|-------------------------|---------------------------|-------------------------|
@@ -443,11 +445,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjIyMjk0MSwtMTYxNTc3NjUzOCw4Mj
-QwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5
-OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLT
-E4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcx
-MTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0MDcyNT
-ksLTc5MDM1OTM0NSwtMjE0ODk3NTE5LC0xMDE2NTQ2Mjk2LC03
-Nzc0ODkzNDRdfQ==
+eyJoaXN0b3J5IjpbMjEyNTMwODc4MSwtNjcyMjIyOTQxLC0xNj
+E1Nzc2NTM4LDgyNDA0NDIxMywxODg1NTIyMTA2LDg0MzUyMTAy
+OCwxNDA2MTY1Mzk4LC0zODIxMTIwMTUsMTI2Njk4OTA5MywtMj
+A3Mzc5MDYwNiwtMTgyMDQ1MDUwNSwxMTc5NDgwNjczLDM4NDY5
+MjMxMCwtMjA4NzExNjY0MSwtMTA4NjAxODEwOCwxNTQxOTc5MD
+c1LDU0NjQwNzI1OSwtNzkwMzU5MzQ1LC0yMTQ4OTc1MTksLTEw
+MTY1NDYyOTZdfQ==
 -->
