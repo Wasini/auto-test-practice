@@ -81,20 +81,22 @@ Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por
 </details>
 
 <details>
-<summary>Remover llamado a rangeCheckForAdd</summary>  
+<summary>Condicion de limite en remo</summary>  
 
 Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
 
 ```java
-	public void add(int index, E element) {
-		rangeCheckForAdd(index);
-		// //rangeCheckForAdd(index);
-		// Cuando copia los elementos de todas formas tira la excepcion
-		
-		ensureCapacityInternal(size + 1); // Increments modCount!!
-		System.arraycopy(elementData, index, elementData, index + 1, size - index);
-		elementData[index] = element;
-		size++;
+	public E remove(int index) {
+		rangeCheck(index);
+
+		E oldValue = elementData(index);
+
+		int numMoved = size - index - 1;
+		if (numMoved > 0)
+			System.arraycopy(elementData, index + 1, elementData, index, numMoved);
+		elementData[--size] = null; // clear to let GC do its work
+
+		return oldValue;
 	}
 ```
 </details>
@@ -359,9 +361,9 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1MDA4OTc1LC0xNzc0NTI3MTg4LC0xND
-IzODk2ODAsMzc5MzE5NzI4LC04NjUwNjY5NzQsNjI3ODY3NzYs
-MTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMjc4ODQ4NiwtMTQ1Mz
-QyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0MDAsMTc2Nzg3MTc3
-Niw3NDE5NTgxNTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTgyNTY2NjQsOTY1MDA4OTc1LC0xNz
+c0NTI3MTg4LC0xNDIzODk2ODAsMzc5MzE5NzI4LC04NjUwNjY5
+NzQsNjI3ODY3NzYsMTIzMjE1Mzg2MCw1MjE4MDUxOTEsLTQyMj
+c4ODQ4NiwtMTQ1MzQyMzI2NiwxMzc1MTcyNjMyLDE5ODIxMzQ0
+MDAsMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
 -->
