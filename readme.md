@@ -144,7 +144,7 @@ private String outOfBoundsMsg(int index) {
 
 # Ejercicio 2
 ## Grafo
-![alt text](https://image.ibb.co/bVW9GJ/flowchart.png "Grafo de flujo de control")
+
 #### B)
 Si se inicializa el arreglo primes con una capacidad de 4 enteros, el t1(n=3) pasa mientras que para t2(n=5) produce una exepción por indice fuera de limites cuando intenta guardar el 5to numero primo en el arreglo.
 ```java
@@ -401,11 +401,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIwMTkxNzIsLTE4NzE1ODk4MTIsLT
-g1NzcwMzg0NCw0MDQxNDAwNzAsLTE1MzQ2NDY5NzIsMTg0MTQz
-NDkxMiw5NjUwMDg5NzUsLTE3NzQ1MjcxODgsLTE0MjM4OTY4MC
-wzNzkzMTk3MjgsLTg2NTA2Njk3NCw2Mjc4Njc3NiwxMjMyMTUz
-ODYwLDUyMTgwNTE5MSwtNDIyNzg4NDg2LC0xNDUzNDIzMjY2LD
-EzNzUxNzI2MzIsMTk4MjEzNDQwMCwxNzY3ODcxNzc2LDc0MTk1
-ODE1Ml19
+eyJoaXN0b3J5IjpbLTQxMzAwNDYxOSwtMTg3MTU4OTgxMiwtOD
+U3NzAzODQ0LDQwNDE0MDA3MCwtMTUzNDY0Njk3MiwxODQxNDM0
+OTEyLDk2NTAwODk3NSwtMTc3NDUyNzE4OCwtMTQyMzg5NjgwLD
+M3OTMxOTcyOCwtODY1MDY2OTc0LDYyNzg2Nzc2LDEyMzIxNTM4
+NjAsNTIxODA1MTkxLC00MjI3ODg0ODYsLTE0NTM0MjMyNjYsMT
+M3NTE3MjYzMiwxOTgyMTM0NDAwLDE3Njc4NzE3NzYsNzQxOTU4
+MTUyXX0=
 -->
