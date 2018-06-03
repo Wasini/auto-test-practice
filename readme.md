@@ -260,7 +260,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
 * Elegimos como base el caso en que pattern es una subcadacadena no vacia mas chica que subject:
 	* C1.T, C2.Minor, C3.F, C4.F
 1+2-1+3-1+2-1+2-1
-
+tenemos:
 
 # Ejercicio 3:
 
@@ -437,11 +437,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNT
-IxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5MDkz
-LC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0ODA2NzMsMz
-g0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5
-NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzNDUsLTIxNDg5NzUxOS
-wtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0xMjAxOTQxMzczLC0y
-MDA2MzE4Nzk3XX0=
+eyJoaXN0b3J5IjpbLTEyMDc3NzYwMjgsODI0MDQ0MjEzLDE4OD
+U1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAx
+NSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LD
+ExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2
+MDE4MTA4LDE1NDE5NzkwNzUsNTQ2NDA3MjU5LC03OTAzNTkzND
+UsLTIxNDg5NzUxOSwtMTAxNjU0NjI5NiwtNzc3NDg5MzQ0LC0x
+MjAxOTQxMzczXX0=
 -->
