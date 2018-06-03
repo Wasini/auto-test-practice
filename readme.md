@@ -275,5 +275,5 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 #### F) 
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxOTU4MTUyXX0=
+eyJoaXN0b3J5IjpbMTc2Nzg3MTc3Niw3NDE5NTgxNTJdfQ==
 -->
