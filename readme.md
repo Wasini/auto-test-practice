@@ -283,9 +283,9 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 # Ejercicio 3:
 
-#### A)
+#### A) Modelo del espacio de entradas funcion
  #### Parametros de entrada
- * idas
+ * dias
 	 > Una cadena a observar
  * pattern: char[]
 	 > Cadena a verificar si es subcadena de subject
@@ -481,11 +481,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjM5OTc4NywtNTM0ODYxNDIsMTEwND
-MzNTIyOSw0MjY1NjI2MzcsNzI3MTEzMTQ5LC0xNDEwMDI3OTQs
-LTY3MjIyMjk0MSwtMTYxNTc3NjUzOCw4MjQwNDQyMTMsMTg4NT
-UyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5OCwtMzgyMTEyMDE1
-LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMT
-E3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYw
-MTgxMDhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTMwNzg5MjUsLTUzNDg2MTQyLDExMD
+QzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0
+LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4OD
+U1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAx
+NSwxMjY2OTg5MDkzLC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LD
+ExNzk0ODA2NzMsMzg0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2
+MDE4MTA4XX0=
 -->
