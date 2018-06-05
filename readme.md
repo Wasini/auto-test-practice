@@ -330,7 +330,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* D: day2 == 31
 
 #### Algunas restricciones
-* C2.Greater **=>** C1.F && C4.F
+* B.T **=>** !(M1.28 
 * C1.T && C3.F **=>** C4.F
 * C3.T **=>** C1.T
 * C3.T && C4.T **=>** C2.Equal && C1.T
@@ -507,11 +507,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTA2NjY2Miw5MTI1OTU4NzQsMjU4MT
-M1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4NzQsLTE1MDYyNDE3
-NTUsLTE5NTMwNzg5MjUsLTUzNDg2MTQyLDExMDQzMzUyMjksND
-I2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5
-NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsOD
-QzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5
-MDkzXX0=
+eyJoaXN0b3J5IjpbMzU3NTY5MTY5LDE0NTUwNjY2NjIsOTEyNT
+k1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4ODc0
+LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0MiwxMT
+A0MzM1MjI5LDQyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAwMjc5
+NCwtNjcyMjIyOTQxLC0xNjE1Nzc2NTM4LDgyNDA0NDIxMywxOD
+g1NTIyMTA2LDg0MzUyMTAyOCwxNDA2MTY1Mzk4LC0zODIxMTIw
+MTVdfQ==
 -->
