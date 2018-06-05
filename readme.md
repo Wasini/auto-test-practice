@@ -330,13 +330,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* D: day2 == 31
 
 #### Algunas restricciones
-* B.T **=>** !(M1.28 || M2.28)
-* B.F **=>** !(M1.29 || M2.29 || D1.29 || D2.29)
-**Dominio y particion del mismo:**  
-- 1<=d1<=31 
-- 1<=d2<=31 
-- 1<=m1<=m2<=12 
-- 1<=a<=10000
+* B = True **=>** M1 != 28 && M2 != 28
+* B = True **=>** M1 != 29 && M2 != 29 && D1 != 29 && D2 != 29
 
 **Casos especiales a considerar:**
 
@@ -504,7 +499,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDk4NDgyMTMsNjg1MjE2MjA0LDE0NT
+eyJoaXN0b3J5IjpbLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NT
 UwNjY2NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5
 LC0xMjc1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC
 01MzQ4NjE0MiwxMTA0MzM1MjI5LDQyNjU2MjYzNyw3MjcxMTMx
