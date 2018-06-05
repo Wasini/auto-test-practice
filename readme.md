@@ -344,6 +344,18 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * M1.31:
 	* T
 	* F
+* M2.28:
+	* T
+	* F
+* M2.29:
+	* T
+	* F
+* M2.30:
+	* T
+	* F
+* M2.31:
+	* T
+	* F
  
 
 ## Cobertura Pair-Wise
@@ -482,11 +494,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTU5MjU4MiwtODc0ODYyNzA4LDg1Mj
-k2MzUxMCw4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEw
-MzgsNjg1MjE2MjA0LDE0NTUwNjY2NjIsOTEyNTk1ODc0LDI1OD
-EzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQx
-NzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0MiwxMTA0MzM1MjI5LD
-QyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAwMjc5NCwtNjcyMjIy
-OTQxXX0=
+eyJoaXN0b3J5IjpbLTE2MDU5ODA2NTAsLTg3NDg2MjcwOCw4NT
+I5NjM1MTAsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzEx
+MDM4LDY4NTIxNjIwNCwxNDU1MDY2NjYyLDkxMjU5NTg3NCwyNT
+gxMzU3ODEsMjAxMDU4NzgyOSwtMTI3NTk5ODg3NCwtMTUwNjI0
+MTc1NSwtMTk1MzA3ODkyNSwtNTM0ODYxNDIsMTEwNDMzNTIyOS
+w0MjY1NjI2MzcsNzI3MTEzMTQ5LC0xNDEwMDI3OTQsLTY3MjIy
+Mjk0MV19
 -->
