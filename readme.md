@@ -318,7 +318,10 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* T
 	* F
 * D1: Dia 1
-	* 1<=
+	* A : 1<= day1 <=28
+	* B : day1 == 29
+	* C:  day1 == 30
+	* D
 * D2: 
 
 * C2: Tamaño de la cadena pattern respecto a la cadena subject
@@ -507,11 +510,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTA3MzQ0NSw5MTI1OTU4NzQsMjU4MT
-M1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4NzQsLTE1MDYyNDE3
-NTUsLTE5NTMwNzg5MjUsLTUzNDg2MTQyLDExMDQzMzUyMjksND
-I2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5
-NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsOD
-QzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5
-MDkzXX0=
+eyJoaXN0b3J5IjpbLTEyNjU1NTMwNjUsOTEyNTk1ODc0LDI1OD
+EzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQx
+NzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0MiwxMTA0MzM1MjI5LD
+QyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAwMjc5NCwtNjcyMjIy
+OTQxLC0xNjE1Nzc2NTM4LDgyNDA0NDIxMywxODg1NTIyMTA2LD
+g0MzUyMTAyOCwxNDA2MTY1Mzk4LC0zODIxMTIwMTUsMTI2Njk4
+OTA5M119
 -->
