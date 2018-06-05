@@ -335,7 +335,11 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * M1.28:
 	* T
 	* F
-	* 
+* M1.29:
+	* T
+	* F
+* M1.30:
+* M1.31:
 
  
 
@@ -475,7 +479,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzY0NTY2MCw4NTI5NjM1MTAsODYxMj
+eyJoaXN0b3J5IjpbLTg3NDg2MjcwOCw4NTI5NjM1MTAsODYxMj
 EzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzExMDM4LDY4NTIxNjIw
 NCwxNDU1MDY2NjYyLDkxMjU5NTg3NCwyNTgxMzU3ODEsMjAxMD
 U4NzgyOSwtMTI3NTk5ODg3NCwtMTUwNjI0MTc1NSwtMTk1MzA3
