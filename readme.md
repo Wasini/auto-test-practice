@@ -287,9 +287,9 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
  #### Parametros de entrada
  * month1 : int
 	 > Representa un mes del año 
- * month1 : int
+ * month2 : int
 	 > Representa un mes del año 
- * pattern: char[]
+ * day1: int[]
 	 > Cadena a verificar si es subcadena de subject
 #### Caracteristicas
 * C1: pattern es subcadena de subject
@@ -483,7 +483,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzQwMDU2OSwtMTUwNjI0MTc1NSwtMT
+eyJoaXN0b3J5IjpbMTA4NjM1MjY5MCwtMTUwNjI0MTc1NSwtMT
 k1MzA3ODkyNSwtNTM0ODYxNDIsMTEwNDMzNTIyOSw0MjY1NjI2
 MzcsNzI3MTEzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMT
 YxNTc3NjUzOCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEw
