@@ -330,7 +330,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* D: day2 == 31
 
 ## Cobertura Pair-Wise
-Cantidad e 
+**Cantidad de tests a generar** = Max
 
 #### Algunas restricciones
 * B = True **=>** M1 != 28 && M2 != 28
@@ -493,7 +493,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0OTE2MDc2LDg2MTIxMzgyNSwtMTQ3ND
+eyJoaXN0b3J5IjpbNjA0NzkwMzA3LDg2MTIxMzgyNSwtMTQ3ND
 c3ODI0MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2
 Miw5MTI1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNz
 U5OTg4NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLTUzNDg2
