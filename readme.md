@@ -284,6 +284,31 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 # Ejercicio 3:
 
 #### A)
+ #### Parametros de entrada
+ * subject: char[] 
+	 > Una cadena a observar
+ * pattern: char[]
+	 > Cadena a verificar si es subcadena de subject
+#### Caracteristicas
+* C1: pattern es subcadena de subject
+	* T: True
+	* F: False
+* C2: Tamaño de la cadena pattern respecto a la cadena subject
+	* Minor: pattern < subject
+	* Equal: pattern = subject
+	* Greater: pattern > subject
+* C3: pattern es cadena vacia
+	* T: true
+	* F: false
+* C4: subject es cadena vacia
+	* T: true
+	* F: false 
+#### Algunas restricciones
+* C2.Greater **=>** C1.F && C4.F
+* C1.T && C3.F **=>** C4.F
+* C3.T **=>** C1.T
+* C3.T && C4.T **=>** C2.Equal && C1.T
+* C3.F && C4.T **=>** C1.F && C2.Greater
 **Dominio y particion del mismo:**  
 - 1<=d1<=31 
 - 1<=d2<=31 
@@ -456,11 +481,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDMzNTIyOSw0MjY1NjI2MzcsNzI3MT
-EzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3NjUz
-OCw4MjQwNDQyMTMsMTg4NTUyMjEwNiw4NDM1MjEwMjgsMTQwNj
-E2NTM5OCwtMzgyMTEyMDE1LDEyNjY5ODkwOTMsLTIwNzM3OTA2
-MDYsLTE4MjA0NTA1MDUsMTE3OTQ4MDY3MywzODQ2OTIzMTAsLT
-IwODcxMTY2NDEsLTEwODYwMTgxMDgsMTU0MTk3OTA3NSw1NDY0
-MDcyNTldfQ==
+eyJoaXN0b3J5IjpbLTUzNDg2MTQyLDExMDQzMzUyMjksNDI2NT
+YyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5NDEs
+LTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNT
+IxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5MDkz
+LC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0ODA2NzMsMz
+g0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5
+NzkwNzVdfQ==
 -->
