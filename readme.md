@@ -332,10 +332,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### Algunas restricciones
 * B.T **=>** !(M1.28 || M2.28)
 * B.F **=>** !(M1.29 || M2.29 || D1.29 || D2.29)
-* C1.T && C3.F **=>** C4.F
-* C3.T **=>** C1.T
-* C3.T && C4.T **=>** C2.Equal && C1.T
-* C3.F && C4.T **=>** C1.F && C2.Greater
+* 
 **Dominio y particion del mismo:**  
 - 1<=d1<=31 
 - 1<=d2<=31 
@@ -508,11 +505,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MjE2MjA0LDE0NTUwNjY2NjIsOTEyNT
-k1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4ODc0
-LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0MiwxMT
-A0MzM1MjI5LDQyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAwMjc5
-NCwtNjcyMjIyOTQxLC0xNjE1Nzc2NTM4LDgyNDA0NDIxMywxOD
-g1NTIyMTA2LDg0MzUyMTAyOCwxNDA2MTY1Mzk4LC0zODIxMTIw
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTM3MDAwODM5Nyw2ODUyMTYyMDQsMTQ1NT
+A2NjY2Miw5MTI1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4Mjks
+LTEyNzU5OTg4NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLT
+UzNDg2MTQyLDExMDQzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0
+OSwtMTQxMDAyNzk0LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsOD
+I0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNTIxMDI4LDE0MDYxNjUz
+OThdfQ==
 -->
