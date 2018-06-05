@@ -285,7 +285,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 #### A)
  #### Parametros de entrada
- * subject: char[] 
+ * idas
 	 > Una cadena a observar
  * pattern: char[]
 	 > Cadena a verificar si es subcadena de subject
@@ -481,11 +481,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDg2MTQyLDExMDQzMzUyMjksNDI2NT
-YyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5NDEs
-LTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNT
-IxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5MDkz
-LC0yMDczNzkwNjA2LC0xODIwNDUwNTA1LDExNzk0ODA2NzMsMz
-g0NjkyMzEwLC0yMDg3MTE2NjQxLC0xMDg2MDE4MTA4LDE1NDE5
-NzkwNzVdfQ==
+eyJoaXN0b3J5IjpbMjA2MjM5OTc4NywtNTM0ODYxNDIsMTEwND
+MzNTIyOSw0MjY1NjI2MzcsNzI3MTEzMTQ5LC0xNDEwMDI3OTQs
+LTY3MjIyMjk0MSwtMTYxNTc3NjUzOCw4MjQwNDQyMTMsMTg4NT
+UyMjEwNiw4NDM1MjEwMjgsMTQwNjE2NTM5OCwtMzgyMTEyMDE1
+LDEyNjY5ODkwOTMsLTIwNzM3OTA2MDYsLTE4MjA0NTA1MDUsMT
+E3OTQ4MDY3MywzODQ2OTIzMTAsLTIwODcxMTY2NDEsLTEwODYw
+MTgxMDhdfQ==
 -->
