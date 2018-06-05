@@ -330,7 +330,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* D: day2 == 31
 
 ## Cobertura Pair-Wise
-**Cantidad de tests a generar** = Caracteristica con mas bloques A + Caracteristica con mas bloques B = 4 * 4 8
+**Cantidad de tests a generar** = #Bloques(Caracteristica con mas bloques A) + Caracteristica con mas bloques B = 4 * 4 (A != B)
 
 #### Algunas restricciones
 * B = True **=>** M1 != 28 && M2 != 28
@@ -493,7 +493,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTg4NTkyNCw4NjEyMTM4MjUsLTE0Nz
+eyJoaXN0b3J5IjpbLTI1NTcyMTM2OSw4NjEyMTM4MjUsLTE0Nz
 Q3NzgyNDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NTUwNjY2
 NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC0xMj
 c1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01MzQ4
