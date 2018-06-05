@@ -284,7 +284,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 # Ejercicio 3:
 
 #### A) Modelo del espacio de entradas funcion cal
- #### Parametros de entrada
+
+#### Parametros de entrada
  * month1 : int
 	 > Representa un mes del año  
  * day1: int
@@ -294,7 +295,9 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
  * day2: int
 	 > Representa un dia del mes
 * year : int
-*
+	> Representa un año
+#### Precondiciones
+* day 
 #### Caracteristicas
 * C1: pattern es subcadena de subject
 	* T: True
@@ -487,7 +490,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQyNDM3NDAsLTE1MDYyNDE3NTUsLT
+eyJoaXN0b3J5IjpbLTE2NjE1OTk3NTYsLTE1MDYyNDE3NTUsLT
 E5NTMwNzg5MjUsLTUzNDg2MTQyLDExMDQzMzUyMjksNDI2NTYy
 NjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5NDEsLT
 E2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNTIx
