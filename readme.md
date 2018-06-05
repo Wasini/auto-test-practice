@@ -328,41 +328,20 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* C:  day2 == 30
 	* D: day2 == 31
 
+#### Algunas restricciones
+* B = True **=>** M1 != 28 && M2 != 28
+* B = False **=>** M1 != 29 && M2 != 29 && D1 != 29 && D2 != 29
 ---------------
-M1.28
+* M1.28:
+	* T
+	* F
+	* 
+
  
 
 ## Cobertura Pair-Wise
 **Cantidad de tests a generar** = #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 4 * 4 (A != B)
 
-#### Algunas restricciones
-* B = True **=>** M1 != 28 && M2 != 28
-* B = False **=>** M1 != 29 && M2 != 29 && D1 != 29 && D2 != 29
-**Particiones**
-
-* Meses
-	1. M130: {4,6,9,11}  // meses con 30 dias
-	2. M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
-	3. M128: {2}  //febrero
-	4. M130: {4,6,9,11}  // meses con 30 dias
-	5. M131: {1,3,5,7,8,9,10,12} // meses con 31 dias
-	6. M128: {2}  //febrero
-* Dias
-	1. D1A: {minInt,...,-1,0} 
-	2. D1B: {1..28}
-	3. D1C: {29}
-	4. D1D: {30}
-	5. D1E: {31}
-
-	6. D2A: {1..28}
-	7. D2B: {29}
-	8. D2C: {30}
-	9. D2D: {31}
-	10. D2E: {32,...,maxInt}
-	
-* Bisiesto
-	1. AB: {1,..,10000} && (a mod 4==0 || ((a mod 100==0 && a mod 400 != 0)) // anio bisiesto
-	2. ANB: {1,..,10000} && !(a mod 4!=0 || ((a mod 100==0 && a mod 400 != 0)) // anio no bisiesto
 
 **Base:**
 
@@ -496,11 +475,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NDgwMjM5LDg1Mjk2MzUxMCw4NjEyMT
-M4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0
-LDE0NTUwNjY2NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNT
-g3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4
-OTI1LC01MzQ4NjE0MiwxMTA0MzM1MjI5LDQyNjU2MjYzNyw3Mj
-cxMTMxNDksLTE0MTAwMjc5NCwtNjcyMjIyOTQxLC0xNjE1Nzc2
-NTM4XX0=
+eyJoaXN0b3J5IjpbLTk4MzY0NTY2MCw4NTI5NjM1MTAsODYxMj
+EzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzExMDM4LDY4NTIxNjIw
+NCwxNDU1MDY2NjYyLDkxMjU5NTg3NCwyNTgxMzU3ODEsMjAxMD
+U4NzgyOSwtMTI3NTk5ODg3NCwtMTUwNjI0MTc1NSwtMTk1MzA3
+ODkyNSwtNTM0ODYxNDIsMTEwNDMzNTIyOSw0MjY1NjI2MzcsNz
+I3MTEzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3
+NjUzOF19
 -->
