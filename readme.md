@@ -297,7 +297,10 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * year : int
 	> Representa un año
 #### Precondiciones
-* day 
+* day1 y day2 deben ser del mismo año
+* 1 <= month1, month2 <= 12
+* 1 <= day1, day2 <= 31
+* month1 <=
 #### Caracteristicas
 * C1: pattern es subcadena de subject
 	* T: True
@@ -490,7 +493,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjE1OTk3NTYsLTE1MDYyNDE3NTUsLT
+eyJoaXN0b3J5IjpbLTEwODU4ODU0MzAsLTE1MDYyNDE3NTUsLT
 E5NTMwNzg5MjUsLTUzNDg2MTQyLDExMDQzMzUyMjksNDI2NTYy
 NjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5NDEsLT
 E2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsODQzNTIx
