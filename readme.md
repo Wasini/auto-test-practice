@@ -304,7 +304,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * month1 <= month2
 * 1 <= year <= 10000
 #### Caracteristicas
-* C1:  Cantidad de dias del mes1
+* C1:  Cantidad de dias de mes1
 	* 28 
 	* 29
 	* 30
@@ -314,6 +314,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* 29
 	* 30
 	* 31
+* C3: month1 <= month2
+* 
 
 * C2: Tamaño de la cadena pattern respecto a la cadena subject
 u
@@ -501,7 +503,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTgyMzY3MiwyNTgxMzU3ODEsMjAxMD
+eyJoaXN0b3J5IjpbLTQxMDg0MDMyNiwyNTgxMzU3ODEsMjAxMD
 U4NzgyOSwtMTI3NTk5ODg3NCwtMTUwNjI0MTc1NSwtMTk1MzA3
 ODkyNSwtNTM0ODYxNDIsMTEwNDMzNTIyOSw0MjY1NjI2MzcsNz
 I3MTEzMTQ5LC0xNDEwMDI3OTQsLTY3MjIyMjk0MSwtMTYxNTc3
