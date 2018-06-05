@@ -330,7 +330,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* D: day2 == 31
 
 ## Cobertura Pair-Wise
-**Cantidad de tests a generar** = Max
+**Cantidad de tests a generar** = Caracteristica con mas bloques A + Caracteristica con mas bloques B = 4 * 4 8
 
 #### Algunas restricciones
 * B = True **=>** M1 != 28 && M2 != 28
@@ -493,11 +493,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NzkwMzA3LDg2MTIxMzgyNSwtMTQ3ND
-c3ODI0MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2
-Miw5MTI1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNz
-U5OTg4NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLTUzNDg2
-MTQyLDExMDQzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0OSwtMT
-QxMDAyNzk0LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0
-MjEzXX0=
+eyJoaXN0b3J5IjpbLTU4OTg4NTkyNCw4NjEyMTM4MjUsLTE0Nz
+Q3NzgyNDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NTUwNjY2
+NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC0xMj
+c1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01MzQ4
+NjE0MiwxMTA0MzM1MjI5LDQyNjU2MjYzNyw3MjcxMTMxNDksLT
+E0MTAwMjc5NCwtNjcyMjIyOTQxLC0xNjE1Nzc2NTM4LDgyNDA0
+NDIxM119
 -->
