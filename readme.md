@@ -304,23 +304,22 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * month1 <= month2
 * 1 <= year <= 10000
 #### Caracteristicas
-* C1:  Cantidad de dias de mes1
+* M1:  Cantidad de dias de mes1
 	* 28 
 	* 29
 	* 30
 	* 31
-* C2:  Cantidad de dias del mes2
+* M2:  Cantidad de dias del mes2
 	* 28 
 	* 29
 	* 30
 	* 31
-* C3: month1 <= month2
+* B: Año bisiesto
 	* T
 	* F
-* C4: Month1 invalido
-	* T
-	* F
-* C5: 
+* D1: Dia 1
+	* 1<=
+* D2: 
 
 * C2: Tamaño de la cadena pattern respecto a la cadena subject
 u
@@ -508,11 +507,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNT
-g3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4
-OTI1LC01MzQ4NjE0MiwxMTA0MzM1MjI5LDQyNjU2MjYzNyw3Mj
-cxMTMxNDksLTE0MTAwMjc5NCwtNjcyMjIyOTQxLC0xNjE1Nzc2
-NTM4LDgyNDA0NDIxMywxODg1NTIyMTA2LDg0MzUyMTAyOCwxND
-A2MTY1Mzk4LC0zODIxMTIwMTUsMTI2Njk4OTA5MywtMjA3Mzc5
-MDYwNl19
+eyJoaXN0b3J5IjpbLTQ3OTA3MzQ0NSw5MTI1OTU4NzQsMjU4MT
+M1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4NzQsLTE1MDYyNDE3
+NTUsLTE5NTMwNzg5MjUsLTUzNDg2MTQyLDExMDQzMzUyMjksND
+I2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAyNzk0LC02NzIyMjI5
+NDEsLTE2MTU3NzY1MzgsODI0MDQ0MjEzLDE4ODU1MjIxMDYsOD
+QzNTIxMDI4LDE0MDYxNjUzOTgsLTM4MjExMjAxNSwxMjY2OTg5
+MDkzXX0=
 -->
