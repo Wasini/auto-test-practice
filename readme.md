@@ -329,6 +329,9 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* C:  day2 == 30
 	* D: day2 == 31
 
+## Cobertura Pair-Wise
+Cantidad e 
+
 #### Algunas restricciones
 * B = True **=>** M1 != 28 && M2 != 28
 * B = False **=>** M1 != 29 && M2 != 29 && D1 != 29 && D2 != 29
@@ -490,11 +493,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNz
-k5MzExMDM4LDY4NTIxNjIwNCwxNDU1MDY2NjYyLDkxMjU5NTg3
-NCwyNTgxMzU3ODEsMjAxMDU4NzgyOSwtMTI3NTk5ODg3NCwtMT
-UwNjI0MTc1NSwtMTk1MzA3ODkyNSwtNTM0ODYxNDIsMTEwNDMz
-NTIyOSw0MjY1NjI2MzcsNzI3MTEzMTQ5LC0xNDEwMDI3OTQsLT
-Y3MjIyMjk0MSwtMTYxNTc3NjUzOCw4MjQwNDQyMTMsMTg4NTUy
-MjEwNl19
+eyJoaXN0b3J5IjpbNzI0OTE2MDc2LDg2MTIxMzgyNSwtMTQ3ND
+c3ODI0MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2
+Miw5MTI1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNz
+U5OTg4NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLTUzNDg2
+MTQyLDExMDQzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0OSwtMT
+QxMDAyNzk0LC02NzIyMjI5NDEsLTE2MTU3NzY1MzgsODI0MDQ0
+MjEzXX0=
 -->
