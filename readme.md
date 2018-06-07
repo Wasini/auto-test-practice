@@ -64,24 +64,6 @@ En la carpeta **out** se encuentra la salida de la cobertura de mutantes.
 	}
 ```
 </details>
-<details>
-<summary> 2. Remover llamado a rangeCheckForAdd</summary>  
-
-Siempre salta la execpion IndexOutOfBound en el momento de copiar el arreglo por indices invalidos
-
-```java
-	public void add(int index, E element) {
-		rangeCheckForAdd(index);
-		// //rangeCheckForAdd(index);
-		// Cuando copia los elementos de todas formas tira la excepcion
-		
-		ensureCapacityInternal(size + 1); // Increments modCount!!
-		System.arraycopy(elementData, index, elementData, index + 1, size - index);
-		elementData[index] = element;
-		size++;
-	}
-```
-</details>
 
 <details>
 <summary> 3. Condicion de limite en remove y fastRemove</summary>  
@@ -124,18 +106,6 @@ Los ignoro por el hecho que puede tirrar error de memoria dependiendo si la VM p
 		if (minCapacity < 0) // overflow 
 			throw new OutOfMemoryError();
 		return (minCapacity > MAX_ARRAY_SIZE) ? Integer.MAX_VALUE : MAX_ARRAY_SIZE;
-	}
-```
-</details>
-
-<details>
-<summary> 2. Cambio de retorno del objeto en outOfBoundMsg</summary>  
-
-Ignorado porque me parecio redundante para el caso
-
-```java
-private String outOfBoundsMsg(int index) {
-		return "Index: " + index + ", Size: " + size;
 	}
 ```
 </details>
@@ -494,11 +464,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzQ5NDcxOCwtODc0ODYyNzA4LDg1Mj
-k2MzUxMCw4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEw
-MzgsNjg1MjE2MjA0LDE0NTUwNjY2NjIsOTEyNTk1ODc0LDI1OD
-EzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQx
-NzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0MiwxMTA0MzM1MjI5LD
-QyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAwMjc5NCwtNjcyMjIy
-OTQxXX0=
+eyJoaXN0b3J5IjpbMTc0OTA0MDQxOSwxNjA3NDk0NzE4LC04Nz
+Q4NjI3MDgsODUyOTYzNTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0
+MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2Miw5MT
+I1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4
+NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLTUzNDg2MTQyLD
+ExMDQzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAy
+Nzk0XX0=
 -->
