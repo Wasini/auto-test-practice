@@ -66,7 +66,7 @@ En la carpeta **out** se encuentra la salida de la cobertura de mutantes.
 </details>
 
 <details>
-<summary> 3. Condicion de limite en remove y fastRemove</summary>  
+<summary> 2. Condicion de limite en remove y fastRemove</summary>  
 
 ```java
 	public E remove(int index) {
@@ -464,11 +464,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTA0MDQxOSwxNjA3NDk0NzE4LC04Nz
-Q4NjI3MDgsODUyOTYzNTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0
-MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2Miw5MT
-I1OTU4NzQsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4
-NzQsLTE1MDYyNDE3NTUsLTE5NTMwNzg5MjUsLTUzNDg2MTQyLD
-ExMDQzMzUyMjksNDI2NTYyNjM3LDcyNzExMzE0OSwtMTQxMDAy
-Nzk0XX0=
+eyJoaXN0b3J5IjpbLTExODA2NTkzNTgsMTYwNzQ5NDcxOCwtOD
+c0ODYyNzA4LDg1Mjk2MzUxMCw4NjEyMTM4MjUsLTE0NzQ3Nzgy
+NDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NTUwNjY2NjIsOT
+EyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC0xMjc1OTk4
+ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01MzQ4NjE0Mi
+wxMTA0MzM1MjI5LDQyNjU2MjYzNyw3MjcxMTMxNDksLTE0MTAw
+Mjc5NF19
 -->
