@@ -362,6 +362,11 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 ## Predicado y variables
 ```java
+//Params month2 y month1
+month2 == month1
+```
+
+```java
 //Parametro year
 int m4 = year % 4;
 int m100 = year % 100;
@@ -382,7 +387,7 @@ int m400 = year % 400;
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0ODA2MTU1LDE0NzgwMTg2MzUsLTE0OT
+eyJoaXN0b3J5IjpbNzk1OTgzMjcyLDE0NzgwMTg2MzUsLTE0OT
 MwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYs
 MTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5OD
 kxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwx
