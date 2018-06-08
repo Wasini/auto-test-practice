@@ -274,7 +274,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * month1 <= month2
 * 1 <= year <= 10000
 #### Caracteristicas
-* M1:  Cantidad de dias de mes1
+* M1:  Cantidad de dias del mes1
 	* 28 
 	* 29
 	* 30
@@ -460,8 +460,8 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtNj
-AxMDM1MTE5LC0zOTA0NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5
+eyJoaXN0b3J5IjpbMTE2MjQwMDYxOSwtNjAxMDM1MTE5LC0xMD
+YwMTMxMzQzLC0zOTA0NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5
 NDcxOCwtODc0ODYyNzA4LDg1Mjk2MzUxMCw4NjEyMTM4MjUsLT
 E0NzQ3NzgyNDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NTUw
 NjY2NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC
