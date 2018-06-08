@@ -360,9 +360,10 @@ int m400 = year % 400;
 	1. No es posible lograr (m400 = 0 -> m100 = 0)
 	2. Idem a 1
 	3. Año: 2100
-	4. 
+	4. Año: 1024
+	5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTU1MDMyMCwxNDc4MDE4NjM1LC0xND
+eyJoaXN0b3J5IjpbMjE0MDAwMTMwNSwxNDc4MDE4NjM1LC0xND
 kzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2
 LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
 g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
