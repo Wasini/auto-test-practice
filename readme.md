@@ -361,18 +361,18 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 #### C)
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
-	1. Año: 2001
+	1. Año: 306
 	2. No es posible (M100 => M4)
 	3. Año: 
 
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzY0NzExODYsMTI3MjUxNTY1OSwtNj
-c4MjMyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4LC0zMTk4Mjg3
-NjAsLTM2ODU5ODQ5NiwtMTgzMTY2NjU2NywtMTcxODEwMTgzNi
-wtNzM5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4
-Mjk3MTAwLDIwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5OD
-M0LDExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0Mywt
-MzkwNDQzNTA5XX0=
+eyJoaXN0b3J5IjpbLTU1Mjk4OTE4NCwxMjcyNTE1NjU5LC02Nz
+gyMzIwMzQsLTIzMjA3MTcxLDE3MDgxOTI2NDgsLTMxOTgyODc2
+MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3LC0xNzE4MTAxODM2LC
+03MzkxNTI2MDAsLTExNjY1OTg4OTAsLTc1NzkyNzQxNCwyMTgy
+OTcxMDAsMjA2NzMzMDE3NCwzOTEwNTQ2MzUsLTE2MzMxODk4Mz
+QsMTE2MjQwMDYxOSwtNjAxMDM1MTE5LC0xMDYwMTMxMzQzLC0z
+OTA0NDM1MDldfQ==
 -->
