@@ -300,18 +300,19 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B = True **=>** M1 != 28 && M2 != 28 
 * B = False **=>** M1 != 29 && M2 != 29 && D1 != B && D2 != B
 
-|   M1  |   M2  | D1 | D2 | Bisiesto |
-|:-----:|:-----:|:--:|:--:|:--------:|
-| 28-29 | 28-29 |  A |  A |     T    |
-| 28-29 |   30  |  B |  B |     T    |
-| 28-29 |   31  |  C |  C |     F    |
-|   30  | 28-29 |  B |  C |     F    |
-|   30  |   30  |  C |  A |     T    |
-|   30  |   31  |  A |  B |     F    |
-|   31  | 28-29 |  C |  B |     F    |
-|   31  |   30  |  A |  C |     F    |
-|   31  |   31  |  B |  A |     T    |
 
+|  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
+|:------:|:-----:|:-----:|:--:|:--:|:--------:|
+|  **1** | 28-29 | 28-29 |  A |  A |     T    |
+|  **2** | 28-29 |   30  |  B |  B |     T    |
+|  **3** | 28-29 |   31  |  C |  C |     F    |
+|  **4** |   30  | 28-29 |  B |  C |     F    |
+|  **5** |   30  |   30  |  C |  A |     T    |
+|  **6** |   30  |   31  |  A |  B |     F    |
+|  **7** |   31  | 28-29 |  C |  B |     F    |
+|  **8** |   31  |   30  |  A |  C |     F    |
+|  **9** |   31  |   31  |  B |  A |     T    |
+```
  
 
 ## Cobertura Pair-Wise
@@ -450,11 +451,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTE1MjYwMCwtMTE2NjU5ODg5MCwtNz
-U3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMwMTc0LDM5MTA1NDYz
-NSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC02MDEwMzUxMTksLT
-EwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4MDY1OTM1OCwxNjA3
-NDk0NzE4LC04NzQ4NjI3MDgsODUyOTYzNTEwLDg2MTIxMzgyNS
-wtMTQ3NDc3ODI0MSwtMTc5OTMxMTAzOCw2ODUyMTYyMDQsMTQ1
-NTA2NjY2Ml19
+eyJoaXN0b3J5IjpbLTEwMjc3MTEzNDUsLTczOTE1MjYwMCwtMT
+E2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMw
+MTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC
+02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4
+MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgsODUyOTYzNT
+EwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwtMTc5OTMxMTAzOCw2
+ODUyMTYyMDRdfQ==
 -->
