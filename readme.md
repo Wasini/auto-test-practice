@@ -327,38 +327,6 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* 4 : M2 = 28-29 pero D2 == C
 
 #### B)
-Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false.
-
-* Si miramos la funcion lo primero que encontramos es un if and else , en este sus clausula es:  
-	* (month1==month2) -> True || False  
-		<sup>*la cual puede tomar estos 2 valores ^*</sup>  
-	**Un ejemplo que de True seria month1 == 1 && month2 == 1**
-
-* En el caso de que la primer clausula tome el valor False nos encontramos con otro if and else el cual tiene 3 clausulas:  
-	* ((m4 != 0 || (m100 == 0 && m400 != 0)))  
-		<sup>*Donde m4 m100 y m400 pueden tomar los valores True && false*</sup>  
-	
-	1. (m4!=0) -> True donde m4 == year%4  
-	2. (m4!=0) -> False donde m4 == year%4  
-	3. (m100==0) -> True donde m100 == year%100 
-	4. (m100==0) -> False donde m100 == year%100
-	5. (m400!=0) -> True donde m400 == year%400
-	6. (m400!=0) -> False donde m400 == year%400
-	
-	**Los test que podriamos realizar serian:**
-
-	1. True -> (True)||(??&&??)  
-		> como la condicion es un || nos da igual el resultado de && por lo tanto hacemos un 						 solo test con **year == 1999** 
-	2. False-> (False) || (True&&false)  
-		> este ocurre cuando **year == 400**
-
-* Por ultimo tenemos un ciclo el cual tiene una clasula:
-
-	Esta sera True si **month1<=month2**   
-	Y sera False si **month1>month2**
-
-
-#### C)
 
 ## Predicado y variables
 ```java
@@ -386,14 +354,15 @@ int m400 = year % 400;
 	4. Año: 404
 	
 
-#### D)
+#### C)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MTk4NjMyLDE0NzgwMTg2MzUsLTE0OT
-MwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYs
-MTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5OD
-kxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwx
-NzA4MTkyNjQ4LC0zMTk4Mjg3NjAsLTM2ODU5ODQ5NiwtMTgzMT
-Y2NjU2NywtMTcxODEwMTgzNiwtNzM5MTUyNjAwLC0xMTY2NTk4
-ODkwXX0=
+eyJoaXN0b3J5IjpbLTE0NzExOTEzOTAsMTQ3ODAxODYzNSwtMT
+Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
+NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
+k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
+LDE3MDgxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
+MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
+OTg4OTBdfQ==
 -->
