@@ -290,20 +290,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* B:  30 <= day1 <= 31
 * D2: Dia 2
 	* A : 1<= day2 <=29
-	* B:  day2 == 30
-	* D: day2 == 31
-* M1 con 28 dias:
-	* T
-	* F
-* M1 con 2 dias:
-	* T
-	* F
-* M1 con 28 dias:
-	* T
-	* F
-* M1 con 28 dias:
-	* T
-	* F
+	* B:  30 <= day1 <= 31
+* D
 
 
 #### Algunas restricciones
@@ -468,7 +456,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzEyMzI3MjcsLTE2MzMxODk4MzQsMT
+eyJoaXN0b3J5IjpbLTEwODY0NjIwMDYsLTE2MzMxODk4MzQsMT
 E2MjQwMDYxOSwtNjAxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0
 NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5NDcxOCwtODc0ODYyNz
 A4LDg1Mjk2MzUxMCw4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3
