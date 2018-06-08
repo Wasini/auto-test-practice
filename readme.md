@@ -312,7 +312,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |:------:|:-----:|:-----:|:--:|:--:|:--------:|
 |  **1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **2** | 28-29 |   30  |  B |  B |     T    |
-|  **3** | 28-29 |   31  |  C |  C |     F    |
+~~|  **3** | 28-29 |   31  |  C |  C |     F    |~~
 |  **4** |   30  | 28-29 |  B |  C |     F    |
 |  **5** |   30  |   30  |  C |  A |     T    |
 |  **6** |   30  |   31  |  A |  B |     F    |
@@ -440,7 +440,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjY4NzU2OCwtMzE5ODI4NzYwLC0zNj
+eyJoaXN0b3J5IjpbLTQwMzg4OTQyNCwtMzE5ODI4NzYwLC0zNj
 g1OTg0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1
 MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMC
 wyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYy
