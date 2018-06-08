@@ -298,7 +298,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* F
 
 #### Algunas restricciones
-* B = False && M1 == 28-29 **=>** D1 != B && D2 != B
+* B = False && M1 == 28-29 **=>** D1 != B
+* B = False && M2 == 28-29 **=>** D2 != B 
 * M1 = 28-29 **<=>** D1 != C
 * M2 = 28-29 **<=>** D2 != C
 
@@ -436,7 +437,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTUxMDUyMiwtMzY4NTk4NDk2LC0xOD
+eyJoaXN0b3J5IjpbLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
 MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
 OTg4OTAsLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3NC
 wzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNjAx
