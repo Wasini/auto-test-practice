@@ -360,9 +360,13 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 #### C)
 
-## Predicado
+## Predicado y variables
 ```java
-(m4 != 0) || ((m100 == 0) && (m400 != 0
+//Parametro year
+int m4 = year % 4;
+int m100 = year % 100;
+int m400 = year % 400;
+(m4 != 0) || ((m100 == 0) && (m400 != 0)
 ```
 * Consideraciones
 	* M100 = 0 => M4 = 0
@@ -378,7 +382,7 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYzOTUyMjM2LDE0NzgwMTg2MzUsLTE0OT
+eyJoaXN0b3J5IjpbOTE0ODA2MTU1LDE0NzgwMTg2MzUsLTE0OT
 MwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYs
 MTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5OD
 kxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwx
