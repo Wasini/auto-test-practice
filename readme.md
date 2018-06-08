@@ -359,16 +359,16 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 
 #### C)
-![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/iB79So/imagen.png =800x300)
+![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 
 #### D)
-![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/fD2R7o/imagen.png =800x300)
+![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjA3MTcxLDE3MDgxOTI2NDgsLTMxOT
-gyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3LC0xNzE4MTAx
-ODM2LC03MzkxNTI2MDAsLTExNjY1OTg4OTAsLTc1NzkyNzQxNC
-wyMTgyOTcxMDAsMjA2NzMzMDE3NCwzOTEwNTQ2MzUsLTE2MzMx
-ODk4MzQsMTE2MjQwMDYxOSwtNjAxMDM1MTE5LC0xMDYwMTMxMz
-QzLC0zOTA0NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5NDcxOCwt
-ODc0ODYyNzA4XX0=
+eyJoaXN0b3J5IjpbODY5Njg2MzQ3LC0yMzIwNzE3MSwxNzA4MT
+kyNjQ4LC0zMTk4Mjg3NjAsLTM2ODU5ODQ5NiwtMTgzMTY2NjU2
+NywtMTcxODEwMTgzNiwtNzM5MTUyNjAwLC0xMTY2NTk4ODkwLC
+03NTc5Mjc0MTQsMjE4Mjk3MTAwLDIwNjczMzAxNzQsMzkxMDU0
+NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLTYwMTAzNTExOS
+wtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgwNjU5MzU4LDE2
+MDc0OTQ3MThdfQ==
 -->
