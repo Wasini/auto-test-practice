@@ -255,7 +255,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 #### A) Modelo del espacio de entradas funcion cal
 <details>
-<summary>#### Parametros de entrada</summary>
+<summary> #### Parametros de entrada</summary>
 
  * month1 : int
 	 > Representa un mes del año  
@@ -432,7 +432,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NDkzMjU4LC03MzkxNTI2MDAsLTExNj
+eyJoaXN0b3J5IjpbLTQ2OTM3MzE0LC03MzkxNTI2MDAsLTExNj
 Y1OTg4OTAsLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3
 NCwzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNj
 AxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0NDM1MDksLTExODA2
