@@ -285,12 +285,6 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B: Año bisiesto
 	* T
 	* F
-* D1: Dia del mes 1 valido
-	* T
-	* F
-* D2: Dia del mes 2 valido
-	* T
-	* F
 * C: D1 <= D2
 	* T
 	* F
@@ -457,7 +451,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNjk5MDc4LDIwNjczMzAxNzQsMzkxMD
+eyJoaXN0b3J5IjpbMjE4Mjk3MTAwLDIwNjczMzAxNzQsMzkxMD
 U0NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLTYwMTAzNTEx
 OSwtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgwNjU5MzU4LD
 E2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MTAsODYxMjEz
