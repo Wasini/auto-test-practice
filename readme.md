@@ -321,8 +321,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |  **9** |   31  |   31  |  B |  A |     T    |
 
 * Teniendo en cuenta las restricciones descartamos los test
-	* 7 : M2 = 28-29
-	* 3
+	* 7 : B= False && M2 = 28-29 && D2 == B
+	* 3 : B= False && M1 = 28-29 && D1 == B
 	* 4
 
 
@@ -440,11 +440,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDk4MzEyLC0zMTk4Mjg3NjAsLTM2OD
-U5ODQ5NiwtMTgzMTY2NjU2NywtMTcxODEwMTgzNiwtNzM5MTUy
-NjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3MTAwLD
-IwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNjI0
-MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQzNT
-A5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4
-NTI5NjM1MTBdfQ==
+eyJoaXN0b3J5IjpbLTEwMzI3NjU4OTAsLTMxOTgyODc2MCwtMz
+Y4NTk4NDk2LC0xODMxNjY2NTY3LC0xNzE4MTAxODM2LC03Mzkx
+NTI2MDAsLTExNjY1OTg4OTAsLTc1NzkyNzQxNCwyMTgyOTcxMD
+AsMjA2NzMzMDE3NCwzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2
+MjQwMDYxOSwtNjAxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0ND
+M1MDksLTExODA2NTkzNTgsMTYwNzQ5NDcxOCwtODc0ODYyNzA4
+LDg1Mjk2MzUxMF19
 -->
