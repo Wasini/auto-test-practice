@@ -359,90 +359,13 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 
 #### C)
-Para  Aplicar el criterio CACC debemos armar tablas verdad con todos los valores posibles de las clausulas de cada condicional , el primer if no tiene sentido analizarlo ya que al tener solo 1 clausula , tiene 2 valores posibles (true y false), el analisis del segundo if (dentro del else) se puede ver en la siguiente tabla:
-
-| (m4!=0) | (m100==0) | (m400!=0) | ((m100==0)&&(m400!=0)) | ((m4!=0)or((m100==0)&&(m400!=0))) | m4 | m100 | m400 |
-|:-------:|:---------:|:---------:|:----------------------:|:---------------------------------:|:--:|:----:|:----:|
-| T       | T         | T         | T                      | T                                 | 0  | 0    | 0    |
-| T       | T         | F         | F                      | T                                 | 1  | 0    | 0    |
-| T       | F         | T         | F                      | T                                 | 1  | 0    | 0    |
-| T       | F         | F         | F                      | T                                 | 1  | 0    | 0    |
-| F       | T         | T         | T                      | T                                 | 0  | 1    | 1    |
-| F       | T         | F         | F                      | F                                 | 1  | 0    | 1    |
-| F       | F         | T         | F                      | F                                 | 1  | 1    | 0    |
-| F       | F         | F         | F                      | F                                 | 1  | 0    | 0    |
-
-Por lo tanto los test que se pueden generar  en base al criterio serian  2,3,4,5(2 veces),6(2 veces),7(2 veces),8 pero podemos podar algunos de ellos.En primero lugar como el 5,6 y el 7  cumplen con 2 clasulas  podemos hacer 1 de cada uno.Luego debemos ver cuales de los los casos restantes son posibles, veamos:
-
-* Caso 2 : **( T || (T && F ))**
-> este caso no es posible ya que pide que el anio no sea divisible por 4 , sea divisible por 100 y sea divisible por 400 , pero como 400 es multiplo 4 , no hay numero que cumpla con esto.
-
-* Caso 3 : **(T || (F && T))**
-> este caso pide que el anio no sea divisible por 4 , no sea divisible por 100 , no sea divisible por 400 , un ejemplo para esto seria year == 3.  
-
-* Caso 4 : **(T || (F && F))**
-> este caso  pide que el anio no sea divisible por 4, no sea divisible por 100 y sea divisible por 400 , este no puede ocurrir ya como antes dijimos 400 es multiplo de 4.
-
-* Caso 5 : **(F || (T && T)**
-> este caso pide que el anio sea divisible por 4 , sea divisible por 100 y  no sea divisible por 400 , un ejemplo de esto seria year == 100
-
-* Caso 6: **(F || (T && F))**
-> este caso pide que anio sea divisible por 4 ,  divisible por 100 y divisible por 400 , un ejemplo de esto seria year==400
-
-* Caso 7: **(F || (F && T))**
-> este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y no sea divisible por 400, un ejemplo de esto seria year == 8.
-
-* Caso 8: **(F || (F && F))**
-> este caso pide que el anio sea divisible por 4 , no sea divisible por 100 y sea divisible por 400 , este caso es parecido al 4 ya que como 100 es multiplo de 400 , no hay un numero que cumpla con lo pedido.
-
-* En del caso del For, como esta dentro else, esto nos dice que los meses ya son distintos, por lo tanto, va a entrar si o si.
-	
-Para generar los test los dias que elijamos son indistintos , siempre respetando la pre condicion obvio.
-	Casos de test :
-
-		Casos meses iguales:
-
-			Test 1: {1,20,1,24,2004,4}
-	 	
-	 	Casos meses distintos:
-	 		
-	 		Test 2: {4,20,7,24,3,95}
-	 		Test 3: {4,20,7,24,100,95}
-	 		Test 4: {4,20,7,24,400,95}
-	 		Test 5: {4,20,7,24,8,95}
-
-
-#### D)Coverage de los Test :
-		CalcTest1 : 33.1%
-		CalcTest2 : 13.4%
-		CalcTest3 : 17.0%
-		CalcTest4 : 25.9%
-		Total : 73%
-		
-		-Los mutantes nos quedaron pendientes , no pudimos hacerlo andar en eclipse.
-		
-#### D) Test para mejorar cobertura:
-
-	  	/*Test1 */{3,6,12,25,555,2323}
-        	/*Test2 */{3,3,12,25,235,0}
-        	/*Test3 */{4,27,12,25,2665,57}
-       		/*Test4 */{3,16,12,25,823,284}
-       		/*Test5 */{6,23,12,20,1,186}
-        	/*Test6 */{8,23,12,20,666,125}
-        	/*Test7 */{3,1,12,25,9999,299}
-        	/*Test8 */ {10,3,12,25,10000,83}
-        	/*Test9 */{11,12,12,25,11,43}
-        	/*Test10 */{2,5,10,29,1,266}
-	
-#### F) 
-	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
-
+![enter image description here](https://image.ibb.co/cux4tT/imagen.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNj
-g1OTg0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1
-MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMC
-wyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYy
-NDAwNjE5LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0Mz
-UwOSwtMTE4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgs
-ODUyOTYzNTEwXX0=
+eyJoaXN0b3J5IjpbNzY1MDgxMzcyLDE3MDgxOTI2NDgsLTMxOT
+gyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3LC0xNzE4MTAx
+ODM2LC03MzkxNTI2MDAsLTExNjY1OTg4OTAsLTc1NzkyNzQxNC
+wyMTgyOTcxMDAsMjA2NzMzMDE3NCwzOTEwNTQ2MzUsLTE2MzMx
+ODk4MzQsMTE2MjQwMDYxOSwtNjAxMDM1MTE5LC0xMDYwMTMxMz
+QzLC0zOTA0NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5NDcxOCwt
+ODc0ODYyNzA4XX0=
 -->
