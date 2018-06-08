@@ -363,18 +363,18 @@ M100 = 0 => M4 = 0
 M400 = 0 => M4 = 0 && M100 = 0
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
-	1. No es posible M400 = 0 => M100 && M4
+	1. No es posible M400 = 0 => M100
 	2. No es posible (M100 => M4)
 	3. Año: 
 
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjcyMzIyMyw0NTAxMDI2NTAsLTU1Mj
-k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
-LDE3MDgxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
-MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
-OTg4OTAsLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3NC
-wzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNjAx
-MDM1MTE5XX0=
+eyJoaXN0b3J5IjpbMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
+g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
+MTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4Mz
+E2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5
+ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMwMTc0LD
+M5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC02MDEw
+MzUxMTldfQ==
 -->
