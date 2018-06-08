@@ -257,7 +257,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 #### Parametros de entrada
 <details>
-<summary> 5 </summary>
+<summary> params </summary>
 
  * month1 : int
 	 > Representa un mes del año  
@@ -272,12 +272,18 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 </details>
 
 #### Precondiciones
+<details>
+<summary> pre </summary>
 * day1 y day2 deben ser del mismo año
 * 1 <= month1, month2 <= 12
 * 1 <= day1, day2 <= 31
 * month1 <= month2
 * 1 <= year <= 10000
+</details>
+
 #### Caracteristicas
+<details>
+<Summary
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (FEB)
 	* 30	(ENE, MAR, MAY, JUL, AGO, OCT, DIC)
@@ -297,6 +303,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B: Año bisiesto
 	* T
 	* F
+<details>
 #### Algunas restricciones
 * B = False **=>** D1 != B && D2 != B
 * M1 = 28-29 **<=>** D1 != C
@@ -435,7 +442,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTM1MTQ2MSwtMTcxODEwMTgzNiwtNz
+eyJoaXN0b3J5IjpbMTY2MjYzNjkwNSwtMTcxODEwMTgzNiwtNz
 M5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3
 MTAwLDIwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LD
 ExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkw
