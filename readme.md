@@ -277,11 +277,11 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (FEB)
 	* 30	(ENE, MAR, MAY, JUL, AGO, OCT, DIC)
-	* 31 (ABR, JUN, 
+	* 31 (ABR, JUN, SEPT, NOV)
 * M2:  Cantidad de dias del mes2
-	* 28 o 29
-	* 30
-	* 31
+	* 28 o 29 (FEB)
+	* 30 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
+	* 31 (ABR, JUN, SEPT, NOV)
 * B: Año bisiesto
 	* T
 	* F
@@ -457,7 +457,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMjc5NzM0LDIwNjczMzAxNzQsMzkxMD
+eyJoaXN0b3J5IjpbODIwNjk5MDc4LDIwNjczMzAxNzQsMzkxMD
 U0NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLTYwMTAzNTEx
 OSwtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgwNjU5MzU4LD
 E2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MTAsODYxMjEz
