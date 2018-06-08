@@ -290,15 +290,11 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* A: <= 28
 	* B: 29
 	* C: 30 o 31
-* D1 <= D2:
-	* T
-	* F
 * B: Año bisiesto
 	* T
 	* F
 #### Algunas restricciones
-* B = True **=>** M1 != 28-29 && M2 != 28-29
-* B = False **=>** M1 != 29 && M2 != 29 && D1 != B && D2 != B
+* B = False **=>** D1 != B && D2 != B
 
 
 |  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
@@ -450,11 +446,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDg2MzI5MSwtNzM5MTUyNjAwLC0xMT
-Y2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3MTAwLDIwNjczMzAx
-NzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLT
-YwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgw
-NjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MT
-AsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzExMDM4LDY4
-NTIxNjIwNF19
+eyJoaXN0b3J5IjpbLTE2NjY0OTAyNzUsLTczOTE1MjYwMCwtMT
+E2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMw
+MTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC
+02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4
+MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgsODUyOTYzNT
+EwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwtMTc5OTMxMTAzOCw2
+ODUyMTYyMDRdfQ==
 -->
