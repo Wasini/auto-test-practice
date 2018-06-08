@@ -274,25 +274,35 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * month1 <= month2
 * 1 <= year <= 10000
 #### Caracteristicas
+* M1:  Cantidad de dias del mes1
+	* 28 o 29
+	* 30
+	* 31
+* M2:  Cantidad de dias del mes2
+	* 28 o 29
+	* 30
+	* 31
+* B: Año bisiesto
+	* T
+	* F
+* D1: Dia 1
+	* A : 1<= day1 <=29
+	* C:  day1 == 30
+	* D: day1 == 31
+* D2: Dia 2
+	* A : 1<= day2 <=29
+	* C:  day2 == 30
+	* D: day2 == 31
 * M1 con 28 dias:
 	* T
 	* F
-* M1 con 29 dias:
+* M1 con 2 dias:
 	* T
 	* F
-* M1 con 30 o 31 dias:
+* M1 con 28 dias:
 	* T
 	* F
-* M2 con 28 dias:
-	* T
-	* F
-* M2 con 29 dias:
-	* T
-	* F
-* M2 con 30 o 31 dias:
-	* T
-	* F
-* Año bisiesto
+* M1 con 28 dias:
 	* T
 	* F
 
@@ -459,11 +469,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNj
-AxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0NDM1MDksLTExODA2
-NTkzNTgsMTYwNzQ5NDcxOCwtODc0ODYyNzA4LDg1Mjk2MzUxMC
-w4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEwMzgsNjg1
-MjE2MjA0LDE0NTUwNjY2NjIsOTEyNTk1ODc0LDI1ODEzNTc4MS
-wyMDEwNTg3ODI5LC0xMjc1OTk4ODc0LC0xNTA2MjQxNzU1LC0x
-OTUzMDc4OTI1XX0=
+eyJoaXN0b3J5IjpbLTQzOTE5MzI1MCwtMTYzMzE4OTgzNCwxMT
+YyNDAwNjE5LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0
+MzUwOSwtMTE4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MD
+gsODUyOTYzNTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwtMTc5
+OTMxMTAzOCw2ODUyMTYyMDQsMTQ1NTA2NjY2Miw5MTI1OTU4Nz
+QsMjU4MTM1NzgxLDIwMTA1ODc4MjksLTEyNzU5OTg4NzQsLTE1
+MDYyNDE3NTVdfQ==
 -->
