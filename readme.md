@@ -299,21 +299,10 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * M2 = 28-29 **<=>** D2 != C
 
 
-|  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
-|:------:|:-----:|:-----:|:--:|:--:|:--------:|
-|  **1** | 28-29 | 28-29 |  A |  A |     T    |
-|  **2** | 28-29 |   30  |  B |  B |     T    |
-|  **3** | 28-29 |   31  |  C |  C |     F    |
-|  **4** |   30  | 28-29 |  B |  C |     F    |
-|  **5** |   30  |   30  |  C |  A |     T    |
-|  **6** |   30  |   31  |  A |  B |     F    |
-|  **7** |   31  | 28-29 |  C |  B |     F    |
-|  **8** |   31  |   30  |  A |  C |     F    |
-|  **9** |   31  |   31  |  B |  A |     T    |
- 
 
 ## Cobertura Pair-Wise
-**Cantidad de tests a generar** = #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 4 * 4 (A != B)
+**Cantidad de tests a generar**
+#Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
 
 
 **Base:**
@@ -448,11 +437,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjU2NTc1MSwtNzM5MTUyNjAwLC0xMT
-Y2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3MTAwLDIwNjczMzAx
-NzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLT
-YwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgw
-NjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MT
-AsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzExMDM4LDY4
-NTIxNjIwNF19
+eyJoaXN0b3J5IjpbLTEyMzQzODU0ODgsLTczOTE1MjYwMCwtMT
+E2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMw
+MTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC
+02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4
+MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgsODUyOTYzNT
+EwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwtMTc5OTMxMTAzOCw2
+ODUyMTYyMDRdfQ==
 -->
