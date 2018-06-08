@@ -256,6 +256,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### A) Modelo del espacio de entradas funcion cal
 <details>
 <summary> #### Parametros de entrada </summary>
+
  * month1 : int
 	 > Representa un mes del año  
  * day1: int
@@ -266,6 +267,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	 > Representa un dia del mes
 * year : int
 	> Representa un año
+	
 </details>
 #### Precondiciones
 * day1 y day2 deben ser del mismo año
@@ -431,11 +433,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDkzNjcyOCwtNzM5MTUyNjAwLC0xMT
-Y2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3MTAwLDIwNjczMzAx
-NzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNjI0MDA2MTksLT
-YwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgw
-NjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MT
-AsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNzk5MzExMDM4LDY4
-NTIxNjIwNF19
+eyJoaXN0b3J5IjpbOTY5NDQ3OTg0LC03MzkxNTI2MDAsLTExNj
+Y1OTg4OTAsLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3
+NCwzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNj
+AxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0NDM1MDksLTExODA2
+NTkzNTgsMTYwNzQ5NDcxOCwtODc0ODYyNzA4LDg1Mjk2MzUxMC
+w4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEwMzgsNjg1
+MjE2MjA0XX0=
 -->
