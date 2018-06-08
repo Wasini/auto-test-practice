@@ -359,9 +359,14 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 
 #### C)
+
+## Predicado
+```java
+(m4 != 0) || ((m100 == 0) && (m400 != 0)
+```
 M100 = 0 => M4 = 0
 M400 = 0 => M4 = 0 && M100 = 0
-![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/iLYSV8/imagen.png =800x300)
+![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/gH9sV8/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
 	1. Año: 1999
 	2. Año: 2000
@@ -372,11 +377,11 @@ M400 = 0 => M4 = 0 && M100 = 0
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNj
-gzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNjg4OTU4
-LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwxMjcyNT
-E1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcxLDE3MDgxOTI2NDgs
-LTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3LC0xNz
-E4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1OTg4OTAsLTc1Nzky
-NzQxNF19
+eyJoaXN0b3J5IjpbMjAzNTI4MTY0NywxNDc4MDE4NjM1LC0xND
+kzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2
+LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
+g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
+MTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4Mz
+E2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5
+ODg5MF19
 -->
