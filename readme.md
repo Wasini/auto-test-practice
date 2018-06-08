@@ -360,7 +360,7 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 
 #### C)
 M4 => M100 && M400
-M100
+M100 => M400 && M4
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
 	1. Año: 306
@@ -370,7 +370,7 @@ M100
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0NjI1MTkxLC01NTI5ODkxODQsMTI3Mj
+eyJoaXN0b3J5IjpbNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3Mj
 UxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4
 LC0zMTk4Mjg3NjAsLTM2ODU5ODQ5NiwtMTgzMTY2NjU2NywtMT
 cxODEwMTgzNiwtNzM5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5
