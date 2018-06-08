@@ -274,6 +274,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### Precondiciones
 <details>
 <summary> pre> </summary>
+
 * day1 y day2 deben ser del mismo año
 * 1 <= month1, month2 <= 12
 * 1 <= day1, day2 <= 31
@@ -284,6 +285,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### Caracteristicas
 <details>
 <summary> car> </summary>
+
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (FEB)
 	* 30	(ENE, MAR, MAY, JUL, AGO, OCT, DIC)
@@ -303,7 +305,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B: Año bisiesto
 	* T
 	* F
-<details>
+</details>
 
 #### Algunas restricciones
 * B = False **=>** D1 != B && D2 != B
@@ -443,11 +445,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDg2NDY5NiwtMTcxODEwMTgzNiwtNz
-M5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3
-MTAwLDIwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LD
-ExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkw
-NDQzNTA5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2Mj
-cwOCw4NTI5NjM1MTAsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0x
-Nzk5MzExMDM4XX0=
+eyJoaXN0b3J5IjpbLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLT
+czOTE1MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5
+NzEwMCwyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNC
+wxMTYyNDAwNjE5LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5
+MDQ0MzUwOSwtMTE4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4Nj
+I3MDgsODUyOTYzNTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwt
+MTc5OTMxMTAzOF19
 -->
