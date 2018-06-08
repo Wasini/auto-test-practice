@@ -357,17 +357,17 @@ int m400 = year % 400;
 #### C)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 * Quitando duplicados quedan 5 test para satisfacer RACC, algunos de ellos no son posibles lograr:
-	1. No es posible lograr (m400 = 0 -> m100 = 0)
-	2. Idem a 1
-	3. Año: 2100
+	1. No es posible lograr (Año multiplo de 400 implica que es multiplo de 100)
+	2. Idem a 1 (Año multiplo de 400 implica que es multiplo de 100 y de 4)
+	3. Año multiplo de 4 y de 100 pero no de 400: 2100 
 	4. Año: 1024
 	5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDAwMTMwNSwxNDc4MDE4NjM1LC0xND
-kzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2
-LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
-g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
-MTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4Mz
-E2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5
-ODg5MF19
+eyJoaXN0b3J5IjpbLTE5ODExMTQ0OTIsMTQ3ODAxODYzNSwtMT
+Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
+NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
+k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
+LDE3MDgxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
+MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
+OTg4OTBdfQ==
 -->
