@@ -282,7 +282,12 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	* 28 o 29 (FEB)
 	* 30 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
 	* 31 (ABR, JUN, SEPT, NOV)
-* D1: Dias
+* D1: Dia1 del mes1 valido
+	* T
+	* F
+* D2: Dia2 del mes 2 valido
+	* T
+	* F
 * B: Año bisiesto
 	* T
 	* F
@@ -448,11 +453,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNzI0MDM5LDIxODI5NzEwMCwyMDY3Mz
-MwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5
-LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMT
-E4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgsODUyOTYz
-NTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwtMTc5OTMxMTAzOC
-w2ODUyMTYyMDQsMTQ1NTA2NjY2Miw5MTI1OTU4NzQsMjU4MTM1
-NzgxXX0=
+eyJoaXN0b3J5IjpbLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2Nz
+MzMDE3NCwzOTEwNTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYx
+OSwtNjAxMDM1MTE5LC0xMDYwMTMxMzQzLC0zOTA0NDM1MDksLT
+ExODA2NTkzNTgsMTYwNzQ5NDcxOCwtODc0ODYyNzA4LDg1Mjk2
+MzUxMCw4NjEyMTM4MjUsLTE0NzQ3NzgyNDEsLTE3OTkzMTEwMz
+gsNjg1MjE2MjA0LDE0NTUwNjY2NjIsOTEyNTk1ODc0LDI1ODEz
+NTc4MV19
 -->
