@@ -269,8 +269,8 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	 > Representa un dia del mes
 * year : int
 	> Representa un año
-	
 </details>
+
 #### Precondiciones
 * day1 y day2 deben ser del mismo año
 * 1 <= month1, month2 <= 12
@@ -435,7 +435,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjU2NzYxMywtMTcxODEwMTgzNiwtNz
+eyJoaXN0b3J5IjpbMTg5OTM1MTQ2MSwtMTcxODEwMTgzNiwtNz
 M5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3
 MTAwLDIwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LD
 ExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkw
