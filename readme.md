@@ -285,12 +285,12 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B: Año bisiesto
 	* T
 	* F
-* D1: Dia 1
-	* A : 1<= day1 <=29
-	* B:  30 <= day1 <= 31
-* D2: Dia 2
-	* A : 1<= day2 <=29
-	* B:  30 <= day1 <= 31
+* D1: Dia del mes 1 valido
+	* T
+	* F
+* D2: Dia dels mes 2 valido
+	* T
+	* F
 * C: D1 <= D2
 	* T
 	* F
@@ -457,11 +457,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNj
-I0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQz
-NTA5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOC
-w4NTI5NjM1MTAsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC0xNzk5
-MzExMDM4LDY4NTIxNjIwNCwxNDU1MDY2NjYyLDkxMjU5NTg3NC
-wyNTgxMzU3ODEsMjAxMDU4NzgyOSwtMTI3NTk5ODg3NCwtMTUw
-NjI0MTc1NV19
+eyJoaXN0b3J5IjpbLTIxMDc1MTM1OTksMzkxMDU0NjM1LC0xNj
+MzMTg5ODM0LDExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2MDEz
+MTM0MywtMzkwNDQzNTA5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MT
+gsLTg3NDg2MjcwOCw4NTI5NjM1MTAsODYxMjEzODI1LC0xNDc0
+Nzc4MjQxLC0xNzk5MzExMDM4LDY4NTIxNjIwNCwxNDU1MDY2Nj
+YyLDkxMjU5NTg3NCwyNTgxMzU3ODEsMjAxMDU4NzgyOSwtMTI3
+NTk5ODg3NF19
 -->
