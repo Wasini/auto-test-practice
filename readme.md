@@ -275,11 +275,13 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * 1 <= year <= 10000
 #### Caracteristicas
 * M1:  Cantidad de dias de mes1
-	* 28 o 29
+	* 28 
+	* 29
 	* 30
 	* 31
 * M2:  Cantidad de dias del mes2
-	* 28 o 29
+	* 28 
+	* 29
 	* 30
 	* 31
 * B: Año bisiesto
@@ -458,11 +460,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAxMzEzNDMsLTYwMTAzNTExOSwtMz
-kwNDQzNTA5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2
-MjcwOCw4NTI5NjM1MTAsODYxMjEzODI1LC0xNDc0Nzc4MjQxLC
-0xNzk5MzExMDM4LDY4NTIxNjIwNCwxNDU1MDY2NjYyLDkxMjU5
-NTg3NCwyNTgxMzU3ODEsMjAxMDU4NzgyOSwtMTI3NTk5ODg3NC
-wtMTUwNjI0MTc1NSwtMTk1MzA3ODkyNSwtNTM0ODYxNDIsMTEw
-NDMzNTIyOV19
+eyJoaXN0b3J5IjpbLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtNj
+AxMDM1MTE5LC0zOTA0NDM1MDksLTExODA2NTkzNTgsMTYwNzQ5
+NDcxOCwtODc0ODYyNzA4LDg1Mjk2MzUxMCw4NjEyMTM4MjUsLT
+E0NzQ3NzgyNDEsLTE3OTkzMTEwMzgsNjg1MjE2MjA0LDE0NTUw
+NjY2NjIsOTEyNTk1ODc0LDI1ODEzNTc4MSwyMDEwNTg3ODI5LC
+0xMjc1OTk4ODc0LC0xNTA2MjQxNzU1LC0xOTUzMDc4OTI1LC01
+MzQ4NjE0Ml19
 -->
