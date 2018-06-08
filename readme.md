@@ -356,9 +356,9 @@ int m400 = year % 400;
 
 #### C)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
-
+* Quitando duplicados quedan 5 test para satisfacer RACC, algunos de ellos no son posibles lograr 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzExOTEzOTAsMTQ3ODAxODYzNSwtMT
+eyJoaXN0b3J5IjpbLTE0NzAxMzkxMTQsMTQ3ODAxODYzNSwtMT
 Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
 NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
 k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
