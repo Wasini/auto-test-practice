@@ -361,15 +361,16 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 #### C)
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
+	1. M4 = 
 
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQ4NjA2MzUsLTIzMjA3MTcxLDE3MD
-gxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2
-NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1OTg4OT
-AsLTc1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3NCwzOTEw
-NTQ2MzUsLTE2MzMxODk4MzQsMTE2MjQwMDYxOSwtNjAxMDM1MT
-E5LC0xMDYwMTMxMzQzLC0zOTA0NDM1MDksLTExODA2NTkzNTgs
-MTYwNzQ5NDcxOF19
+eyJoaXN0b3J5IjpbMjA5OTQ5MjY4MCwtMjMyMDcxNzEsMTcwOD
+E5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4MzE2NjY1
+NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5ODg5MC
+wtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMwMTc0LDM5MTA1
+NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC02MDEwMzUxMT
+ksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4MDY1OTM1OCwx
+NjA3NDk0NzE4XX0=
 -->
