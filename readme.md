@@ -310,7 +310,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
 |  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
 |:------:|:-----:|:-----:|:--:|:--:|:--------:|
-|  **.1** | 28-29 | 28-29 |  A |  A |     T    |
+|  - [ ] **.1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **.2** | 28-29 |   30  |  B |  B |     T    |
 |  ~~**.3**~~ | 28-29 |   31  |  C |  C |     F    |
 |  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |
@@ -320,6 +320,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |  **.8** |   31  |   30  |  A |  C |     F    |
 |  **.9** |   31  |   31  |  B |  A |     T    |
 
+ - [ ] List item
 * Teniendo en cuenta las restricciones descartamos los test
 	* 7 : B= False && M2 = 28-29 pero D2 == B
 	* 3 : M1 = 28-29 pero D1 == C
@@ -440,11 +441,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDE0ODkyLC0zMTk4Mjg3NjAsLTM2OD
-U5ODQ5NiwtMTgzMTY2NjU2NywtMTcxODEwMTgzNiwtNzM5MTUy
-NjAwLC0xMTY2NTk4ODkwLC03NTc5Mjc0MTQsMjE4Mjk3MTAwLD
-IwNjczMzAxNzQsMzkxMDU0NjM1LC0xNjMzMTg5ODM0LDExNjI0
-MDA2MTksLTYwMTAzNTExOSwtMTA2MDEzMTM0MywtMzkwNDQzNT
-A5LC0xMTgwNjU5MzU4LDE2MDc0OTQ3MTgsLTg3NDg2MjcwOCw4
-NTI5NjM1MTBdfQ==
+eyJoaXN0b3J5IjpbMTY1MjEwMzMyNSwtMzE5ODI4NzYwLC0zNj
+g1OTg0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1
+MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMC
+wyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYy
+NDAwNjE5LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0Mz
+UwOSwtMTE4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4NjI3MDgs
+ODUyOTYzNTEwXX0=
 -->
