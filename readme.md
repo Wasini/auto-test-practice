@@ -365,7 +365,7 @@ Si queremos definir tests para lograr cobertura de clausulas en la funcion cal l
 //Params month2 y month1
 month2 == month1
 ```
-* 2 tests
+* 2 tests para predicado ato
 	* month1= 9, month2 = 9
 	* month1= 2, month2 = 9
 ```java
@@ -389,11 +389,11 @@ int m400 = year % 400;
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Nzk0Mjc1OCwxNDc4MDE4NjM1LC0xND
-kzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2
-LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
-g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
-MTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4Mz
-E2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5
-ODg5MF19
+eyJoaXN0b3J5IjpbLTE2NDY1MjEzMjcsMTQ3ODAxODYzNSwtMT
+Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
+NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
+k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
+LDE3MDgxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
+MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
+OTg4OTBdfQ==
 -->
