@@ -344,8 +344,8 @@ int m400 = year % 400;
 (m4 != 0) || ((m100 == 0) && (m400 != 0)
 ```
 * Consideraciones
-	* M100 = 0 => M4 = 0
-	* M400 = 0 => M4 = 0 && M100 = 0
+	* M100 = 0 -> M4 = 0
+	* M400 = 0 -> M4 = 0 && M100 = 0
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/gH9sV8/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC sobre
 	1. Año: 1999
@@ -356,13 +356,14 @@ int m400 = year % 400;
 
 #### C)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
-* Quitando duplicados quedan 5 test para satisfacer RACC, algunos de ellos no son posibles lograr 
+* Quitando duplicados quedan 5 test para satisfacer RACC, algunos de ellos no son posibles lograr:
+	1. No es posible lograr (m400 = 0 -> m100 = 0)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzAxMzkxMTQsMTQ3ODAxODYzNSwtMT
-Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
-NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
-k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
-LDE3MDgxOTI2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xOD
-MxNjY2NTY3LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1
-OTg4OTBdfQ==
+eyJoaXN0b3J5IjpbMTA5NzQ4Mjc2LDE0NzgwMTg2MzUsLTE0OT
+MwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYs
+MTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5OD
+kxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwx
+NzA4MTkyNjQ4LC0zMTk4Mjg3NjAsLTM2ODU5ODQ5NiwtMTgzMT
+Y2NjU2NywtMTcxODEwMTgzNiwtNzM5MTUyNjAwLC0xMTY2NTk4
+ODkwXX0=
 -->
