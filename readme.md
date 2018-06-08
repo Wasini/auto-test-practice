@@ -310,7 +310,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
 |  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
 |:------:|:-----:|:-----:|:--:|:--:|:--------:|
-|  - [ ] **.1** | 28-29 | 28-29 |  A |  A |     T    |
+|  **.1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **.2** | 28-29 |   30  |  B |  B |     T    |
 |  ~~**.3**~~ | 28-29 |   31  |  C |  C |     F    |
 |  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |
@@ -320,14 +320,11 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |  **.8** |   31  |   30  |  A |  C |     F    |
 |  **.9** |   31  |   31  |  B |  A |     T    |
 
- - [ ] List item
+
 * Teniendo en cuenta las restricciones descartamos los test
 	* 7 : B= False && M2 = 28-29 pero D2 == B
 	* 3 : M1 = 28-29 pero D1 == C
 	* 4 : M2 = 28-29 pero D2 == C
-
-
-
 
 #### B)
 Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false.
@@ -441,7 +438,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjEwMzMyNSwtMzE5ODI4NzYwLC0zNj
+eyJoaXN0b3J5IjpbMTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNj
 g1OTg0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1
 MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMC
 wyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYy
