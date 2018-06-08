@@ -256,9 +256,6 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### A) Modelo del espacio de entradas funcion cal
 
 #### Parametros de entrada
-<details>
-<summary> params> </summary>
-
  * month1 : int
 	 > Representa un mes del año  
  * day1: int
@@ -269,22 +266,16 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 	 > Representa un dia del mes
 * year : int
 	> Representa un año
-</details>
 
 #### Precondiciones
-<details>
-<summary> pre> </summary>
 
 * day1 y day2 deben ser del mismo año
 * 1 <= month1, month2 <= 12
 * 1 <= day1, day2 <= 31
 * month1 <= month2
 * 1 <= year <= 10000
-</details>
 
 #### Caracteristicas
-<details>
-<summary> car> </summary>
 
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (FEB)
@@ -305,7 +296,6 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * B: Año bisiesto
 	* T
 	* F
-</details>
 
 #### Algunas restricciones
 * B = False **=>** D1 != B && D2 != B
@@ -329,6 +319,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |  **8** |   31  |   30  |  A |  C |     F    |
 |  **9** |   31  |   31  |  B |  A |     T    |
 
+* Teniendo en cuenta las restricciones descartamos los test 
 
 
 
@@ -445,11 +436,11 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLT
-czOTE1MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5
-NzEwMCwyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNC
-wxMTYyNDAwNjE5LC02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5
-MDQ0MzUwOSwtMTE4MDY1OTM1OCwxNjA3NDk0NzE4LC04NzQ4Nj
-I3MDgsODUyOTYzNTEwLDg2MTIxMzgyNSwtMTQ3NDc3ODI0MSwt
-MTc5OTMxMTAzOF19
+eyJoaXN0b3J5IjpbLTM2ODU5ODQ5NiwtMTgzMTY2NjU2NywtMT
+cxODEwMTgzNiwtNzM5MTUyNjAwLC0xMTY2NTk4ODkwLC03NTc5
+Mjc0MTQsMjE4Mjk3MTAwLDIwNjczMzAxNzQsMzkxMDU0NjM1LC
+0xNjMzMTg5ODM0LDExNjI0MDA2MTksLTYwMTAzNTExOSwtMTA2
+MDEzMTM0MywtMzkwNDQzNTA5LC0xMTgwNjU5MzU4LDE2MDc0OT
+Q3MTgsLTg3NDg2MjcwOCw4NTI5NjM1MTAsODYxMjEzODI1LC0x
+NDc0Nzc4MjQxXX0=
 -->
