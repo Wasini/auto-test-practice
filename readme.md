@@ -363,18 +363,18 @@ M100 = 0 => M4 = 0
 M400 = 0 => M4 = 0 && M100 = 0
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/cxsb7o/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC
-	1. Año: 
+	1. Año: 1999
 	2. Año: 2000
 	3. Año: 
 
 #### D)
 ![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2MzU1ODc2LDE0MjE2ODg5NTgsMjE2Nz
-AzNzYwLDQ1MDEwMjY1MCwtNTUyOTg5MTg0LDEyNzI1MTU2NTks
-LTY3ODIzMjAzNCwtMjMyMDcxNzEsMTcwODE5MjY0OCwtMzE5OD
-I4NzYwLC0zNjg1OTg0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4
-MzYsLTczOTE1MjYwMCwtMTE2NjU5ODg5MCwtNzU3OTI3NDE0LD
-IxODI5NzEwMCwyMDY3MzMwMTc0LDM5MTA1NDYzNSwtMTYzMzE4
-OTgzNF19
+eyJoaXN0b3J5IjpbMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNj
+g4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwx
+MjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcxLDE3MDgxOT
+I2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3
+LC0xNzE4MTAxODM2LC03MzkxNTI2MDAsLTExNjY1OTg4OTAsLT
+c1NzkyNzQxNCwyMTgyOTcxMDAsMjA2NzMzMDE3NCwzOTEwNTQ2
+MzVdfQ==
 -->
