@@ -303,27 +303,21 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 ## Cobertura Pair-Wise
 **Cantidad de tests a generar**
 #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
+|  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
+|:------:|:-----:|:-----:|:--:|:--:|:--------:|
+|  **1** | 28-29 | 28-29 |  A |  A |     T    |
+|  **2** | 28-29 |   30  |  B |  B |     T    |
+|  **3** | 28-29 |   31  |  C |  C |     F    |
+|  **4** |   30  | 28-29 |  B |  C |     F    |
+|  **5** |   30  |   30  |  C |  A |     T    |
+|  **6** |   30  |   31  |  A |  B |     F    |
+|  **7** |   31  | 28-29 |  C |  B |     F    |
+|  **8** |   31  |   30  |  A |  C |     F    |
+|  **9** |   31  |   31  |  B |  A |     T    |
 
 
-**Base:**
 
-- M131 M231 D1B D2A ANB {3,8,12,26,2003}
-	
-**Tests**
 
-1. M131 M231 D1B D2A AB {3,8,12,26,2020}
-2. M131 M231 D1B ANB D2B {3,8,12,2003,29}
-3. M131 M231 D1B ANB D2C {3,8,12,2003,30}
-4. M131 M231 D1B ANB D2D {3,8,12,2003,31}
-5. M131 M231 D1B ANB D2E {3,8,12,2003,57}
-6. M131 M231 D2A ANB D1A {3,8,26,2003,-299}
-7. M131 M231 D2A ANB D1C {3,8,26,2003,29}
-8. M131 M231 D2A ANB D1D {3,8,26,2003,30}
-9. M131 M231 D2A ANB D1E {3,8,26,2003,31}
-10. M231 D1B D2A ANB M130 {8,12,26,2003,4}
-11. M231 D1B D2A ANB M128 {8,12,26,2003,2}
-12. M131 D1B D2A ANB M230 {3,12,26,2003,4}
-13. M131 D1B D2A ANB M228 {1,12,26,2003,2}
 
 #### B)
 Si queremos definir tests para lograr cobertura de clausulas en la funcion cal lo primero que debemos identificar son las clasulas de la misma es decir las que se encuentran en los if , ciclos y demas condicionales, para asi generar casos de test en los cuales las clausulas tomaran todos los valores posibles(True and false) y nos quedaremos con un test de de cada uno , es decir uno que haga true al if y otro false.
@@ -437,7 +431,7 @@ Para generar los test los dias que elijamos son indistintos , siempre respetando
 	Al no poder hacer andar los  mututantes no pudimos ver cuales son equivalentes.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQzODU0ODgsLTczOTE1MjYwMCwtMT
+eyJoaXN0b3J5IjpbLTE5OTk2NzI1NjAsLTczOTE1MjYwMCwtMT
 E2NjU5ODg5MCwtNzU3OTI3NDE0LDIxODI5NzEwMCwyMDY3MzMw
 MTc0LDM5MTA1NDYzNSwtMTYzMzE4OTgzNCwxMTYyNDAwNjE5LC
 02MDEwMzUxMTksLTEwNjAxMzEzNDMsLTM5MDQ0MzUwOSwtMTE4
