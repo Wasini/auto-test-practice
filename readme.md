@@ -348,7 +348,7 @@ int m400 = year % 400;
 	* M400 = 0 -> M4 = 0 && M100 = 0
 ![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/gH9sV8/imagen.png =800x300)
 * Quitando duplicados nos quedan 4 test para satisfacer CACC sobre
-	1. Año que no esa multiplo de 4 ni de 100 ni de 400: **1999**
+	1. Año que no esa multiplo de 4 ni de 100 ni de 400: **19}99**
 	2. Año multiplo de 4 de 100 y de 400: **2000**
 	3. Año multiplo 4 y de 100 pero no de 400: **700**
 	4. Año multiplo de 4 pero no de 100 ni de 400: **404**
@@ -363,11 +363,11 @@ int m400 = year % 400;
 	4. Año multiplo de 4 pero no de 100 ni de 400: **1024**
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0Nj
-YyMzYyLDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYz
-LDM3MTMwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MD
-M3NjAsNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwt
-Njc4MjMyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4LC0zMTk4Mj
-g3NjAsLTM2ODU5ODQ5NiwtMTgzMTY2NjU2NywtMTcxODEwMTgz
-Nl19
+eyJoaXN0b3J5IjpbLTE0Mjk5NzUxNywtNzQzNzYxMjMyLDgwMz
+A1MjAwLDE1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcw
+MiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNj
+g4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwx
+MjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcxLDE3MDgxOT
+I2NDgsLTMxOTgyODc2MCwtMzY4NTk4NDk2LC0xODMxNjY2NTY3
+XX0=
 -->
