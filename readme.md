@@ -382,9 +382,9 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 
 #### E)
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas como Entradas invalidas(Dia invalido del mes, meses fuera de rango, valores negativos, etc)
-* Otra caracteristica que no se tiene en cuenta es s
+* Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE0MTkwNTksLTE2NjAxODY3MDEsLT
+eyJoaXN0b3J5IjpbLTE5NzMyNzM0NjMsLTE2NjAxODY3MDEsLT
 gwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3
 OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLD
 E1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgz
