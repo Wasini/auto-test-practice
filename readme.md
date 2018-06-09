@@ -279,12 +279,12 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (FEB)
-	* 30	(ENE, MAR, MAY, JUL, AGO, OCT, DIC)
-	* 31 (ABR, JUN, SEPT, NOV)
+	* 30	(ABR, JUN, SEPT, NOV)
+	* 31 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
 * M2:  Cantidad de dias del mes2
 	* 28 o 29 (FEB)
-	* 30 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
-	* 31 (ABR, JUN, SEPT, NOV)
+	* 30	(ABR, JUN, SEPT, NOV)
+	* 31 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
 * D1:
 	* A: <= 28
 	* B: 29
@@ -313,7 +313,7 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 |  **.1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **.2** | 28-29 |   30  |  B |  B |     T    |
 |  ~~**.3**~~ | 28-29 |   31  |  C |  C |     F    |
-|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |
+|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |2
 |  **.5** |   30  |   30  |  C |  A |     T    |
 |  **.6** |   30  |   31  |  A |  B |     F    |
 |  ~~**.7**~~ |   31  | 28-29 |  C |  B |     F    |
@@ -363,11 +363,11 @@ int m400 = year % 400;
 	4. Año multiplo de 4 pero no de 100 ni de 400: **1024**
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDY2MjM2MiwxNDc4MDE4NjM1LC0xND
-kzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2
-LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOT
-g5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMDcxNzEs
-MTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTYsLTE4Mz
-E2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYwMCwtMTE2NjU5
-ODg5MF19
+eyJoaXN0b3J5IjpbODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MD
+E4NjM1LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQs
+MzA2MzU1ODc2LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMj
+Y1MCwtNTUyOTg5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwt
+MjMyMDcxNzEsMTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OT
+g0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYw
+MF19
 -->
