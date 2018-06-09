@@ -199,7 +199,7 @@ Una vez generados todos los caminos simples, se eligen como primos aquellos que 
 
 #### C)
 Caminos de test que consiguen cobertura de nodos pero no de arcos:
-* TP1: [0,1,2,3,4,5,6,8,1,9],[0,1,2,3,4,5,7,4,8,1,9,10]
+* TP1: [0,1,2,3,4,5,6,8,1,9,10],[0,1,2,3,4,5,7,4,8,1,9,10]
 	* No pasa por el arco (2,8)
 * TP2: [0,1,2,3,4,5,7,4,5,6,8,1,9,10]
 	* No pasa por los arcos (2,8) y (4,8)
@@ -393,7 +393,7 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzIxMDc4NSwtMTk2MjA2NjI0LDQ0Nj
+eyJoaXN0b3J5IjpbLTQwNjMxMDU3OCwtMTk2MjA2NjI0LDQ0Nj
 IzODcxMCwxMTQzNjQ1NzQwLC0zODEzNzY4MjQsMTczOTA3NDU2
 LC0xNjYwMTg2NzAxLC04MDI4NDk1MTcsLTE0ODM5MzY4MzAsMT
 YzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3NjEyMzIsLTc0Mzc2
