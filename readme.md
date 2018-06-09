@@ -348,7 +348,8 @@ int m400 = year % 400;
 	* M400 = 0 -> M4 = 0 && M100 = 0
 	
 
-`<img src="https://image.ibb.co/gH9sV8/imagen.png" alt="Cobertura Correlacionada de Clausulas Activas" width="whatever" height="whatever">`![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/gH9sV8/imagen.png )
+`<img src="https://image.ibb.co/gH9sV8/imagen.png" alt="Cobertura Correlacionada de Clausulas Activas" width=800 height=350>`
+![Cobertura Correlacionada de Clausulas Activas](https://image.ibb.co/gH9sV8/imagen.png )
 * Quitando duplicados nos quedan 4 test para satisfacer CACC sobre
 	1. Año que no esa multiplo de 4 ni de 100 ni de 400: **1999**
 	2. Año multiplo de 4 de 100 y de 400: **2000**
@@ -387,11 +388,11 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MTk2MTQ4NCwtMzgxMzc2ODI0LDE3Mz
-kwNzQ1NiwtMTY2MDE4NjcwMSwtODAyODQ5NTE3LC0xNDgzOTM2
-ODMwLDE2MzA1MzM3NjUsMTAzMzc5ODMxMiwtNzQzNzYxMjMyLC
-03NDM3NjEyMzIsODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MDE4
-NjM1LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMz
-A2MzU1ODc2LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1
-MF19
+eyJoaXN0b3J5IjpbOTQwNjMzMDA0LC0zODEzNzY4MjQsMTczOT
+A3NDU2LC0xNjYwMTg2NzAxLC04MDI4NDk1MTcsLTE0ODM5MzY4
+MzAsMTYzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3NjEyMzIsLT
+c0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLDE0NzgwMTg2
+MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMD
+YzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUw
+XX0=
 -->
