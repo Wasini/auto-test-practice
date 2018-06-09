@@ -280,11 +280,11 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 * M1:  Cantidad de dias del mes1
 	* 28 o 29 (2.FEB)
 	* 30	(4.ABR, 6.JUN, 9.SEPT, 11.NOV)
-	* 31 (1.ENE, MAR, MAY, JUL, AGO, OCT, DIC)
+	* 31 (1.ENE, 3.MAR, 5.MAY, 7.JUL, 8.AGO, 10,OCT, 12.DIC)
 * M2:  Cantidad de dias del mes2
-	* 28 o 29 (FEB)
-	* 30	(ABR, JUN, SEPT, NOV)
-	* 31 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
+	* 28 o 29 (2.FEB)
+	* 30	(4.ABR, 6.JUN, 9.SEPT, 11.NOV)
+	* 31 (1.ENE, 3.MAR, 5.MAY, 7.JUL, 8.AGO, 10,OCT, 12.DIC)
 * D1:
 	* A: <= 28
 	* B: 29
@@ -363,7 +363,7 @@ int m400 = year % 400;
 	4. Año multiplo de 4 pero no de 100 ni de 400: **1024**
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDM4NDAzNiw4MDMwNTIwMCwxNTU0Nj
+eyJoaXN0b3J5IjpbLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0Nj
 YyMzYyLDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYz
 LDM3MTMwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MD
 M3NjAsNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwt
