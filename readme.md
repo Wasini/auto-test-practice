@@ -381,14 +381,14 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 ```
 
 #### E)
-* Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas como Entradas invalidas(Dia invalido del mes, meses fuera de rango, valores negativos, etc)
-* Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2
+* Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
+* Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMyNzM0NjMsLTE2NjAxODY3MDEsLT
-gwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3
-OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLD
-E1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgz
-MTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNjg4OTU4LD
-IxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwxMjcyNTE1
-NjU5XX0=
+eyJoaXN0b3J5IjpbNDIyNDU0NjQ2LC0xNjYwMTg2NzAxLC04MD
+I4NDk1MTcsLTE0ODM5MzY4MzAsMTYzMDUzMzc2NSwxMDMzNzk4
+MzEyLC03NDM3NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNT
+U0NjYyMzYyLDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzEx
+MTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMT
+Y3MDM3NjAsNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1
+OV19
 -->
