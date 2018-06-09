@@ -381,9 +381,9 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 ```
 
 #### E)
-
+* Se podria cambiar el modelo de espacio de entradas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzAzMTI3OSwtMTY2MDE4NjcwMSwtOD
+eyJoaXN0b3J5IjpbMTg2MDk0NzM3MiwtMTY2MDE4NjcwMSwtOD
 AyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5
 ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMT
 U1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMx
