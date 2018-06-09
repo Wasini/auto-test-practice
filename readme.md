@@ -117,7 +117,7 @@ Los ignoro por el hecho que puede tirrar error de memoria dependiendo si la VM p
 ## Grafo
 
 #### A)
-![alt text](https://image.ibb.co/etiitJ/Captura_de_pantalla_de_2018_06_03_16_56_39.png "Grafo de flujo de control")
+123![alt text](https://image.ibb.co/etiitJ/Captura_de_pantalla_de_2018_06_03_16_56_39.png "Grafo de flujo de control")
 #### B)
 ## Requerimientos de test
 #### Node Coverage
@@ -393,11 +393,11 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIwNjYyNCw0NDYyMzg3MTAsMTE0Mz
-Y0NTc0MCwtMzgxMzc2ODI0LDE3MzkwNzQ1NiwtMTY2MDE4Njcw
-MSwtODAyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMT
-AzMzc5ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUy
-MDAsMTU1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLD
-E2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2LDE0MjE2ODg5
-NThdfQ==
+eyJoaXN0b3J5IjpbLTEwMDY3ODE4NzgsLTE5NjIwNjYyNCw0ND
+YyMzg3MTAsMTE0MzY0NTc0MCwtMzgxMzc2ODI0LDE3MzkwNzQ1
+NiwtMTY2MDE4NjcwMSwtODAyODQ5NTE3LC0xNDgzOTM2ODMwLD
+E2MzA1MzM3NjUsMTAzMzc5ODMxMiwtNzQzNzYxMjMyLC03NDM3
+NjEyMzIsODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MDE4NjM1LC
+0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1
+ODc2XX0=
 -->
