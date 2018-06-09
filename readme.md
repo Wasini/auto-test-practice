@@ -363,8 +363,10 @@ int m400 = year % 400;
 	4. Año multiplo de 4 pero no de 100 ni de 400: **1024**
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 
+#### D)
+*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzNjEyODk0LC03NDM3NjEyMzIsLTc0Mz
+eyJoaXN0b3J5IjpbMjAwMzIxNTI5LC03NDM3NjEyMzIsLTc0Mz
 c2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLDE0NzgwMTg2MzUs
 LTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNT
 U4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01
