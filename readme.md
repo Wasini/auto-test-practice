@@ -364,9 +364,9 @@ int m400 = year % 400;
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 
 #### D)
-Cuando medimos cobertura sobre la clase Cal con los test propuestos los 
+Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la clase Cal con los test propuestos los metodos **main** y **getN** no son cubiertos por
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTA0MTQ3NiwxMDMzNzk4MzEyLC03ND
+eyJoaXN0b3J5IjpbLTY3NzY3NTUxNCwxMDMzNzk4MzEyLC03ND
 M3NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYy
 LDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MT
 MwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAs
