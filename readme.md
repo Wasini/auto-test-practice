@@ -364,9 +364,9 @@ int m400 = year % 400;
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 
 #### D)
-##### **NOTA:** A la hora de medir cobertura sobre
+Cuando medimos cobertura sobre la clase Cal con los test propuestos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODI2Mzc3NiwtNzQzNzYxMjMyLC03ND
+eyJoaXN0b3J5IjpbMTAzMzc5ODMxMiwtNzQzNzYxMjMyLC03ND
 M3NjEyMzIsODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MDE4NjM1
 LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2Mz
 U1ODc2LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwt
