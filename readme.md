@@ -382,13 +382,13 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 
 #### E)
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
-* Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2, con CACC se cubre 
+* Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2, con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura que los valores de dia1 y dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjExOTQ1NSwtMTY2MDE4NjcwMSwtOD
-AyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5
-ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMT
-U1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMx
-MTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2LDE0MjE2ODg5NTgsMj
-E2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOTg5MTg0LDEyNzI1MTU2
-NTldfQ==
+eyJoaXN0b3J5IjpbLTIwOTM1MDU4MjksLTE2NjAxODY3MDEsLT
+gwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3
+OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLD
+E1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgz
+MTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNjg4OTU4LD
+IxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwxMjcyNTE1
+NjU5XX0=
 -->
