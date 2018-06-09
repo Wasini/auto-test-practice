@@ -381,9 +381,9 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 ```
 
 #### E)
-* Se podria cambiar el modelo de espacio de entradas
+* Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas como Entradas invalidas, o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MDk0NzM3MiwtMTY2MDE4NjcwMSwtOD
+eyJoaXN0b3J5IjpbMTE0MTg1MDcwMCwtMTY2MDE4NjcwMSwtOD
 AyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5
 ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMT
 U1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMx
