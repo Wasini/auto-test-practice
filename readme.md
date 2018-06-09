@@ -367,13 +367,15 @@ int m400 = year % 400;
 Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la clase Cal con los test propuestos los metodos **main** y **getN** no estan cubiertos, le decimos a Pitest que ignore estos metodos para Mutación, la salida de pitest esta en la carpeta Out.
 
 * Cobertura de lineas en cal:
+	* 28,9% considerando los metodos main y getN
+	* 100% solo considerando el metodo cal
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk5ODUyNDAsLTE0ODM5MzY4MzAsMT
-YzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3NjEyMzIsLTc0Mzc2
-MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLDE0NzgwMTg2MzUsLT
-E0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4
-NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NT
-I5ODkxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3
-MV19
+eyJoaXN0b3J5IjpbLTgwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNj
+MwNTMzNzY1LDEwMzM3OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYx
+MjMyLDgwMzA1MjAwLDE1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMT
+Q5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3
+NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mj
+k4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIwMzQsLTIzMjA3MTcx
+XX0=
 -->
