@@ -208,7 +208,7 @@ Camino de test que consigue cobertura de arcos pero no de caminos primos:
  * TP1: [0,1,2,3,4,5,7,4,8,1,9,10],[0,1,2,8,1,9,10],[01,2,3,4,5,6,8,1,9,10]
 	 * No cubre el camino primo [7,4,5,7] entre otros pero cubre todos los arcos
  * TP2: [0,1,2,3,4,5,7,4,5,6,8,1,9,10] , [0,1,2,3,4,8,1,2,8,1,9,10]
-	 * No cubre el camino primo [5, 6, 8, 1, 2, 3, 4, 5],[6, 8, 1, 2, 3, 4, 5, 6]  entre otros pero cubre todos los arcos
+	 * No cubre el camino primo [5, 6, 8, 1, 2, 3, 4, 5] ni [6, 8, 1, 2, 3, 4, 5, 6]  entre otros pero cubre todos los arcos
 #### E)
  #### Parametros de entrada
  * subject: char[] 
@@ -393,11 +393,11 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM5NjAxOTY1LC00MDYzMTA1NzgsLTE5Nj
-IwNjYyNCw0NDYyMzg3MTAsMTE0MzY0NTc0MCwtMzgxMzc2ODI0
-LDE3MzkwNzQ1NiwtMTY2MDE4NjcwMSwtODAyODQ5NTE3LC0xND
-gzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5ODMxMiwtNzQzNzYx
-MjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMTU1NDY2MjM2MiwxND
-c4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcy
-NDRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzY3NzgzNDQsLTQwNjMxMDU3OCwtMT
+k2MjA2NjI0LDQ0NjIzODcxMCwxMTQzNjQ1NzQwLC0zODEzNzY4
+MjQsMTczOTA3NDU2LC0xNjYwMTg2NzAxLC04MDI4NDk1MTcsLT
+E0ODM5MzY4MzAsMTYzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3
+NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLD
+E0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMw
+NzI0NF19
 -->
