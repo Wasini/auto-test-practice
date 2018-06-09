@@ -313,13 +313,16 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 
 ## Cobertura Pair-Wise
 **Cantidad de tests a generar**
+
 #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
+
+
 |  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
 |:------:|:-----:|:-----:|:--:|:--:|:--------:|
 |  **.1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **.2** | 28-29 |   30  |  B |  B |     T    |
 |  ~~**.3**~~ | 28-29 |   31  |  C |  C |     F    |
-|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |2
+|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |
 |  **.5** |   30  |   30  |  C |  A |     T    |
 |  **.6** |   30  |   31  |  A |  B |     F    |
 |  ~~**.7**~~ |   31  | 28-29 |  C |  B |     F    |
