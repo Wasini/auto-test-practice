@@ -370,13 +370,14 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 	* 22% considerando los metodos main y getN
 	* 100% solo considerando el metodo cal
 * Puntaje de mutación:
-	* 30% 
+	* 30% considerando los metodos main y getN
+	* 100% solo considerando el metodo cal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxODUwNzQ2LC04MDI4NDk1MTcsLTE0OD
-M5MzY4MzAsMTYzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3NjEy
-MzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLDE0Nz
-gwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0
-NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMT
-AyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwtNjc4MjMyMDM0
-XX0=
+eyJoaXN0b3J5IjpbLTE2NjAxODY3MDEsLTgwMjg0OTUxNywtMT
+Q4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3OTgzMTIsLTc0Mzc2
+MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLDE1NTQ2NjIzNjIsMT
+Q3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgzMTExNjMsMzcxMzA3
+MjQ0LDMwNjM1NTg3NiwxNDIxNjg4OTU4LDIxNjcwMzc2MCw0NT
+AxMDI2NTAsLTU1Mjk4OTE4NCwxMjcyNTE1NjU5LC02NzgyMzIw
+MzRdfQ==
 -->
