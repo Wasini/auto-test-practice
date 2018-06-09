@@ -4,9 +4,11 @@
 //Can be run from command line
 //No JUnit tests at this time.
 
-package Ejercicio3;
+package p6;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Cal
 {
@@ -49,6 +51,7 @@ public class Cal
 		return (numDays);
 	}
 
+	
 	public static void main (String[] argv)
 	{  // Driver program for cal
 		int month1, day1, month2, day2, year;
