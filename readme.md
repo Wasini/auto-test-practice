@@ -357,7 +357,7 @@ int m400 = year % 400;
 
 #### C)
 
-![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png )
+![Cobertura Restringida de Clausulas Activas](https://image.ibb.co/ckf7DT/imagen.png =800x300)
 * Quitando duplicados quedan 5 test para satisfacer RACC, algunos de ellos no son posibles lograr:
 	1. No es posible lograr (Año multiplo de 400 implica que es multiplo de 100)
 	2. Idem a 1 (Año multiplo de 400 implica que es multiplo de 100 y de 4)
@@ -386,11 +386,11 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgwNjM4NTIsMTczOTA3NDU2LC0xNj
-YwMTg2NzAxLC04MDI4NDk1MTcsLTE0ODM5MzY4MzAsMTYzMDUz
-Mzc2NSwxMDMzNzk4MzEyLC03NDM3NjEyMzIsLTc0Mzc2MTIzMi
-w4MDMwNTIwMCwxNTU0NjYyMzYyLDE0NzgwMTg2MzUsLTE0OTMw
-NjA3MDIsMTY4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYsMT
-QyMTY4ODk1OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5ODkx
-ODRdfQ==
+eyJoaXN0b3J5IjpbNzMzMzQyNTkwLDE3MzkwNzQ1NiwtMTY2MD
+E4NjcwMSwtODAyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3
+NjUsMTAzMzc5ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsOD
+AzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYw
+NzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2LDE0Mj
+E2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOTg5MTg0
+XX0=
 -->
