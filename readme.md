@@ -364,13 +364,13 @@ int m400 = year % 400;
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 
 #### D)
-Cuando medimos cobertura sobre la clase Cal con los test propuestos
+Cuando medimos cobertura sobre la clase Cal con los test propuestos los 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzc5ODMxMiwtNzQzNzYxMjMyLC03ND
-M3NjEyMzIsODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MDE4NjM1
-LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQsMzA2Mz
-U1ODc2LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMjY1MCwt
-NTUyOTg5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwtMjMyMD
-cxNzEsMTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OTg0OTZd
+eyJoaXN0b3J5IjpbLTI0NTA0MTQ3NiwxMDMzNzk4MzEyLC03ND
+M3NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYy
+LDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MT
+MwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAs
+NDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwtNjc4Mj
+MyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4LC0zMTk4Mjg3NjBd
 fQ==
 -->
