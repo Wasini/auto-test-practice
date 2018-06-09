@@ -364,13 +364,15 @@ int m400 = year % 400;
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 
 #### D)
-Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la clase Cal con los test propuestos los metodos **main** y **getN** no estan cubiertos, le decimos a Pitest que ignore estos metodos para Mutación
+Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la clase Cal con los test propuestos los metodos **main** y **getN** no estan cubiertos, le decimos a Pitest que ignore estos metodos para Mutación, la salida de pitest esta en la carpeta Out.
+
+*Covertura
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDUzMzc2NSwxMDMzNzk4MzEyLC03ND
-M3NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYy
-LDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MT
-MwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MDM3NjAs
-NDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwtNjc4Mj
-MyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4LC0zMTk4Mjg3NjBd
-fQ==
+eyJoaXN0b3J5IjpbLTE0ODM5MzY4MzAsMTYzMDUzMzc2NSwxMD
+MzNzk4MzEyLC03NDM3NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIw
+MCwxNTU0NjYyMzYyLDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMT
+Y4MzExMTYzLDM3MTMwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1
+OCwyMTY3MDM3NjAsNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3Mj
+UxNTY1OSwtNjc4MjMyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4
+XX0=
 -->
