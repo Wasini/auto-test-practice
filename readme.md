@@ -278,9 +278,9 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 #### Caracteristicas
 
 * M1:  Cantidad de dias del mes1
-	* 28 o 29 (FEB)
-	* 30	(ABR, JUN, SEPT, NOV)
-	* 31 (ENE, MAR, MAY, JUL, AGO, OCT, DIC)
+	* 28 o 29 (2.FEB)
+	* 30	(4.ABR, 6.JUN, 9.SEPT, 11.NOV)
+	* 31 (1.ENE, MAR, MAY, JUL, AGO, OCT, DIC)
 * M2:  Cantidad de dias del mes2
 	* 28 o 29 (FEB)
 	* 30	(ABR, JUN, SEPT, NOV)
@@ -363,11 +363,11 @@ int m400 = year % 400;
 	4. Año multiplo de 4 pero no de 100 ni de 400: **1024**
 	5. Año multiplo de 4 y de 100 pero no de 400: **1700**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMDUyMDAsMTU1NDY2MjM2MiwxNDc4MD
-E4NjM1LC0xNDkzMDYwNzAyLDE2ODMxMTE2MywzNzEzMDcyNDQs
-MzA2MzU1ODc2LDE0MjE2ODg5NTgsMjE2NzAzNzYwLDQ1MDEwMj
-Y1MCwtNTUyOTg5MTg0LDEyNzI1MTU2NTksLTY3ODIzMjAzNCwt
-MjMyMDcxNzEsMTcwODE5MjY0OCwtMzE5ODI4NzYwLC0zNjg1OT
-g0OTYsLTE4MzE2NjY1NjcsLTE3MTgxMDE4MzYsLTczOTE1MjYw
-MF19
+eyJoaXN0b3J5IjpbMTU2MDM4NDAzNiw4MDMwNTIwMCwxNTU0Nj
+YyMzYyLDE0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYz
+LDM3MTMwNzI0NCwzMDYzNTU4NzYsMTQyMTY4ODk1OCwyMTY3MD
+M3NjAsNDUwMTAyNjUwLC01NTI5ODkxODQsMTI3MjUxNTY1OSwt
+Njc4MjMyMDM0LC0yMzIwNzE3MSwxNzA4MTkyNjQ4LC0zMTk4Mj
+g3NjAsLTM2ODU5ODQ5NiwtMTgzMTY2NjU2NywtMTcxODEwMTgz
+Nl19
 -->
