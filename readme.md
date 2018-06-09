@@ -314,12 +314,13 @@ Teniendo en cuenta las restricciones los casos **C1.T C2.Greater C3.F C4.F** y *
 ## Cobertura Pair-Wise
 **Cantidad de tests a generar**
 #Bloques(Caracteristica con mas bloques A) + #Bloques(Caracteristica con mas bloques B) = 3 * 3 (A != B) = 9 Tests
+
 |  Test  |   M1  |   M2  | D1 | D2 | Bisiesto |
 |:------:|:-----:|:-----:|:--:|:--:|:--------:|
 |  **.1** | 28-29 | 28-29 |  A |  A |     T    |
 |  **.2** | 28-29 |   30  |  B |  B |     T    |
 |  ~~**.3**~~ | 28-29 |   31  |  C |  C |     F    |
-|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |2
+|  ~~**.4**~~ |   30  | 28-29 |  B |  C |     F    |
 |  **.5** |   30  |   30  |  C |  A |     T    |
 |  **.6** |   30  |   31  |  A |  B |     F    |
 |  ~~**.7**~~ |   31  | 28-29 |  C |  B |     F    |
@@ -393,11 +394,11 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Se supuso que las entradas satisfacian la precondición pero se podria cambiar el modelo de espacio de entradas  para contemplar entradas invalidas (Dia invalido del mes, meses fuera de rango, valores negativos, etc)
 * Otra caracteristica que no se tiene en cuenta es si dia1 es mas chico que dia2 y si los meses son iguales, hay un error para cuando los meses son iguales y dia1 > dia2 (retorna valor negativo), con CACC se cubre el caso que los meses sean iguales, pero satisfacer esta cobertura no asegura probar el caso en que dia1 > dia2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY3NzgzNDQsLTQwNjMxMDU3OCwtMT
-k2MjA2NjI0LDQ0NjIzODcxMCwxMTQzNjQ1NzQwLC0zODEzNzY4
-MjQsMTczOTA3NDU2LC0xNjYwMTg2NzAxLC04MDI4NDk1MTcsLT
-E0ODM5MzY4MzAsMTYzMDUzMzc2NSwxMDMzNzk4MzEyLC03NDM3
-NjEyMzIsLTc0Mzc2MTIzMiw4MDMwNTIwMCwxNTU0NjYyMzYyLD
-E0NzgwMTg2MzUsLTE0OTMwNjA3MDIsMTY4MzExMTYzLDM3MTMw
-NzI0NF19
+eyJoaXN0b3J5IjpbMTkyMDExNzM4NCwtMTMzNjc3ODM0NCwtND
+A2MzEwNTc4LC0xOTYyMDY2MjQsNDQ2MjM4NzEwLDExNDM2NDU3
+NDAsLTM4MTM3NjgyNCwxNzM5MDc0NTYsLTE2NjAxODY3MDEsLT
+gwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3
+OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLD
+E1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgz
+MTExNjNdfQ==
 -->
