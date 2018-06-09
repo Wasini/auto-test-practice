@@ -372,14 +372,19 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Puntaje de mutación:
 	* 30% considerando los metodos main y getN
 	* 100% solo considerando el metodo cal
-
-
+```terminal
+================================================================================
+- Statistics
+================================================================================
+>> Generated 17 mutations Killed 17 (100%)
+>> Ran 51 tests (3 tests per mutation)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI2MDIwOTcsLTE2NjAxODY3MDEsLT
-gwMjg0OTUxNywtMTQ4MzkzNjgzMCwxNjMwNTMzNzY1LDEwMzM3
-OTgzMTIsLTc0Mzc2MTIzMiwtNzQzNzYxMjMyLDgwMzA1MjAwLD
-E1NTQ2NjIzNjIsMTQ3ODAxODYzNSwtMTQ5MzA2MDcwMiwxNjgz
-MTExNjMsMzcxMzA3MjQ0LDMwNjM1NTg3NiwxNDIxNjg4OTU4LD
-IxNjcwMzc2MCw0NTAxMDI2NTAsLTU1Mjk4OTE4NCwxMjcyNTE1
-NjU5XX0=
+eyJoaXN0b3J5IjpbLTQwMDk1MjM3MSwtMTY2MDE4NjcwMSwtOD
+AyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5
+ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMT
+U1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMx
+MTE2MywzNzEzMDcyNDQsMzA2MzU1ODc2LDE0MjE2ODg5NTgsMj
+E2NzAzNzYwLDQ1MDEwMjY1MCwtNTUyOTg5MTg0LDEyNzI1MTU2
+NTldfQ==
 -->
