@@ -369,18 +369,21 @@ Cuando medimos cobertura de ramas y puntaje de mutación con Pitest sobre la cla
 * Cobertura de lineas en cal:
 	* 22% considerando los metodos main y getN
 	* 100% solo considerando el metodo cal
-* Puntaje de mutación:
+* Puntaje de mutación(Con mutadores por defecto):
 	* 30% considerando los metodos main y getN
 	* 100% solo considerando el metodo cal
-```terminal
+```j
 ================================================================================
 - Statistics
 ================================================================================
 >> Generated 17 mutations Killed 17 (100%)
 >> Ran 51 tests (3 tests per mutation)
 ```
+
+#### E)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDk1MjM3MSwtMTY2MDE4NjcwMSwtOD
+eyJoaXN0b3J5IjpbMTAzMzAzMTI3OSwtMTY2MDE4NjcwMSwtOD
 AyODQ5NTE3LC0xNDgzOTM2ODMwLDE2MzA1MzM3NjUsMTAzMzc5
 ODMxMiwtNzQzNzYxMjMyLC03NDM3NjEyMzIsODAzMDUyMDAsMT
 U1NDY2MjM2MiwxNDc4MDE4NjM1LC0xNDkzMDYwNzAyLDE2ODMx
